@@ -1,84 +1,106 @@
-<header class="header">
-  <div class="container container-header">
-    <div class="container">
-      <nav class="navigation">
-        <!-- Логотип -->
-        <div class="logo-container">
-          <a class="logo_simply" href="#home">
-            SIMPLY<span class="logo_chocolate"> CHOCOLATE</span>
-          </a>
-          <svg class="logo-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-chocolate-icon"></use>
-          </svg>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Simpli-chocolate</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container-header">
+        <div class="container">
+          <nav class="navigation">
+            <!-- Логотип -->
+            <div class="logo-container">
+              <a class="logo_simply" href="#home">
+                SIMPLY<span class="logo_chocolate"> CHOCOLATE</span>
+              </a>
+              <svg class="logo-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-chocolate-icon"></use>
+              </svg>
+            </div>
+            <!-- Навігація -->
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="navi-link-menu current" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="navi-link-menu" href="#how-made">How it’s made?</a>
+              </li>
+              <li class="nav-item">
+                <a class="navi-link-menu" href="#chocolate-loved"
+                  >Chocolate is loved</a
+                >
+              </li>
+            </ul>
+            <!-- Соцмережі -->
+            <ul class="soc_nets">
+              <li class="soc_nets_item">
+                <a
+                  class="soc_nets_link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="net_icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc_nets_item">
+                <a
+                  class="soc_nets_link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="net_icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc_nets_item">
+                <a
+                  class="soc_nets_link"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="net_icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <!-- Кнопка меню -->
+            <button
+              class="header-button"
+              type="button"
+              aria-label="navigation"
+              data-modal-open-mobile
+            >
+              <svg class="header-button-svg" width="28" height="28">
+                <use href="./images/icons.svg#icon-burger"></use>
+              </svg>
+            </button>
+          </nav>
         </div>
-        <!-- Навігація -->
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="navi-link-menu current" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="navi-link-menu" href="#how-made">How it’s made?</a>
-          </li>
-          <li class="nav-item">
-            <a class="navi-link-menu" href="#chocolate-loved"
-              >Chocolate is loved</a
-            >
-          </li>
-        </ul>
-        <!-- Соцмережі -->
-        <ul class="soc_nets">
-          <li class="soc_nets_item">
-            <a
-              class="soc_nets_link"
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="net_icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="soc_nets_item">
-            <a
-              class="soc_nets_link"
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="net_icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="soc_nets_item">
-            <a
-              class="soc_nets_link"
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg class="net_icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter-1"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-        <!-- Кнопка меню -->
-        <button
-          class="header-button"
-          type="button"
-          aria-label="navigation"
-          data-modal-open-mobile
-        >
-          <svg class="header-button-svg" width="28" height="28">
-            <use href="./images/icons.svg#icon-burger"></use>
-          </svg>
-        </button>
-      </nav>
-    </div>
-  </div>
-</header>
+      </div>
+    </header>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
   </body>
