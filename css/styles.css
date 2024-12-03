@@ -8,7 +8,10 @@
 .logo-container {
     margin-top: 20px;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+  }
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -20,7 +23,26 @@
      height: 24px;  
     }
 }
+:root {
+    --font-family: "Montserrat",
+        sans-serif;
 
+    --main: #111111;
+    --accent: #FD9222;
+    --background: #FAFAFA;
+    --cards: #ffffff;
+
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
     .container {
@@ -162,6 +184,7 @@
     border: none;
     stroke-width: 2px;
     stroke: #111111;
+    margin-top: 20px;
 }
 
 .header-button-svg {
