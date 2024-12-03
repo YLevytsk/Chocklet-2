@@ -222,3 +222,8 @@
     width: 40px;
     height: 40px;
 }
+
+.net_icon:hover,
+.net_icon:focus {
+    color: #FD9222;
+}
