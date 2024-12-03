@@ -71,6 +71,10 @@
         color: #111111;
     }
 
+    .navi-link-menu {
+        transition: color 0.3s;
+    }
+
     .logo_simply,
     .logo_chocolate {
         font-weight: 700;
