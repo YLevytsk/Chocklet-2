@@ -205,3 +205,9 @@
         white-space: nowrap;
     }
 }
+
+.navi-link-menu:hover,
+.navi-link-menu:focus {
+    color: #FD9222;
+
+}
