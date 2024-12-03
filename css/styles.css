@@ -5,7 +5,7 @@
     padding: 0 20px;
 }
 
-.logo-container {
+logo-container {
     margin-top: 20px;
 }
 body {
@@ -51,24 +51,24 @@ body {
 }
 
 .logo_simply {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-family);
     font-style: italic;
     font-weight: 700;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.03em;
-    color: #111111;
+    color: var(--main);
     text-decoration: none;
 }
 
 .logo_chocolate {
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.03em;
-    color: #111111;
+    color: var(--main);
     text-decoration: none;
 }
 
@@ -94,12 +94,12 @@ body {
     }
 
     .navi-link-menu {
-        font-family: "Montserrat", sans-serif;
+        font-family: var(--font-family);
         font-weight: 500;
         font-size: 14px;
         line-height: 114%;
         letter-spacing: -0.02em;
-        color: #111111;
+        color: var(--main);
     }
 
     .navi-link-menu {
@@ -158,7 +158,7 @@ body {
         font-size: 14px;
         line-height: 114%;
         letter-spacing: -0.02em;
-        color: #111111;
+        color: var(--main);
     }
 
     .navi-link-menu {
@@ -183,13 +183,13 @@ body {
     background-color: transparent;
     border: none;
     stroke-width: 2px;
-    stroke: #111111;
-    margin-top: 20px;
+    stroke: var(--main);
+
 }
 
 .header-button-svg {
     display: block;
-    fill: #111111;
+    fill: var(--main);
 
 }
 
@@ -244,13 +244,13 @@ body {
 
 .navi-link-menu:hover,
 .navi-link-menu:focus {
-    color: #FD9222;
+    color: var(--accent);
 
 }
 
 .soc_nets_link:hover,
 .soc_nets_link:focus {
-    color: #FD9222;
+    color: var(--accent);
     transition: color 0.3s;
     border: 1px solid rgba(253, 146, 34, 0.1);
     border-radius: 10px;
@@ -261,11 +261,11 @@ body {
 
 .soc_nets_link:hover .net_icon,
 .soc_nets_link:focus .net_icon {
-    fill: #FD9222;
+    fill: var(--accent);
 
 }
 
 .net_icon {
-    fill: #111111;
+    fill: var(--main);
     transition: fill 0.3s;
 }
