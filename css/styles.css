@@ -211,3 +211,14 @@
     color: #FD9222;
 
 }
+
+.soc_nets_link:hover,
+.soc_nets_link:focus {
+    color: #FD9222;
+    transition: color 0.3s;
+    border: 1px solid rgba(253, 146, 34, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
