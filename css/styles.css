@@ -5,9 +5,12 @@
     padding: 0 20px;
 }
 
-logo-container {
-    margin-top: 20px;
-}
+.wrapper {
+    display: flex; /* Включаем режим Flexbox */
+    justify-content: space-between; /* Расставляем элементы по всей ширине */
+    align-items: center; /* Выравниваем элементы по вертикали */
+  }
+   
 body {
     margin: 0;
     padding: 0;
@@ -72,13 +75,6 @@ body {
     text-decoration: none;
 }
 
-.logo-container {
-    display: flex;
-    align-items: center;
-    gap: 4px;
-
-}
-
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -110,7 +106,8 @@ body {
     .logo_chocolate {
         font-weight: 700;
         font-size: 18px;
-        line-height: 111%
+        line-height: 111%;
+        align-items: center;
     }
 
     .nav-item {
@@ -137,11 +134,7 @@ body {
         justify-content: space-between;
         
     }
-    .logo-container {
-        display: flex; /* Активируем Flexbox */
-        align-items: center; /* Выравниваем элементы по вертикали */
-        justify-content: flex-start; /* Выравниваем элементы у левого края */
-      }
+  
       
 }
 
@@ -184,20 +177,33 @@ body {
     height: 28px;
     display: flex;
     align-items: center;
-    justify-content: center;
+   
     background-color: transparent;
     border: none;
     stroke-width: 2px;
     stroke: var(--main);
+    margin-left: auto;
+    margin-top: 20px;
 
 }
-
+.logo_simply {
+    margin-top: 20px;
+}
+.logo-icon {
+    margin-top: 23.5px;
+}
 .header-button-svg {
     display: block;
     fill: var(--main);
 
 }
-
+@media (min-width: 768px) {
+    .logo_simply,
+    .logo-icon
+     {
+      margin-top: 0; /* Отменяем отступ сверху для десктопа */
+    }
+  }
 @media only screen and (min-width: 768px) {
     .nav-list {
         display: flex;
@@ -244,6 +250,8 @@ body {
     .logo_chocolate,
     .logo-icon {
         white-space: nowrap;
+        align-items: center;
+       
     }
 }
 
