@@ -135,9 +135,14 @@ body {
     .navigation {
         display: flex;
         justify-content: space-between;
-        margin: 0;
-        padding: 0;
+        
     }
+    .logo-container {
+        display: flex; /* Активируем Flexbox */
+        align-items: center; /* Выравниваем элементы по вертикали */
+        justify-content: flex-start; /* Выравниваем элементы у левого края */
+      }
+      
 }
 
 
