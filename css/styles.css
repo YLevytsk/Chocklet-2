@@ -223,7 +223,13 @@
     height: 40px;
 }
 
-.net_icon:hover,
-.net_icon:focus {
-    color: #FD9222;
+.soc_nets_link:hover .net_icon,
+.soc_nets_link:focus .net_icon {
+    fill: #FD9222;
+
+}
+
+.net_icon {
+    fill: #111111;
+    transition: fill 0.3s;
 }
