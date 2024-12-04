@@ -55,7 +55,10 @@ body {
         max-width: 1280px;
     }
 }
-
+.logo-container {
+    margin-top: 25px;
+    font-size: 14px;
+}
 .logo_simply {
     font-family: var(--font-family);
     font-style: italic;
@@ -103,14 +106,6 @@ body {
 
     .navi-link-menu {
         transition: color 0.3s;
-    }
-
-    .logo_simply,
-    .logo_chocolate {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 111%;
-        align-items: center;
     }
 
     .nav-item {
@@ -164,6 +159,13 @@ body {
 
     .navi-link-menu {
         white-space: nowrap;
+    }
+    .logo_simply,
+    .logo_chocolate {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        align-items: center;
     }
 }
 
