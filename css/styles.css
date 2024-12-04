@@ -40,9 +40,6 @@ body {
     --background: #FAFAFA;
     --cards: #ffffff;
 
-    font-size: 16px;
-    line-height: 1.5;
-    font-weight: 400;
 
 
     font-synthesis: none;
@@ -198,7 +195,7 @@ body {
 }
 
 .logo-icon {
-    margin-top: 23.5px;
+    margin-bottom: -4px;
 }
 
 .header-button-svg {
@@ -207,12 +204,18 @@ body {
 
 }
 
+.logo-container {
+    white-space: nowrap;
+    /* Запрещает перенос строк */
+}
+
 @media (min-width: 768px) {
 
     .logo_simply,
     .logo-icon {
         margin-top: 0;
-        /* Отменяем отступ сверху для десктопа */
+        position: relative;
+        top: 4px;
     }
 }
 
@@ -317,6 +320,7 @@ body {
     visibility: visible;
     pointer-events: auto;
 }
+
 .mobile-container {
     padding-top: 136px;
     padding-bottom: px;
@@ -324,8 +328,9 @@ body {
     flex-direction: column;
     height: 100vh;
     align-items: left;
-  }
-  .mobile-button {
+}
+
+.mobile-button {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -336,16 +341,19 @@ body {
     justify-content: center;
     background-color: transparent;
     border: none;
-  }
-  .mobile-nav-wrap {
+}
+
+.mobile-nav-wrap {
     margin-bottom: auto;
-  }
-  .mobile-navigation {
+}
+
+.mobile-navigation {
     display: flex;
     flex-direction: column;
     gap: 24px;
-  }
-  .mobile-navigation-items {
+}
+
+.mobile-navigation-items {
     position: relative;
     text-align: center;
     font-weight: 500;
@@ -353,25 +361,28 @@ body {
     line-height: 129%;
     text-align: center;
     color: var(--background);
-  }
-  .mobile-navigation-items:hover .mobile-navigation-links::after,
+}
+
+.mobile-navigation-items:hover .mobile-navigation-links::after,
 .mobile-navigation-items:focus .mobile-navigation-links::after,
 .mobile-navigation-items:first-child .mobile-navigation-links::after {
-  content: '';
-  display: inline-block;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  background: var(--accent);
-  position: absolute;
-  left: calc((100% - 10px) / 2);
-  bottom: -10px;
+    content: '';
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    position: absolute;
+    left: calc((100% - 10px) / 2);
+    bottom: -10px;
 }
+
 .mobile-messengers-list {
     display: flex;
     gap: 14px;
-  }
-  .mobile-messengers-button:hover .mobile-messengers-button-svg,
+}
+
+.mobile-messengers-button:hover .mobile-messengers-button-svg,
 .mobile-messengers-button:focus .mobile-messengers-button-svg {
-  opacity: 1;
+    opacity: 1;
 }
