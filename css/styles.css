@@ -337,3 +337,33 @@ body {
     background-color: transparent;
     border: none;
   }
+  .mobile-nav-wrap {
+    margin-bottom: auto;
+  }
+  .mobile-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .mobile-navigation-items {
+    position: relative;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: var(--background);
+  }
+  .mobile-navigation-items:hover .mobile-navigation-links::after,
+.mobile-navigation-items:focus .mobile-navigation-links::after,
+.mobile-navigation-items:first-child .mobile-navigation-links::after {
+  content: '';
+  display: inline-block;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  position: absolute;
+  left: calc((100% - 10px) / 2);
+  bottom: -10px;
+}
