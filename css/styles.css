@@ -325,3 +325,15 @@ body {
     height: 100vh;
     align-items: left;
   }
+  .mobile-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+  }
