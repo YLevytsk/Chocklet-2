@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -17,152 +17,156 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Simpli-chocolate</title>
+    <title>Simply Chocolate</title>
   </head>
   <body>
+    <header class="header">
       <div class="header-wrapper">
-         <div class="container">
-        <div class="logo-container">
-        <nav class="navigation">
-          <a class="logo_simply" href="./index.html">
-            SIMPLY<span class="logo_chocolate"> CHOCOLATE</span>
-          </a>
-          <svg class="logo-icon" width="21" height="21">
-            <use href="./images/icons.svg#icon-chocolate-icon"></use>
-          </svg>
+        <div class="container">
+          <nav class="navigation">
+            <div class="logo-container">
+              <a class="logo_simply" href="./index.html">
+                SIMPLY<span class="logo_chocolate"> CHOCOLATE</span>
+              </a>
+              <svg class="logo-icon" width="21" height="21">
+                <use href="./images/icons.svg#icon-chocolate-icon"></use>
+              </svg>
+            </div>
+            <!-- Закрыли logo-container -->
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="navi-link-menu current" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="navi-link-menu" href="#how-made">How it’s made?</a>
+              </li>
+              <li class="nav-item">
+                <a class="navi-link-menu" href="#chocolate-loved"
+                  >Chocolate is loved</a
+                >
+              </li>
+            </ul>
+            <!-- Соцсети -->
+            <ul class="soc_nets">
+              <li class="soc_nets_item">
+                <a
+                  class="soc_nets_link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="net_icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc_nets_item">
+                <a
+                  class="soc_nets_link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="net_icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc_nets_item">
+                <a
+                  class="soc_nets_link"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg class="net_icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <!-- Кнопка меню -->
+            <button
+              class="header-button"
+              type="button"
+              aria-label="navigation"
+              data-modal-open-mobile
+            >
+              <svg class="header-button-svg" width="28" height="28">
+                <use href="./images/icons.svg#icon-burger"></use>
+              </svg>
+            </button>
+          </nav>
         </div>
-        
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="navi-link-menu current" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="navi-link-menu" href="#how-made">How it’s made?</a>
-            </li>
-            <li class="nav-item">
-              <a class="navi-link-menu" href="#chocolate-loved"
-                >Chocolate is loved</a
-              >
-            </li>
-          </ul>
-          <!-- Соцмережі -->
-          <ul class="soc_nets">
-            <li class="soc_nets_item">
-              <a
-                class="soc_nets_link"
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="net_icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soc_nets_item">
-              <a
-                class="soc_nets_link"
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="net_icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="soc_nets_item">
-              <a
-                class="soc_nets_link"
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <svg class="net_icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-          <!-- Кнопка меню -->
-          <button
-            class="header-button"
-            type="button"
-            aria-label="navigation"
-            data-modal-open-mobile
-          >
-            <svg class="header-button-svg" width="28" height="28">
-              <use href="./images/icons.svg#icon-burger"></use>
-            </svg>
-          </button>
-        </nav>
       </div>
     </header>
     <!--Modal-->
     <div class="mobile-menu" data-modal-mobile>
       <div class="mobile-container">
         <button type="button" class="mobile-button" data-modal-close-mobile>
-      <svg class="mobile-button-svg" width="28" height="28">
-        <use href="/images/icons.svg#icon-x"></use>
-      </svg>
-    </button>
-    <nav class="mobile-nav-wrap">
-      <ul class="mobile-navigation">
-        <li class="mobile-navigation-items">
-          <a
-            href="index.html"            
-            class="mobile-navigation-links active"
-            >Home</a
-          >
-        </li>
-        <li class="mobile-navigation-items">
-          <a href="#go-how-made?" class="mobile-navigation-links">How it’s made?</a>
-        </li>
-        <li class="mobile-navigation-items">
-          <a href="#go-chocolate-loved" class="mobile-navigation-links">Chocolate is loved</a>
-        </li>
-      </ul>
-    </nav>
-          <ul class="soc_nets">
-            <li class="soc_nets_item">
-              <a
-                class="soc_nets_link"
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+          <svg class="mobile-button-svg" width="28" height="28">
+            <use href="./images/icons.svg#icon-x"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav-wrap">
+          <ul class="mobile-navigation">
+            <li class="mobile-navigation-items">
+              <a href="index.html" class="mobile-navigation-links active"
+                >Home</a
               >
-                <svg class="net_icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
             </li>
-            <li class="soc_nets_item">
-              <a
-                class="soc_nets_link"
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+            <li class="mobile-navigation-items">
+              <a href="#how-made" class="mobile-navigation-links"
+                >How it’s made?</a
               >
-                <svg class="net_icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
             </li>
-            <li class="soc_nets_item">
-              <a
-                class="soc_nets_link"
-                href="https://twitter.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+            <li class="mobile-navigation-items">
+              <a href="#chocolate-loved" class="mobile-navigation-links"
+                >Chocolate is loved</a
               >
-                <svg class="net_icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter-1"></use>
-                </svg>
-              </a>
             </li>
           </ul>
-  </div>
-</div>
+        </nav>
+        <ul class="soc_nets">
+          <li class="soc_nets_item">
+            <a
+              class="soc_nets_link"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="net_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc_nets_item">
+            <a
+              class="soc_nets_link"
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="net_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="soc_nets_item">
+            <a
+              class="soc_nets_link"
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="net_icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
