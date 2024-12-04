@@ -367,3 +367,11 @@ body {
   left: calc((100% - 10px) / 2);
   bottom: -10px;
 }
+.mobile-messengers-list {
+    display: flex;
+    gap: 14px;
+  }
+  .mobile-messengers-button:hover .mobile-messengers-button-svg,
+.mobile-messengers-button:focus .mobile-messengers-button-svg {
+  opacity: 1;
+}
