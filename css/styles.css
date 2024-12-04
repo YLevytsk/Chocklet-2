@@ -393,3 +393,8 @@ body {
 .mobile-messengers-button:focus .mobile-messengers-button-svg {
     opacity: 1;
 }
+.mobile-messengers-button-svg {
+    fill: #FBFBFB;
+    opacity: 0.8;
+  }
+  
