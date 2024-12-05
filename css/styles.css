@@ -360,17 +360,6 @@ body {
     gap: 24px;
 }
 
-.mobile-navigation-items {
-    position: relative;
-    text-align: center;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    text-align: center;
-    color: #ffffff;
-    text-decoration: none;
-}
-
 
 .mobile-messengers-list {
     display: flex;
@@ -394,5 +383,11 @@ body {
     color: var(--cards);
     list-style: none;
     text-decoration: none;
+    list-style-type: none;  /* Убирает маркеры у списков */
+    padding-left: 0;
+  }
+  .mobile-navigation-links:hover,
+  .mobile-navigation-links:focus {
+    fill: var(--accent);
   }
   
