@@ -367,7 +367,8 @@ body {
     font-size: 14px;
     line-height: 129%;
     text-align: center;
-    color: var(--background);
+    color: #ffffff);
+    text-decoration: none;
 }
 
 .mobile-navigation-items:hover .mobile-navigation-links::after,
