@@ -393,5 +393,6 @@ body {
     letter-spacing: -0.02em;
     color: var(--cards);
     list-style: none;
+    text-decoration: none;
   }
   
