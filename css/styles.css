@@ -387,5 +387,50 @@ body {
     padding-left: 0;
     transition: color 0.3s ease;
   }
+  .net_icon-mod {
 
+  }
+.soc_nets_link-mod {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+  .soc_nets-mod {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+
+.net_icon-mod {
+    fill: var(--cards);
+    transition: fill 0.3s;
+}
+.mobile-navigation-links.active {
+    color: var(--accent); 
+  }
+  .soc_nets_link-mod:hover,
+  .soc_nets_link-mod:focus {
+    color: var(--accent);
+    transition: color 0.3s;
+    border: 1px solid rgba(253, 146, 34, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.soc_nets_link-mod:hover .net_icon-mod,
+.soc_nets_link-mod:focus .net_icon-mod {
+    fill: var(--accent);
+
+}
   
