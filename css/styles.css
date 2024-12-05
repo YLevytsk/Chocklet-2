@@ -358,19 +358,22 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0;
 }
 
 
-.mobile-messengers-list {
+mobile-messengers-list {
     display: flex;
     gap: 14px;
 }
 
-.mobile-messengers-button:hover .mobile-messengers-button-svg,
-.mobile-messengers-button:focus .mobile-messengers-button-svg {
+mobile-messengers-button:hover .mobile-messengers-button-svg,
+mobile-messengers-button:focus .mobile-messengers-button-svg {
     opacity: 1;
 }
-.mobile-messengers-button-svg {
+mobile-messengers-button-svg {
     fill: #FBFBFB;
     opacity: 0.8;
   }
@@ -417,8 +420,8 @@ body {
 .mobile-navigation-links.active {
     color: var(--accent); 
   }
-  .soc_nets_link-mod:hover,
-  .soc_nets_link-mod:focus {
+  soc_nets_link-mod:hover,
+  soc_nets_link-mod:focus {
     color: var(--accent);
     transition: color 0.3s;
     border: 1px solid rgba(253, 146, 34, 0.1);
@@ -428,8 +431,8 @@ body {
     height: 40px;
 }
 
-.soc_nets_link-mod:hover .net_icon-mod,
-.soc_nets_link-mod:focus .net_icon-mod {
+soc_nets_link-mod:hover .net_icon-mod,
+soc_nets_link-mod:focus .net_icon-mod {
     fill: var(--accent);
 
 }
