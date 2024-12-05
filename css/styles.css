@@ -385,9 +385,7 @@ body {
     text-decoration: none;
     list-style-type: none;  /* Убирает маркеры у списков */
     padding-left: 0;
+    transition: color 0.3s ease;
   }
-  .mobile-navigation-links:hover,
-  .mobile-navigation-links:focus {
-    fill: var(--accent);
-  }
+
   
