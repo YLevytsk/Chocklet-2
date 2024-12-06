@@ -436,7 +436,16 @@ soc_nets_link-mod:focus .net_icon-mod {
     fill: var(--accent);
 
 }
-
+.section_first {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        url(../images/chocolate_main-1x-mob.webp);
+    max-width: 320px;
+    min-height: 432px;
+    padding: 72px 0;
+}
 .section_title {
     font-family: var(--font-family);
 font-weight: 500;
@@ -447,7 +456,7 @@ color: var(--white);
 }
 @media screen and (min-width: 768px) {
     .start_page {
-        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-tab.webp);
         background-size: cover;
         background-position: center;
@@ -456,17 +465,18 @@ color: var(--white);
         min-height: 436px;
         padding: 112px 0;
     }
+}
     @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-2x-tab.webp);
     }
 }
 @media screen and (min-width: 1158px) {
     .start_page {
-        background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-desk.webp);
         background-size: cover;
         background-position: center;
@@ -480,7 +490,7 @@ color: var(--white);
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .section_first {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        background-image: linear-gradient( rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main2x-desk.webp);
     }
 }
