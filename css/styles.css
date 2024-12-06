@@ -448,11 +448,11 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 .section_title {
     font-family: var(--font-family);
-font-weight: 500;
-font-size: 28px;
-line-height: 121%;
-letter-spacing: -0.03em;
-color: var(--white);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    color: var(--white);
 }
 @media screen and (min-width: 768px) {
     .start_page {
