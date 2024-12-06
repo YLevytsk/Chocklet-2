@@ -436,6 +436,11 @@ soc_nets_link-mod:focus .net_icon-mod {
     fill: var(--accent);
 
 }
+/* Section first */
+.start_page {
+    padding-bottom: 80px;
+}
+
 .section_first {
     background-repeat: no-repeat;
     background-position: center;
