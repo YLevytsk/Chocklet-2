@@ -479,7 +479,8 @@ img {
     color: var(--cards);
     width: 299px;
     height: 72px;
-    margin-bottom: 20px;
+    position: relative;
+    top: 395px;
 }
 @media screen and (min-width: 768px) {
     .start_page {
