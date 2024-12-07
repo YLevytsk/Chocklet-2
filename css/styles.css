@@ -45,7 +45,7 @@ body {
 }
 
 /* Styles for Desktop devices */
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1200px) {
     .container {
         max-width: 1280px;
     }
@@ -82,7 +82,7 @@ body {
     align-items: center;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1200px) {
 
     .soc-conteiner {
         display: flex;
@@ -503,7 +503,7 @@ soc_nets_link-mod:focus .net_icon-mod {
             url(../images/chocolate_main-2x-tab.webp);
     }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
     .start_page {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-desk.webp);
