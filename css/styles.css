@@ -503,7 +503,7 @@ soc_nets_link-mod:focus .net_icon-mod {
             url(../images/chocolate_main-2x-tab.webp);
     }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .start_page {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-desk.webp);
