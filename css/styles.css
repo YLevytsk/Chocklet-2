@@ -449,15 +449,13 @@ img {
     justify-content: center;
     margin-top: 14px;
     border-radius: 30px;
-    min-width: 335px;
-    min-height: 620px;
     padding: 0 20px;
 }
-.about-us-img {
+.about-us-image {
     width: 335px;
     height: 621px;
 }
-.about-us-img {
+.about-us-image {
     border-radius: 30px;
     display: block;
     margin: 0 auto;
