@@ -449,6 +449,8 @@ soc_nets_link-mod:focus .net_icon-mod {
     margin: 0 auto;
     width: 335px;
     height: 620px;
+    width: 100%;
+    box-sizing: border-box;
   
 }
 .start_page {
@@ -478,10 +480,16 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-repeat: no-repeat;
         max-width: 768px;
         min-height: 436px;
-        padding: 112px 0;
+        padding: 20px 32px 40px 32px;
+        
+
+    }
+    .section_title {
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.03em;
     }
 }
-
 
 @media screen and (min-width: 768px) {
     .start_page {
@@ -490,9 +498,9 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 768px;
-        min-height: 436px;
-        padding: 112px 0;
+        max-width: 704px;
+        min-height: 890px;
+        padding: 671px 140px 0 40px;
     }
 }
     @media screen and (min-resolution: 2dppx),
