@@ -450,6 +450,7 @@ img {
     margin-top: 14px;
     border-radius: 30px;
     padding: 0 20px;
+  
 }
 .about-us-image {
     width: 335px;
@@ -459,6 +460,8 @@ img {
     border-radius: 30px;
     display: block;
     margin: 0 auto;
+    position: relative;
+   
 }
 .start_page {
     background-repeat: no-repeat;
@@ -475,8 +478,8 @@ img {
     line-height: 120%;
     letter-spacing: -0.03em;
     color: var(--cards);
-    width: 295px;
-    height: 205px;
+    width: 299px;
+    height: 72px;
     margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
