@@ -437,11 +437,7 @@ soc_nets_link-mod:focus .net_icon-mod {
 
 }
 /* Section first */
-img {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-  }
+
 
 .start_page {
     padding-bottom: 80px;
@@ -452,15 +448,6 @@ img {
     padding: 0 20px;
     margin: 0 auto;
   
-}
-.about-us-image {
-    width: 335px; 
-    height: 620px;
-    border-radius: 30px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-   
 }
 .start_page {
     background-repeat: no-repeat;
@@ -483,7 +470,7 @@ img {
     top: 395px;
 }
 @media screen and (min-width: 768px) {
-    .start_page{
+    .start_page {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -493,15 +480,6 @@ img {
     }
 }
 
-@media screen and (min-width: 1158px) {
-    .start_page {
-
-        padding: 188px 0;
-        max-width: 1136px;
-        min-height: 600px;
-      
-    }
-}
 
 @media screen and (min-width: 768px) {
     .start_page {
