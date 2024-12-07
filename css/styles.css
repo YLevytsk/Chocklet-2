@@ -453,10 +453,8 @@ img {
   
 }
 .about-us-image {
-    width: 335px;
-    height: 621px;
-}
-.about-us-image {
+    width: 335px; 
+    height: 620px;
     border-radius: 30px;
     display: block;
     margin: 0 auto;
