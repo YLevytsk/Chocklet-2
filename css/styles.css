@@ -25,10 +25,6 @@ body {
         padding: 0 32px;
     }
 
-    .logo-icon {
-        width: 24px;
-        height: 24px;
-    }
 }
 
 :root {
@@ -55,9 +51,13 @@ body {
         max-width: 1280px;
     }
 }
-.logo-container {
-    margin-top: 25px;
-    font-size: 14px;
+.logo-icon {
+    width: 24px;
+    height: 24px;
+}
+.logo_simply {
+    margin-left: auto;
+   
 }
 .logo_simply {
     font-family: var(--font-family);
@@ -198,6 +198,7 @@ body {
 
 .logo-icon {
     margin-bottom: -4px;
+   
 }
 
 .header-button-svg {
@@ -218,6 +219,7 @@ body {
         margin-top: 0;
         position: relative;
         top: 4px;
+        
     }
 }
 
@@ -268,6 +270,7 @@ body {
     .logo-icon {
         white-space: nowrap;
         align-items: center;
+        display: flex;
 
     }
 }
@@ -445,7 +448,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     width: 335px;
      height: 620px;
 }
-.section_first {
+.start_page {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -498,7 +501,7 @@ soc_nets_link-mod:focus .net_icon-mod {
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
-    .section_first {
+    .start_page {
         background-image: linear-gradient( rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main2x-desk.webp);
     }
