@@ -442,16 +442,17 @@ soc_nets_link-mod:focus .net_icon-mod {
     display: flex;
     justify-content: center;
     margin-top: 14px;
+    border-radius: 30px;
+    min-width: 335px;
+    min-height: 620px;
+    padding: 0 20px;
 }
 .about-us-img {
-border-radius: 30px;
-width: 1136px;
-height: 600px;
+    width: 335px;
+    height: 621px;
 }
 .about-us-img {
     border-radius: 30px;
-    width: 335px;
-     height: 620px;
 }
 .start_page {
     background-repeat: no-repeat;
@@ -461,7 +462,7 @@ height: 600px;
         url(../images/chocolate_main-1x-mob.webp);
     max-width: 320px;
     min-height: 432px;
-    padding: 72px 0;
+    margin-bottom: 20px;
 }
 .section_title {
     font-family: var(--font-family);
@@ -470,6 +471,9 @@ height: 600px;
     line-height: 120%;
     letter-spacing: -0.03em;
     color: var(--cards);
+    width: 295px;
+    height: 205px;
+    margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
     .start_page {
@@ -501,7 +505,7 @@ height: 600px;
         padding: 188px 0;
         max-width: 1136px;
         min-height: 600px;
-        border-radius: 30px;
+      
     }
 }
 @media screen and (min-resolution: 2dppx),
