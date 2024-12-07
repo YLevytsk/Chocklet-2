@@ -495,9 +495,10 @@ height: 600px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 1440px;
-        min-height: 600px;
         padding: 188px 0;
+        max-width: 1136px;
+        min-height: 600px;
+        border-radius: 30px;
     }
 }
 @media screen and (min-resolution: 2dppx),
