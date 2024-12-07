@@ -500,7 +500,9 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-repeat: no-repeat;
         max-width: 704px;
         min-height: 890px;
-        padding: 671px 140px 0 40px;
+       
+
+
     }
 }
     @media screen and (min-resolution: 2dppx),
@@ -518,9 +520,9 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 1440px;
+        max-width: 1136px;
         min-height: 600px;
-        padding: 188px 0;
+        padding: 0 32px 80px 32px;
     }
 }
 @media screen and (min-resolution: 2dppx),
