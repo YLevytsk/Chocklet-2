@@ -466,8 +466,8 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-        url(../images/chocolate_main-1x-mob.webp);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4));
+      
   
 }
 .section_title {
@@ -483,9 +483,7 @@ img {
     top: 395px;
 }
 @media screen and (min-width: 768px) {
-    .start_page {
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-1x-tab.webp);
+    .start_page{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -494,33 +492,15 @@ img {
         padding: 112px 0;
     }
 }
-    @media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
-    .start_page {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-2x-tab.webp);
-    }
-}
+
 @media screen and (min-width: 1158px) {
     .start_page {
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-1x-desk.webp);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+
         padding: 188px 0;
         max-width: 1136px;
         min-height: 600px;
       
     }
 }
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
-    .start_page {
-        background-image: linear-gradient( rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main2x-desk.webp);
-    }
-}
+
  
