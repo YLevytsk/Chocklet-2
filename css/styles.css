@@ -437,6 +437,12 @@ soc_nets_link-mod:focus .net_icon-mod {
 
 }
 /* Section first */
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
 .start_page {
     padding-bottom: 80px;
     display: flex;
@@ -453,6 +459,8 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 .about-us-img {
     border-radius: 30px;
+    display: block;
+    margin: 0 auto;
 }
 .start_page {
     background-repeat: no-repeat;
@@ -460,9 +468,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     background-size: cover;
     background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
         url(../images/chocolate_main-1x-mob.webp);
-    max-width: 320px;
-    min-height: 432px;
-    margin-bottom: 20px;
+  
 }
 .section_title {
     font-family: var(--font-family);
