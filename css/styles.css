@@ -7,11 +7,10 @@
 
 .wrapper {
     display: flex;
-    /* Включаем режим Flexbox */
     justify-content: space-between;
-    /* Расставляем элементы по всей ширине */
     align-items: center;
-    /* Выравниваем элементы по вертикали */
+    padding: 24px 32px;
+  
 }
 
 body {
@@ -54,10 +53,6 @@ body {
 .logo-icon {
     width: 24px;
     height: 24px;
-}
-.logo_simply {
-    margin-left: auto;
-   
 }
 .logo_simply {
     font-family: var(--font-family);
@@ -194,10 +189,12 @@ body {
 
 .logo_simply {
     margin-top: 20px;
+
+
 }
 
 .logo-icon {
-    margin-bottom: -4px;
+    margin-bottom: -6px;
    
 }
 
