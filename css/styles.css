@@ -65,10 +65,12 @@ body {
     line-height: 111%;
     letter-spacing: -0.03em;
     color: var(--black);
+    text-decoration: none;
 }
 .logo_chocolate {
     font-family: var(--font-family);
     font-style: normal;
+    text-decoration: none;
 }
 
 .navigation {
@@ -149,8 +151,8 @@ body {
     .logo_simply,
     .logo_chocolate {
         font-weight: 700;
-        font-size: 18px;
-        line-height: 111%;
+        font-size: 14px;
+        line-height: 129%;
         align-items: center;
     }
 }
@@ -187,6 +189,8 @@ body {
 
 .logo-icon {
     margin-bottom: -4px;
+    width: 21px;
+    height: 21px;
    
 }
 
