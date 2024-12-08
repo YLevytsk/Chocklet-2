@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 32px;
+    justify-content: center;
 
 }
 
@@ -26,12 +27,14 @@ body {
 
 }
 
-.logo-icon {
-    margin-bottom: -6px;
-    width: 21px;
-    height: 21px;
-    margin-right: 4px;
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .logo-icon {
+        margin-bottom: -6px;
+        width: 21px;
+        height: 21px;
+        margin-right: 4px;
 
+    }
 }
 
 :root {
@@ -84,10 +87,16 @@ body {
     text-decoration: none;
 }
 
-.navigation {
+.logo_simply,
+.logo_chocolate {
+    align-items: center;
+    justify-content: center; 
+}
+ .navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -177,7 +186,6 @@ body {
     font-size: 14px;
     line-height: 129%;
     align-items: center;
-    margin-top: 25px;
 }
 
 .soc_nets {
@@ -199,12 +207,10 @@ body {
     stroke: var(--main);
     margin-left: auto;
     margin-top: 20px;
-
+    justify-content: center;
+    
 }
 
-.logo_simply {
-    margin-top: 20px;
-}
 
 .header-button-svg {
     display: block;
@@ -213,14 +219,11 @@ body {
 }
 
 @media (min-width: 768px) {
-
     .logo_simply,
     .logo_chocolate,
     .logo-icon {
         margin-top: 0;
         position: relative;
-
-
     }
 }
 
