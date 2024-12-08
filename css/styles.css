@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 32px;
-  
+
 }
 
 body {
@@ -37,7 +37,7 @@ body {
     --cards: #ffffff;
 
 
-    
+
 
     -font-synthesis: none;
     -text-rendering: optimizeLegibility;
@@ -53,10 +53,12 @@ body {
 
     }
 }
+
 .logo-icon {
     width: 24px;
     height: 24px;
 }
+
 .logo_simply {
     font-family: var(--font-family);
     font-style: italic;
@@ -67,6 +69,7 @@ body {
     color: var(--black);
     text-decoration: none;
 }
+
 .logo_chocolate {
     font-family: var(--font-family);
     font-style: normal;
@@ -114,6 +117,7 @@ body {
         justify-content: space-between;
 
     }
+
     .header-button {
         display: none;
     }
@@ -124,15 +128,18 @@ body {
 
     }
 }
+
 /* Stills for tablet*/
 
 @media only screen and (min-width: 768px) {
     .container-header {
         display: flex;
     }
+
     .logo-icon {
         margin-bottom: -4px;
-        }
+    }
+
     .navigation {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -152,17 +159,18 @@ body {
         white-space: nowrap;
     }
 }
+
 /*LOGO*/
 
-    .logo_simply,
-    .logo_chocolate {
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 129%;
-        align-items: center;
-        margin-top: 25px;
-    }
-   
+.logo_simply,
+.logo_chocolate {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    align-items: center;
+    margin-top: 25px;
+}
+
 .soc_nets {
     display: none;
 }
@@ -194,7 +202,7 @@ body {
     width: 21px;
     height: 21px;
     gap: 4px;
-   
+
 }
 
 .header-button-svg {
@@ -211,8 +219,8 @@ body {
     .logo-icon {
         margin-top: 0;
         position: relative;
-       
-        
+
+
     }
 }
 
@@ -312,12 +320,17 @@ body {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .mobile-menu.is-open {
-    display: block; /* Показываем модалку при наличии класса */
-  }
-  .mobile-menu {
-    display: none; /* По умолчанию скрыто */
-  }
+    display: block;
+    /* Показываем модалку при наличии класса */
+}
+
+.mobile-menu {
+    display: none;
+    /* По умолчанию скрыто */
+}
+
 .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
@@ -331,7 +344,7 @@ body {
     flex-direction: column;
     height: 100vh;
     align-items: left;
-   
+
 }
 
 .mobile-button {
@@ -355,8 +368,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    list-style-type: none; 
-    
+    list-style-type: none;
+
 }
 
 
@@ -369,11 +382,13 @@ mobile-messengers-button:hover .mobile-messengers-button-svg,
 mobile-messengers-button:focus .mobile-messengers-button-svg {
     opacity: 1;
 }
+
 mobile-messengers-button-svg {
     fill: #FBFBFB;
     opacity: 0.8;
-  }
-  .mobile-navigation-links {
+}
+
+.mobile-navigation-links {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
@@ -382,30 +397,32 @@ mobile-messengers-button-svg {
     color: var(--cards);
     list-style: none;
     text-decoration: none;
-    list-style-type: none;  /* Убирает маркеры у списков */
+    list-style-type: none;
+    /* Убирает маркеры у списков */
     padding-left: 0;
     transition: color 0.3s ease;
-  }
-  .net_icon-mod {
+}
 
-  }
+.net_icon-mod {}
+
 .soc_nets_link-mod {
     border: 1px solid rgba(255, 255, 255, 0.1);
     width: 34px;
-  height: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  background-color: transparent;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  .soc_nets-mod {
+.soc_nets-mod {
     display: flex;
     margin: 0;
     justify-content: space-between;
     gap: 14px;
-   
+
     margin-right: auto;
 }
 
@@ -413,11 +430,13 @@ mobile-messengers-button-svg {
     fill: var(--cards);
     transition: fill 0.3s;
 }
+
 .mobile-navigation-links.active {
-    color: var(--accent); 
-  }
-  soc_nets_link-mod:hover,
-  soc_nets_link-mod:focus {
+    color: var(--accent);
+}
+
+soc_nets_link-mod:hover,
+soc_nets_link-mod:focus {
     color: var(--accent);
     transition: color 0.3s;
     border: 1px solid rgba(253, 146, 34, 0.1);
@@ -432,6 +451,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     fill: var(--accent);
 
 }
+
 /* Section first */
 
 
@@ -442,21 +462,22 @@ soc_nets_link-mod:focus .net_icon-mod {
     margin-top: 14px;
     border-radius: 30px;
     padding: 0 20px;
-    margin: 0 auto;
-    min-width: 320px;
+    width: 335px;
     height: 620px;
     width: 100%;
     box-sizing: border-box;
-  
+
 }
+
 .start_page {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4));
     background-image: url(../images/chocolate_main-1x-mob.webp);
-  
+
 }
+
 .section_title {
     font-family: var(--font-family);
     font-weight: 500;
@@ -469,14 +490,16 @@ soc_nets_link-mod:focus .net_icon-mod {
     position: relative;
     top: 395px;
 }
+
 @media screen and (min-width: 768px) {
     .start_page {
         padding: 20px 32px 40px 32px;
     }
+
     .section_title {
-    font-size: 28px;
-    line-height: 121%;
-    letter-spacing: -0.03em;
+        font-size: 28px;
+        line-height: 121%;
+        letter-spacing: -0.03em;
     }
 }
 
@@ -491,7 +514,8 @@ soc_nets_link-mod:focus .net_icon-mod {
         min-height: 890px;
     }
 }
-    @media screen and (min-resolution: 2dppx),
+
+@media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
@@ -499,6 +523,7 @@ soc_nets_link-mod:focus .net_icon-mod {
             url(../images/chocolate_main-2x-tab.webp);
     }
 }
+
 @media screen and (min-width: 1200px) {
     .start_page {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
@@ -511,12 +536,12 @@ soc_nets_link-mod:focus .net_icon-mod {
         padding: 0 32px 80px 32px;
     }
 }
+
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .section_first {
-        background-image: linear-gradient( rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main2x-desk.webp);
     }
 }
-  
