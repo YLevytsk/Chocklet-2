@@ -124,12 +124,15 @@ body {
 
     }
 }
+/* Stills for tablet*/
 
 @media only screen and (min-width: 768px) {
     .container-header {
         display: flex;
     }
-
+    .logo-icon {
+        margin-bottom: -4px;
+        }
     .navigation {
         padding-top: 20px;
         padding-bottom: 20px;
@@ -148,15 +151,18 @@ body {
     .navi-link-menu {
         white-space: nowrap;
     }
+}
+/*LOGO*/
+
     .logo_simply,
     .logo_chocolate {
         font-weight: 700;
         font-size: 14px;
         line-height: 129%;
         align-items: center;
+        margin-top: 25px;
     }
-}
-
+   
 .soc_nets {
     display: none;
 }
@@ -170,7 +176,6 @@ body {
     height: 28px;
     display: flex;
     align-items: center;
-
     background-color: transparent;
     border: none;
     stroke-width: 2px;
@@ -182,15 +187,13 @@ body {
 
 .logo_simply {
     margin-top: 20px;
-
-
-
 }
 
 .logo-icon {
-    margin-bottom: -4px;
+    margin-bottom: -6px;
     width: 21px;
     height: 21px;
+    gap: 4px;
    
 }
 
@@ -204,10 +207,11 @@ body {
 @media (min-width: 768px) {
 
     .logo_simply,
+    .logo_chocolate,
     .logo-icon {
         margin-top: 0;
         position: relative;
-        top: 4px;
+       
         
     }
 }
@@ -439,7 +443,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     border-radius: 30px;
     padding: 0 20px;
     margin: 0 auto;
-    width: 335px;
+    min-width: 320px;
     height: 620px;
     width: 100%;
     box-sizing: border-box;
