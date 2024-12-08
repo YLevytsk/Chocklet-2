@@ -26,6 +26,14 @@ body {
 
 }
 
+.logo-icon {
+    margin-bottom: -6px;
+    width: 21px;
+    height: 21px;
+    margin-right: 4px;
+
+}
+
 :root {
     --text-decoration: none;
     --font-family: "Montserrat",
@@ -137,7 +145,8 @@ body {
     }
 
     .logo-icon {
-        margin-bottom: -4px;
+        margin-bottom: -2px;
+
     }
 
     .navigation {
@@ -197,20 +206,11 @@ body {
     margin-top: 20px;
 }
 
-.logo-icon {
-    margin-bottom: -6px;
-    width: 21px;
-    height: 21px;
-    gap: 4px;
-
-}
-
 .header-button-svg {
     display: block;
     fill: var(--main);
 
 }
-
 
 @media (min-width: 768px) {
 
@@ -462,6 +462,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     margin-top: 14px;
     border-radius: 30px;
     padding: 0 20px;
+    margin: 0 auto;
     width: 335px;
     height: 620px;
     width: 100%;
