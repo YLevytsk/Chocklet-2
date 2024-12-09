@@ -73,16 +73,12 @@ fill: transparent;
 @media only screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
-
     }
-}
-
 .logo-icon {
-    width: 24px;
-    height: 24px;
+    
     background-image: url('./images/icon-Vector-24.svg');
 }
-
+}
 .logo_simply {
     font-family: var(--font-family);
     font-style: italic;
@@ -221,6 +217,7 @@ fill: transparent;
     margin-left: auto;
     margin-top: 20px;
     justify-content: center;
+    margin: 0 auto;
     
 }
 
