@@ -473,103 +473,67 @@ img {
     max-width: 100%;
     max-height: 100%;
   }
-.start_page {
-    padding-bottom: 80px;
+  .start_page {
     display: flex;
     justify-content: center;
-    margin-top: 14px;
+    padding-bottom: 80px;
+    margin: 14px auto;
     border-radius: 30px;
-    margin: 0 20px;
     box-sizing: border-box;
-    
-
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .start_page {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-    url(../images/chocolate_main-1x-mob.webp);
-    max-width: 335px;
-    min-height: 620px;
-    width: 100%; /* Изображение тянется по ширине контейнера */
-    height: 100%; /* Изображение тянется по высоте контейнера */
-    object-fit: contain;
+}
+
+/* Мобильная версия */
+@media screen and (max-width: 767px) {
+    .start_page {
+        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-1x-mob.webp);
+        max-width: 335px;
+        min-height: 620px;
+        width: 100%;
     }
 }
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
+
+@media screen and (max-width: 767px) and (min-resolution: 2dppx) {
     .start_page {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-2x-mob.webp);
     }
-} 
-.section_title {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
-    color: var(--cards);
-    width: 299px;
-    height: 72px;
-    position: relative;
-    top: 395px;
 }
 
-@media screen and (min-width: 768px) {
-    .start_page {
-        padding: 20px 32px 40px 32px;
-    }
-    .section_title {
-        font-size: 28px;
-        line-height: 121%;
-        letter-spacing: -0.03em;
-    }
-}
-
-@media screen and (min-width: 768px) {
+/* Планшетная версия */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .start_page {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-tab.webp);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         max-width: 704px;
         min-height: 890px;
     }
 }
 
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-resolution: 2dppx) {
     .start_page {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-2x-tab.webp);
     }
 }
 
+/* Десктопная версия */
 @media screen and (min-width: 1200px) {
     .start_page {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-desk.webp);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
         max-width: 1136px;
         min-height: 600px;
         padding: 0 32px 80px 32px;
     }
 }
 
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
-    .section_first {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main2x-desk.webp);
+@media screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+    .start_page {
+        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-2x-desk.webp);
     }
 }
