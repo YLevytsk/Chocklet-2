@@ -534,7 +534,7 @@ img {
 }
 
 /* Таблетка */
-@media screen and (min-width: 768px) {
+media screen and (min-width: 768px) {
     .start_page {
         padding: 20px 32px 40px 32px;
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
@@ -554,7 +554,7 @@ img {
 }
 
 /* Таблетка с высоким разрешением */
-@media screen and (min-resolution: 2dppx),
+media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
@@ -564,7 +564,7 @@ img {
 }
 
 /* Десктоп */
-@media screen and (min-width: 1200px) {
+media screen and (min-width: 1200px) {
     .start_page {
         padding: 0 32px 80px 32px;
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
@@ -584,7 +584,7 @@ img {
 }
 
 /* Десктоп с высоким разрешением */
-@media screen and (min-resolution: 2dppx),
+media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
