@@ -481,18 +481,21 @@ img {
     border-radius: 30px;
     margin: 0 20px;
     box-sizing: border-box;
+    
 
 }
 
 .start_page {
     background-repeat: no-repeat;
-    object-fit: contain;
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
     url(../images/chocolate_main-1x-mob.webp);
     max-width: 335px;
     min-height: 620px;
+    width: 100%; /* Изображение тянется по ширине контейнера */
+    height: 100%; /* Изображение тянется по высоте контейнера */
+    object-fit: contain;
 
 }
 
