@@ -479,11 +479,7 @@ img {
     justify-content: center;
     margin-top: 14px;
     border-radius: 30px;
-    padding: 0 20px;
-    margin: 0 auto;
-    width: 335px;
-    height: 620px;
-    width: 100%;
+    margin: 0 20px;
     box-sizing: border-box;
 
 }
@@ -495,6 +491,8 @@ img {
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
     url(../images/chocolate_main-1x-mob.webp);
+    max-width: 335px;
+    min-height: 620px;
 
 }
 
@@ -522,12 +520,24 @@ img {
         letter-spacing: -0.03em;
     }
 }
-@media (max-width: 767px) {
-    .start_page  {
+start_page {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      max-width: 335px;
+      min-height: 620px;
       background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
       url(../images/chocolate_main-1x-mob.webp);
+}
+
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi),
+(-webkit-min-device-pixel-ratio: 2) {
+    .start_page {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-2x-mob.webp);
     }
-  }
+} 
 
 @media screen and (min-width: 768px) {
     .start_page {
