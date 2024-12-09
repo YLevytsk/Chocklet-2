@@ -493,8 +493,8 @@ img {
     object-fit: contain;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4));
-    background-image: url(../images/chocolate_main-1x-mob.webp);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+    url(../images/chocolate_main-1x-mob.webp);
 
 }
 
