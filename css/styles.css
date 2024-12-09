@@ -24,7 +24,10 @@ body {
     height: 21px;
     margin-right: 4px;
 }
-
+.navigation {
+    padding: 20px 20px 14px 20px; 
+    display: inline-block;
+}
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
