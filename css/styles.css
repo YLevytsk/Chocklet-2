@@ -4,6 +4,7 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -17,12 +18,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .logo-icon {
     margin-bottom: -6px;
     width: 21px;
     height: 21px;
     margin-right: 4px;
 }
+
 .navigation {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -32,6 +35,7 @@ body {
     align-items: center;
     width: 100%;
 }
+
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -69,10 +73,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
 }
+
 .logo-icon {
-stroke-width: 2px;
-stroke: var(--accent);
-fill: transparent;
+    stroke-width: 2px;
+    stroke: var(--accent);
+    fill: transparent;
 
 }
 
@@ -81,12 +86,14 @@ fill: transparent;
     .container {
         max-width: 1200px;
     }
-.logo-icon {
-    width: 24px;
-    height: 24px;
-    background-image: url('./images/icon-Vector-24.svg');
+
+    .logo-icon {
+        width: 24px;
+        height: 24px;
+        background-image: url('./images/icon-Vector-24.svg');
+    }
 }
-}
+
 .logo_simply {
     font-family: var(--font-family);
     font-style: italic;
@@ -107,7 +114,7 @@ fill: transparent;
 .logo_simply,
 .logo_chocolate {
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 
@@ -218,8 +225,8 @@ fill: transparent;
     stroke: var(--main);
     margin-left: auto;
     justify-content: center;
-    
-    
+
+
 }
 
 
@@ -230,6 +237,7 @@ fill: transparent;
 }
 
 @media (min-width: 768px) {
+
     .logo_simply,
     .logo_chocolate,
     .logo-icon {
@@ -487,13 +495,13 @@ img {
 }
 
 /* Мобильная версия */
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {
     .start_page {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-        url(../images/chocolate_main-1x-mob.webp);
+            url(../images/chocolate_main-1x-mob\.jpg);
         max-width: 335px;
         min-height: 620px;
         width: 100%;
@@ -521,7 +529,7 @@ img {
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-2x-mob.webp);
+            url(../images/chocolate_main-2x-mob\.jpg);
     }
 }
 
@@ -601,13 +609,13 @@ img {
 
 /* Дополнительные стили для мобильной версии */
 
-    .section_title {
-        font-size: 20px;
-        line-height: 120%;
-        letter-spacing: -0.03em;
-        width: 299px;
-        height: 72px;
-    }
+.section_title {
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    width: 299px;
+    height: 72px;
+}
 
 /* Стиль для текста в блоке с секцией */
 .section_first {
@@ -615,5 +623,5 @@ img {
     text-align: center;
     font-size: 20px;
     line-height: 1.5;
-    
+
 }
