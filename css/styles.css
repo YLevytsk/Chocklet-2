@@ -501,7 +501,7 @@ img {
         background-position: center;
         background-size: cover;
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-1x-mob\.jpg);
+            url(../images/chocolate_main-1x-mob.webp);
         max-width: 335px;
         min-height: 620px;
         width: 100%;
@@ -529,7 +529,7 @@ img {
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-2x-mob\.jpg);
+            url(../images/chocolate_main-2x-mob.webp);
     }
 }
 
