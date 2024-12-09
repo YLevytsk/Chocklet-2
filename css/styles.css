@@ -74,6 +74,7 @@ fill: transparent;
 .logo-icon {
     width: 24px;
     height: 24px;
+    background-image: url('./images/icon-Vector-24.svg');
 }
 
 .logo_simply {
