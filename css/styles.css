@@ -75,7 +75,8 @@ fill: transparent;
         max-width: 1200px;
     }
 .logo-icon {
-    
+    width: 24px;
+    height: 24px;
     background-image: url('./images/icon-Vector-24.svg');
 }
 }
