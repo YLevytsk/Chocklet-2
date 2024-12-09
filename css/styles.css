@@ -18,6 +18,12 @@ body {
     margin: 0;
     padding: 0;
 }
+.logo-icon {
+    margin-bottom: -6px;
+    width: 21px;
+    height: 21px;
+    margin-right: 4px;
+}
 
 @media only screen and (min-width: 768px) {
     .container {
