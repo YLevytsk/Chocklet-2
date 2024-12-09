@@ -581,7 +581,7 @@ img {
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-2x-desk.webp);
+            url(../images/chocolate_main2x-desk.webp);
     }
 }
 
