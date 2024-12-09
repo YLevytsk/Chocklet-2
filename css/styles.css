@@ -485,7 +485,8 @@ img {
 
 }
 
-.start_page {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .start_page {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -496,9 +497,16 @@ img {
     width: 100%; /* Изображение тянется по ширине контейнера */
     height: 100%; /* Изображение тянется по высоте контейнера */
     object-fit: contain;
-
+    }
 }
-
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi),
+(-webkit-min-device-pixel-ratio: 2) {
+    .start_page {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-2x-mob.webp);
+    }
+} 
 .section_title {
     font-family: var(--font-family);
     font-weight: 500;
@@ -516,31 +524,12 @@ img {
     .start_page {
         padding: 20px 32px 40px 32px;
     }
-
     .section_title {
         font-size: 28px;
         line-height: 121%;
         letter-spacing: -0.03em;
     }
 }
-start_page {
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      max-width: 335px;
-      min-height: 620px;
-      background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-      url(../images/chocolate_main-1x-mob.webp);
-}
-
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
-    .start_page {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url(../images/chocolate_main-2x-mob.webp);
-    }
-} 
 
 @media screen and (min-width: 768px) {
     .start_page {
