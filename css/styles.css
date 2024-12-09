@@ -487,7 +487,7 @@ img {
 }
 
 /* Мобильная версия */
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px){
     .start_page {
         background-repeat: no-repeat;
         background-position: center;
@@ -526,7 +526,7 @@ img {
 }
 
 /* Таблетка */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
     .start_page {
         padding: 20px 32px 40px 32px;
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
@@ -546,7 +546,9 @@ img {
 }
 
 /* Таблетка с высоким разрешением */
-@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi),
+(-webkit-min-device-pixel-ratio: 2) {
     .start_page {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-2x-tab.webp);
@@ -574,7 +576,9 @@ img {
 }
 
 /* Десктоп с высоким разрешением */
-@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi),
+(-webkit-min-device-pixel-ratio: 2) {
     .start_page {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-2x-desk.webp);
@@ -596,7 +600,7 @@ img {
 }
 
 /* Дополнительные стили для мобильной версии */
-@media screen and (min-width: 320px) and (max-width: 767px) {
+
     .section_title {
         font-size: 20px;
         line-height: 120%;
@@ -604,7 +608,6 @@ img {
         width: 299px;
         height: 72px;
     }
-}
 
 /* Стиль для текста в блоке с секцией */
 .section_first {
