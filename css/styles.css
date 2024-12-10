@@ -500,8 +500,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-        url(../images/chocolate_main-1x-mob.webp);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4));
     max-width: 335px;
     min-height: 620px;
     width: 100%;
@@ -523,7 +522,7 @@ img {
 }
 
 /* Мобильная версия с высоким разрешением */
-@media screen and (min-resolution: 2dppx),
+media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .start_page {
