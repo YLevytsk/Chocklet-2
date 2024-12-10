@@ -490,7 +490,7 @@ img {
 }
 
 /* Стиль для секции с фоном */
-start_page {
+.start_page {
     padding-bottom: 80px;
     display: flex;
     justify-content: center;
@@ -502,7 +502,7 @@ start_page {
 
 /* Мобильная версия */
 
-start_page {
+.start_page {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
