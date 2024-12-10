@@ -171,34 +171,36 @@
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <picture>
-          <source
-            media="(min-width: 1200px)"
-            srcset="
-              /images/chocolate_main-1x-desk.webp 1x,
-              /images/chocolate_main2x-desk.webp  2x
-            "
-          />
-          <source
-            media="(min-width: 768px)"
-            srcset="
-              /images/chocolate_main-1x-tab.webp 1x,
-              /images/chocolate_main-2x-tab.webp 2x
-            "
-          />
-          <source
-            media="(max-width: 767px)"
-            srcset="
-              /images/chocolate_main-1x-mob.webp 1x,
-              /images/chocolate_main-2x-mob.webp 2x
-            "
-          />
-          <img
-            src="/images/chocolate_main-1x-desk.webp"
-            alt="photo of chocolate"
-            class="hero-photo-chocolate"
-          />
-        </picture>
+        <div class="hero-img-container">
+          <picture>
+            <source
+              media="(min-width: 1200px)"
+              srcset="
+                /images/chocolate_main-1x-desk.webp 1x,
+                /images/chocolate_main2x-desk.webp  2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                /images/chocolate_main-1x-tab.webp 1x,
+                /images/chocolate_main-2x-tab.webp 2x
+              "
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /images/chocolate_main-1x-mob.webp 1x,
+                /images/chocolate_main-2x-mob.webp 2x
+              "
+            />
+            <img
+              src="/images/chocolate_main-1x-desk.webp"
+              alt="photo of chocolate"
+              class="hero-photo-chocolate"
+            />
+          </picture>
+        </div>
       </div>
     </section>
     <script src="./js/modal.js"></script>
