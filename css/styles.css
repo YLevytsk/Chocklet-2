@@ -611,7 +611,16 @@ img {
     gap: 8px;
     color: white;
   }
-  
+  .skrol-icon {
+    width: 28px;
+    height: 28px;
+    background-color: #fff; 
+    border-radius: 50%; 
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    transform: rotate(-90deg);
+  } 
   .scroll-down svg {
     stroke: white;
   }
