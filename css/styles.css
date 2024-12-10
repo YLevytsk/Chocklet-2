@@ -621,6 +621,10 @@ img {
     padding: 5px;
     transform: rotate(-90deg);
   } 
+  .skrol-icon polyline {
+    stroke: var(--main); /* Черный цвет стрелки */
+    stroke-width: 2; /* Толщина стрелки */
+}
   .scroll-down svg {
     stroke: white;
   }
