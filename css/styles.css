@@ -574,14 +574,22 @@ img {
   }
   
   .btn.primary {
-    background-color: var(--accent); /* Оранжевая кнопка */
+    background-color: var(--accent); 
     color: var(--cards);
+    border-radius: 100px;
+    padding: 12px 28px;
+    width: 120px;
+    height: 41px;
   }
   
   .btn.secondary {
     background-color: transparent;
     color: var(--cards);
     border: 1px solid var(--cards);
+    border-radius: 100px;
+    padding: 12px 28px;
+    width: 159px;
+    height: 41px;
   }
   
   .scroll-down {
