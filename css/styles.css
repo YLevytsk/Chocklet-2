@@ -508,7 +508,7 @@ img {
     height: 100vh; /* Высота на весь экран */
     background-image: 
       linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)), 
-      url(../images/chocolate_main-1x-mob.webp); /* Путь к вашему изображению */
+      url('../images/chocolate_main-1x-mob.webp'); /* Путь к вашему изображению */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -530,6 +530,19 @@ img {
         url('../images/chocolate_main-1x-desk.webp'); /* Фон для десктопа */
     }
   }
+  /* Планшетная версия */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .hero {
+        background-image: url('../images/chocolate_main-1x-tab.webp');
+    }
+}
+
+/* Десктопная версия */
+@media screen and (min-width: 1200px) {
+    .hero {
+        background-image: url('../images/chocolate_main-1x-desk');
+    }
+}
 .hero-title {
     font-family: var(--font-family);
     font-weight: 500;
