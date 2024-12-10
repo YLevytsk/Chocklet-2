@@ -542,28 +542,30 @@ img {
   (min-resolution: 192dpi),
   (-webkit-min-device-pixel-ratio: 2) {
       .hero {
-          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+          background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
               url('../images/chocolate_main-2x-desk.webp');
       }
   }
   /* Планшетная версия */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .hero {
-        background-image: url('../images/chocolate_main-1x-tab.webp');
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+         url('../images/chocolate_main-1x-tab.webp');
     }
 }
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-2x-tab.webp');
     }
 }
 /* Десктопная версия */
 @media screen and (min-width: 1200px) {
     .hero {
-        background-image: url('../images/chocolate_main-1x-desk');
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        url('../images/chocolate_main-1x-desk.webp');
     }
 }
 .hero-title {
