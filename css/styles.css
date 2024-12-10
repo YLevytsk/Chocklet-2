@@ -500,7 +500,7 @@ img {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-mob.webp);
         max-width: 335px;
         min-height: 620px;
@@ -537,7 +537,7 @@ img {
 media screen and (min-width: 768px) {
     .start_page {
         padding: 20px 32px 40px 32px;
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-1x-tab.webp);
         background-size: cover;
         background-position: center;
