@@ -517,7 +517,19 @@ img {
     font-size: 20px;
     line-height: 1.5;
 }
-
+@media screen and (min-width: 768px) {
+    .hero {
+      background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        url('../images/chocolate_main-1x-tab.webp'); /* Фон для планшета */
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .hero {
+      background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+        url('../images/chocolate_main-1x-desk.webp'); /* Фон для десктопа */
+    }
+  }
 .hero-title {
     font-family: var(--font-family);
     font-weight: 500;
