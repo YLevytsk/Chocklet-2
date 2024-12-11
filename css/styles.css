@@ -663,12 +663,11 @@ soc_nets_link-mod:focus .net_icon-mod {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    transform: rotate(90deg);
+    transform: rotate(360deg);
 }
 
-.skrol-icon polyline {
-    stroke: var(--accent);
-    
+.skrol-icon {
+    fill: var(--accent);
     stroke-width: 2;
    
 }
