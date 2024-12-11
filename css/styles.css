@@ -501,6 +501,9 @@ soc_nets_link-mod:focus .net_icon-mod {
     background-size: cover;
 
 }
+.hero {
+margin: 0 auto;
+}
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
