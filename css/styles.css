@@ -655,8 +655,8 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 
 .skrol-icon {
-    width: 28px;
-    height: 28px;
+    width: 16px;
+    height: 16px;
     background-color: #fff;
     border-radius: 50%;
     justify-content: center;
