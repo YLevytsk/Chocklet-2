@@ -631,6 +631,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     font-family: var(--font-family);
      font-weight: 600;
      font-size: 14px;
+     white-space: nowrap;
 }
 
 .btn.secondary {
@@ -641,6 +642,9 @@ soc_nets_link-mod:focus .net_icon-mod {
     padding: 12px 28px;
     width: 159px;
     height: 41px;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .scroll-down {
