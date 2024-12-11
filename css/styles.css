@@ -525,7 +525,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-repeat: no-repeat;
         max-width: 704px;
         max-height: 890px;
-        margin: 0 auto;
+        margin: 0 20px;
         /* Фон для планшета */
     }
 }
@@ -550,7 +550,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         max-width: 1136px;
         max-height: 600px;
         box-sizing: border-box;
-        margin: 0 auto;
+        margin: 0 20px;
         /* Фон для десктопа */
     }
 }
