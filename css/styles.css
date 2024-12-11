@@ -649,7 +649,6 @@ soc_nets_link-mod:focus .net_icon-mod {
 
 .scroll-down {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 8px;
     color: white;
@@ -679,11 +678,12 @@ scroll-down svg {
     display: flex;
     align-items: center;  /* Выравниваем элементы по вертикали */
     justify-content: flex-start;  /* Выравниваем элементы по горизонтали */
-    padding-left: 20px;  /* Отступ текста от левого края контейнера */
+    padding-left: 20px;
+    flex-direction: row-reverse;  /* Отступ текста от левого края контейнера */
 }
 
 .scroll-down svg {
-    margin-right: 8px;  /* Отступ между иконкой и текстом */
+    margin-right: 12px; 
 }
 
 /* Стили для заголовка */
@@ -719,7 +719,7 @@ scroll-down svg {
 
 }
 
-.span {
+span {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
