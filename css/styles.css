@@ -486,7 +486,6 @@ soc_nets_link-mod:focus .net_icon-mod {
     background-image:
         linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
         url('../images/chocolate_main-1x-mob.webp');
-    /* Путь к вашему изображению */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -497,10 +496,24 @@ soc_nets_link-mod:focus .net_icon-mod {
     box-sizing: border-box;
 }
 
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi),
+(-webkit-min-device-pixel-ratio: 2) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url('../images/chocolate_main-2x-mob.webp');
+    }
+}
+
 @media screen and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 704px;
+        height: 890px;
         /* Фон для планшета */
     }
 }
@@ -509,8 +522,8 @@ soc_nets_link-mod:focus .net_icon-mod {
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-            url('../images/chocolate_main-2x-mob.webp');
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+            url('../images/chocolate_main-2x-tab.webp');
     }
 }
 
@@ -528,31 +541,6 @@ soc_nets_link-mod:focus .net_icon-mod {
     .hero {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-2x-desk.webp');
-    }
-}
-
-/* Планшетная версия */
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .hero {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-1x-tab.webp');
-    }
-}
-
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
-    .hero {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-2x-tab.webp');
-    }
-}
-
-/* Десктопная версия */
-@media screen and (min-width: 1200px) {
-    .hero {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-1x-desk.webp');
     }
 }
 
