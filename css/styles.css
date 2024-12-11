@@ -672,8 +672,18 @@ soc_nets_link-mod:focus .net_icon-mod {
    
 }
 
-.scroll-down svg {
+scroll-down svg {
     stroke: white;
+}
+.scroll-down {
+    display: flex;
+    align-items: center;  /* Выравниваем элементы по вертикали */
+    justify-content: flex-start;  /* Выравниваем элементы по горизонтали */
+    padding-left: 20px;  /* Отступ текста от левого края контейнера */
+}
+
+.scroll-down svg {
+    margin-right: 8px;  /* Отступ между иконкой и текстом */
 }
 
 /* Стили для заголовка */
