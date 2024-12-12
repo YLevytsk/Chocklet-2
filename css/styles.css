@@ -482,6 +482,7 @@ soc_nets_link-mod:focus .net_icon-mod {
 .hero {
     position: relative;
     min-height: 100dvh;
+    min-height: 100dvh;
     background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
         url('../images/chocolate_main-1x-mob.webp');
     background-size: auto;
