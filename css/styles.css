@@ -699,10 +699,9 @@ scroll-down svg {
     line-height: 120%;
     letter-spacing: -0.03em;
     color: var(--cards);
-    width: 299px;
-    height: 72px;
     position: relative;
-    top: 395px;
+    margin-bottom: 153px;
+
 }
 
 /* Дополнительные стили для мобильной версии */
