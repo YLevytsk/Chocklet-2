@@ -499,7 +499,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     margin-right: auto;
     margin-left: auto;
     min-height: 100dvh;
-    
+    min-width: 100dvh;
 }
 
 @media screen and (min-resolution: 2dppx),
