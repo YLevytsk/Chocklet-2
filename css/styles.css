@@ -501,6 +501,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     background-size: cover;
 
 }
+
 .hero {
     margin: 0 20px;
 }
@@ -615,10 +616,10 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 
 .btn {
-   
+
     border: none;
     cursor: pointer;
-   
+
 }
 
 .btn.primary {
@@ -629,9 +630,9 @@ soc_nets_link-mod:focus .net_icon-mod {
     width: 120px;
     height: 41px;
     font-family: var(--font-family);
-     font-weight: 600;
-     font-size: 14px;
-     white-space: nowrap;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 .btn.secondary {
@@ -655,35 +656,39 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 
 .skrol-icon {
-    width: 16px;
-    height: 16px;
+    width: 28px;
+    height: 28px;
     background-color: #fff;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 6px;
     transform: rotate(360deg);
 }
 
 .skrol-icon {
     fill: var(--accent);
     stroke-width: 2;
-   
+
 }
 
 scroll-down svg {
     stroke: white;
 }
+
 .scroll-down {
     display: flex;
-    align-items: center;  /* Выравниваем элементы по вертикали */
-    justify-content: flex-start;  /* Выравниваем элементы по горизонтали */
+    align-items: center;
+    /* Выравниваем элементы по вертикали */
+    justify-content: flex-start;
+    /* Выравниваем элементы по горизонтали */
     padding-left: 20px;
-    flex-direction: row-reverse;  /* Отступ текста от левого края контейнера */
+    flex-direction: row-reverse;
+    /* Отступ текста от левого края контейнера */
 }
 
 .scroll-down svg {
-    margin-right: 12px; 
+    margin-right: 12px;
 }
 
 /* Стили для заголовка */
@@ -719,12 +724,12 @@ scroll-down svg {
 
 }
 
-span {
+.span {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 12px;
     line-height: 117%;
     letter-spacing: -0.03em;
     color: var(--cards);
-    
+
 }
