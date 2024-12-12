@@ -483,7 +483,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     position: relative;
     background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
         url('../images/chocolate_main-1x-mob.webp');
-    background-size: auto;
+     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     padding: 14px 20px 80px 20px;
@@ -508,7 +508,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     }
 }
 
-@media screen and (min-width: 768px) {
+media screen and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
@@ -524,7 +524,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     }
 }
 
-@media screen and (min-resolution: 2dppx),
+media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .hero {
@@ -533,7 +533,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     }
 }
 
-@media screen and (min-width: 1200px) {
+media screen and (min-width: 1200px) {
     .hero {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-desk.webp');
@@ -549,7 +549,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     }
 }
 
-@media screen and (min-resolution: 2dppx),
+media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .hero {
