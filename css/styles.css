@@ -493,11 +493,11 @@ soc_nets_link-mod:focus .net_icon-mod {
     border-radius: 30px;
 }
     .hero {  
-    background-size: contain;
-    width: 100%;
-    height: 100%;
+    background-size: cover;
     padding: 0 20px;
     margin: 0 20px;
+    max-height: 621px;
+    max-width: 375px;
 }
 
 @media screen and (min-resolution: 2dppx),
@@ -514,6 +514,8 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
         background-size: cover;
+        width: 100vh;
+        width: 100%;
         box-sizing: border-box;
         border-radius: 30px;
         background-position: center;
@@ -573,7 +575,6 @@ soc_nets_link-mod:focus .net_icon-mod {
 .hero-content {
     position: relative;
     z-index: 1;
-
     text-align: center;
     flex-direction: row-reverse;
     color: var(--cards);
@@ -587,15 +588,8 @@ soc_nets_link-mod:focus .net_icon-mod {
     line-height: 120%;
     letter-spacing: -0.03em;
     color: var(--cards);
-    width: 299px;
-    height: 72px;
     position: relative;
-    top: 395px;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
-    width: 299px;
-    height: 72px;
+ 
 }
 
 
