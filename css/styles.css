@@ -481,38 +481,29 @@ soc_nets_link-mod:focus .net_icon-mod {
 
 .hero {
     position: relative;
-    height: 100vh;
-    /* Высота на весь экран */
-    background-image:
-        linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+    min-height: 100dvh;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
         url('../images/chocolate_main-1x-mob.webp');
-    background-size: cover;
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     padding: 14px 20px 80px 20px;
-    text-align: center;
     display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    border-radius: 30px;
-    width: 100%;
-    max-width: 320px;
-    min-height: 620px;
-    background-size: cover;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 20px;
-}
-
-.hero {
-    margin: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-2x-mob.webp');
     }
 }
@@ -574,8 +565,6 @@ soc_nets_link-mod:focus .net_icon-mod {
     line-height: 120%;
     letter-spacing: -0.03em;
     color: var(--cards);
-    width: 299px;
-    height: 72px;
     position: relative;
     margin-bottom: 153px;
 }
@@ -583,7 +572,7 @@ soc_nets_link-mod:focus .net_icon-mod {
 .hero-content {
     position: relative;
     z-index: 1;
-    margin-bottom: 0 20px;
+
     text-align: center;
     flex-direction: row-reverse;
     color: var(--cards);
