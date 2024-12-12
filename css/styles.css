@@ -486,17 +486,16 @@ soc_nets_link-mod:focus .net_icon-mod {
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     box-sizing: border-box;
     border-radius: 30px;
+}
+    .hero {  
     background-size: contain;
     width: 100%;
     height: 100%;
-    margin-right: auto;
-    margin-left: auto;
     padding: 0 20px;
     margin: 0 20px;
 }
