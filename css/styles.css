@@ -514,7 +514,6 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
         background-size: cover;
-        width: 100vh;
         width: 100%;
         box-sizing: border-box;
         border-radius: 30px;
@@ -522,7 +521,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-repeat: no-repeat;
         max-width: 704px;
         max-height: 890px;
-        margin: 0 auto;
+        margin: 0 32px;
         /* Фон для планшета */
     }
 }
