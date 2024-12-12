@@ -583,8 +583,9 @@ soc_nets_link-mod:focus .net_icon-mod {
 .hero-content {
     position: relative;
     z-index: 1;
-    /* Чтобы контент был поверх градиента */
+    margin-bottom: 0 20px;
     text-align: center;
+    flex-direction: row-reverse;
     color: var(--cards);
 
 }
