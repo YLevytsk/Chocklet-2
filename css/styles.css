@@ -500,6 +500,8 @@ soc_nets_link-mod:focus .net_icon-mod {
     margin-left: auto;
     min-height: 100dvh;
     min-width: 100dvh;
+    max-width: 320px;
+    min-height: 432px;
 }
 
 @media screen and (min-resolution: 2dppx),
