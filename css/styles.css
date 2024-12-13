@@ -41,6 +41,9 @@ body {
     .container {
         max-width: 768px;
         padding: 0 32px;
+        width: 100%; 
+        max-width: 100%; 
+        
     }
 
 }
@@ -552,7 +555,7 @@ width: 38px;
 height: 38px;
 }
 .hero-content {
-position: relative;
+    position: absolute;
 margin-bottom: 40px;
 }
 .hero-buttons {
