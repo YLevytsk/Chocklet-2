@@ -529,6 +529,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         min-height: 890px;
         margin: 0 32px;
         justify-content: flex-end;
+        flex-direction: column; 
         /* Фон для планшета */
     }
     .hero-title {
