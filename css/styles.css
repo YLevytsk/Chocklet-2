@@ -552,12 +552,13 @@ soc_nets_link-mod:focus .net_icon-mod {
     height: 45px;
 }
 .span {
-width: 38px;
-height: 38px;
+    width: 38px;
+    height: 38px;
 }
 .hero-content {
     position: absolute;
-margin-bottom: 40px;
+    justify-content: flex-end;
+    margin-bottom: 40px;
 }
 .hero-buttons {
     display: flex; /* Создаем гибкий контейнер */
