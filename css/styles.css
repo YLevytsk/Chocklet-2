@@ -514,6 +514,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
         background-size: cover;
+        text-align: left;
         width: 100%;
         box-sizing: border-box;
         border-radius: 30px;
@@ -552,10 +553,19 @@ height: 38px;
     flex-direction: row; /* Выстраивает кнопки в строку */
     gap: 14px; /* Расстояние между кнопками */
     justify-content: flex-start; /* Выровнять к левому краю */
-    margin: 0; /* Убираем любые отступы */
+    margin-left: auto; /* Убираем любые отступы */
     margin-bottom: 40px;
+    bottom: 40px;
+    left: 0;
     
-}
+}}
+.scroll-down {
+    display: flex;
+    flex-direction: row; /* Выстраивает иконку и текст в строку */
+    align-items: center; /* Выравнивание элементов по центру */
+    gap: 14px; /* Расстояние между иконкой и текстом */
+    margin-right: 153px; 
+
 }
 
 
