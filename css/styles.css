@@ -516,6 +516,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-size: cover;
         position: relative;
         width: 100%;
+        height: 100vh;
         box-sizing: border-box;
         border-radius: 30px;
         background-position: center;
@@ -523,6 +524,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         max-width: 704px;
         min-height: 890px;
         margin: 0 32px;
+        justify-content: flex-end;
         /* Фон для планшета */
     }
     .hero-title {
@@ -549,6 +551,10 @@ soc_nets_link-mod:focus .net_icon-mod {
 width: 38px;
 height: 38px;
 }
+.hero-content {
+position: relative;
+margin-bottom: 40px;
+}
 .hero-buttons {
     display: flex; /* Создаем гибкий контейнер */
     flex-direction: row; /* Выстраиваем кнопки в строку */
@@ -557,6 +563,9 @@ height: 38px;
     position: absolute; /* Абсолютное позиционирование для точного контроля */
     left: 0; /* Прижимаем к левой стороне */
     margin: 0;
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 40px; /* Отступ от нижнего края родителя */
+    bottom: 40px; /
     
 }}
 .scroll-down {
