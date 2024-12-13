@@ -514,7 +514,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
         background-size: cover;
-        text-align: left;
+        position: relative;
         width: 100%;
         box-sizing: border-box;
         border-radius: 30px;
@@ -531,6 +531,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     line-height: 121%;
     letter-spacing: -0.03em;
     color: var(--cards);
+    text-align: left;
 }
 .btn.primary {
     border-radius: 100px;
@@ -549,14 +550,13 @@ width: 38px;
 height: 38px;
 }
 .hero-buttons {
-    display: flex;
-    flex-direction: row; /* Выстраивает кнопки в строку */
+    display: flex; /* Создаем гибкий контейнер */
+    flex-direction: row; /* Выстраиваем кнопки в строку */
     gap: 14px; /* Расстояние между кнопками */
-    justify-content: flex-start; /* Выровнять к левому краю */
-    margin-left: auto; /* Убираем любые отступы */
-    margin-bottom: 40px;
-    bottom: 40px;
-    left: 0;
+    justify-content: flex-start; /* Выравниваем элементы к левому краю */
+    position: absolute; /* Абсолютное позиционирование для точного контроля */
+    left: 0; /* Прижимаем к левой стороне */
+    margin: 0;
     
 }}
 .scroll-down {
