@@ -832,6 +832,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     position: relative;
     margin-bottom: 32px;
     max-width: 291px;
+    text-align: left;
 }
 
 .hero-content {
@@ -900,9 +901,8 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-      border-color: var(--accent);
-      color: var(--accent)
-    }
+    background-color: #fcf1e0;
+    color: var(--accent);}
 
 .hero-link-sellers {
     display: none;
@@ -928,11 +928,14 @@ soc_nets_link-mod:focus .net_icon-mod {
       background-color: var(--accent);
     }
     
-    .hero-link-scroll:hover .icon-scroll, 
-    .hero-link-scroll:focus .icon-scroll {
+    .hero-link-scroll:hover , 
+    .hero-link-scroll:focus  {
       fill: var(--accent);
     }
-    
+    .icon-scroll:hover,
+    .icon-scroll:focus {
+        fill: var(--cards)
+    }
     .scroll-round {
       display: inline-block;
       padding: 6px;
