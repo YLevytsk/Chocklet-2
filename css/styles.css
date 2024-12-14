@@ -235,10 +235,8 @@ a {
 
 /* Stills for tablet*/
 
-@media only screen and (min-width: 768px) {
-    .container-header {
-        display: flex;
-    }
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
 
     .logo-icon {
         margin-bottom: -2px;
@@ -250,9 +248,14 @@ a {
         padding-top: 20px;
         padding-bottom: 20px;
         display: flex;
-        justify-content: space-between;
-        /* Разделяет логотип слева и меню справа */
         align-items: center;
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        /* Отступ между пунктами меню */
     }
 
     .navi-link-menu {
