@@ -241,8 +241,7 @@ a {
 
     .logo-icon {
         margin-bottom: -2px;
-
-
+        margin-left: 4px;
     }
 
     .navigation {
@@ -258,6 +257,7 @@ a {
         justify-content: flex-end;
         gap: 20px;
         margin-left: auto;
+        margin-right: 28px;
 
     }
 
@@ -363,11 +363,6 @@ a {
     .logo_simply {
         display: flex;
         align-items: center;
-    }
-
-    /* Для самого SVG лого */
-    .logo-icon {
-        margin-left: 10px;
     }
 }
 
