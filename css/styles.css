@@ -249,6 +249,10 @@ a {
     .navigation {
         padding-top: 20px;
         padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        /* Разделяет логотип слева и меню справа */
+        align-items: center;
     }
 
     .navi-link-menu {
@@ -298,22 +302,11 @@ a {
 
 }
 
-
 .header-button-svg {
     display: block;
     fill: var(--main);
-
 }
 
-@media (min-width: 768px) {
-
-    .logo_simply,
-    .logo_chocolate,
-    .logo-icon {
-        margin-top: 0;
-        position: relative;
-    }
-}
 
 @media only screen and (min-width: 768px) {
     .nav-list {
@@ -357,13 +350,14 @@ a {
 
     }
 
-    .logo_simply,
-    .logo_chocolate,
-    .logo-icon {
-        white-space: nowrap;
-        align-items: center;
+    .logo_simply {
         display: flex;
+        align-items: center;
+    }
 
+    /* Для самого SVG лого */
+    .logo-icon {
+        margin-left: 10px;
     }
 }
 
