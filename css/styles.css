@@ -725,7 +725,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     justify-content: flex-end;
     display: flex;
     align-items: center;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
     border-radius: 30px;
     position: relative;
