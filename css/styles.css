@@ -1,5 +1,5 @@
 .container {
-    min-width: 335px;
+    min-width: 375px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
@@ -28,11 +28,45 @@ main {
 }
 
 body {
+    font-family: var(--font-family);
+    background-color: var(--background);
     display: flex;
     flex-direction: column;
-    min-width: 100%;
+    min-width: 100vw;
     min-height: 100vh;
     margin: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .logo-icon {
@@ -69,8 +103,7 @@ body {
     .container {
         max-width: 768px;
         padding: 0 32px;
-        height: 100%;
-        max-width: 100%;
+
 
     }
 
@@ -79,8 +112,7 @@ body {
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
-        height: 100%;
-        max-width: 100%;
+
     }
 }
 
@@ -104,9 +136,6 @@ p {
     margin: 0;
 }
 
-p:last-child {
-    margin-bottom: 0;
-}
 
 ul {
     margin: 0;
@@ -114,10 +143,6 @@ ul {
     list-style: none;
 }
 
-a {
-    color: currentColor;
-    text-decoration: none;
-}
 
 :root {
     --text-decoration: none;
@@ -733,7 +758,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     margin: 0 20px;
     height: 620px;
     max-width: 375px;
-    
+
 }
 
 .hero .container {
@@ -888,7 +913,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     letter-spacing: -0.03em;
     color: var(--cards);
     position: relative;
-    margin-bottom:32px;
+    margin-bottom: 32px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -903,7 +928,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     justify-content: flex-end;
     flex-direction: column;
     align-items: flex-start;
-    }
+}
 
 
 .hero-buttons {
@@ -989,6 +1014,7 @@ scroll-down svg {
 .scroll-down svg {
     margin-right: 12px;
 }
+
 /* Дополнительные стили для мобильной версии */
 
 .section_title {
