@@ -51,8 +51,6 @@ body {
 .navigation {
     padding-top: 20px;
     padding-bottom: 20px;
-    display: inline-block;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -525,14 +523,19 @@ soc_nets_link-mod:focus .net_icon-mod {
     border-radius: 30px;
 }
 
-
-
 .hero {
     background-size: cover;
     padding: 0 20px;
     margin: 0 20px;
     min-height: 621px;
     max-width: 375px;
+}
+
+@media screen and (max-width: 767px) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
+            url('../images/chocolate_main-1x-mob.webp');
+    }
 }
 
 @media screen and (min-resolution: 2dppx),
