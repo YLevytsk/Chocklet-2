@@ -537,8 +537,6 @@ soc_nets_link-mod:focus .net_icon-mod {
             url('../images/chocolate_main-1x-mob.webp');
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        /* Фон должен покрывать всю область */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -546,11 +544,11 @@ soc_nets_link-mod:focus .net_icon-mod {
         box-sizing: border-box;
         border-radius: 30px;
         position: relative;
+        background-size: cover;
         padding: 0 20px;
         margin: 0 20px;
         min-height: 621px;
-        width: 100%;
-        /* Ширина на мобильных устройствах должна быть 100% */
+        max-width: 375px;
     }
 }
 
