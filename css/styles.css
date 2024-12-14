@@ -964,7 +964,7 @@ soc_nets_link-mod:focus .net_icon-mod {
               rgba(17, 17, 17, 0.4),
               rgba(17, 17, 17, 0.4)
             ),
-            url(../images/chocolate_main-1x-tab.webp);
+            url(/../images/chocolate_main-1x-tab.webp);
           padding-top: 671px;
           padding-bottom: 40px;
         }}
@@ -978,7 +978,7 @@ soc_nets_link-mod:focus .net_icon-mod {
               rgba(17, 17, 17, 0.4),
               rgba(17, 17, 17, 0.4)
             ),
-            url(/images/chocolate_main-2x-tab.webp);
+            url(/../images/chocolate_main-2x-tab.webp);
         }
       }   
 
@@ -1049,7 +1049,7 @@ soc_nets_link-mod:focus .net_icon-mod {
           rgba(17, 17, 17, 0.4),
           rgba(17, 17, 17, 0.4)
         ),
-        url(../images/chocolate_main-1x-desk.webp);
+        url(/../images/chocolate_main-1x-desk.webp);
       padding-top: 381px;
       padding-bottom: 40px;
     }
