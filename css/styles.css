@@ -15,9 +15,16 @@
 
 }
 
+main {
+    flex-grow: 1;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    min-height: 100vh;
     margin: 0;
-    padding: 0;
 }
 
 .logo-icon {
@@ -41,7 +48,6 @@ body {
     .container {
         max-width: 768px;
         padding: 0 32px;
-        width: 100%;
         height: 100%;
         max-width: 100%;
 
@@ -491,7 +497,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
     text-align: center;
     box-sizing: border-box;
     border-radius: 30px;
@@ -528,10 +534,9 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-repeat: no-repeat;
         max-width: 704px;
         min-height: 890px;
-        margin: 0 32px;
 
         flex-direction: column;
-        /* Фон для планшета */
+
     }
 
     .hero-title {
