@@ -508,9 +508,7 @@ soc_nets_link-mod:focus .net_icon-mod {
 /* Section first */
 
 /* Мобильная версия */
-
 .hero {
-    position: relative;
     background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
         url('../images/chocolate_main-1x-mob.webp');
     background-position: center;
@@ -521,9 +519,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     text-align: center;
     box-sizing: border-box;
     border-radius: 30px;
-}
-
-.hero {
+    position: relative;
     background-size: cover;
     padding: 0 20px;
     margin: 0 20px;
@@ -531,26 +527,6 @@ soc_nets_link-mod:focus .net_icon-mod {
     max-width: 375px;
 }
 
-@media screen and (max-width: 767px) {
-    .hero {
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-1x-mob.webp');
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        box-sizing: border-box;
-        border-radius: 30px;
-        position: relative;
-        background-size: cover;
-        padding: 0 20px;
-        margin: 0 20px;
-        min-height: 621px;
-        max-width: 375px;
-    }
-}
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
