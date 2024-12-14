@@ -49,12 +49,11 @@ body {
 }
 
 .navigation {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 14px;
 }
 
 @media only screen and (min-width: 768px) {
