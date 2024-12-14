@@ -981,7 +981,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.03em;
-    color: var(--accent);
+    color: var(--cards);
     display: flex;
     align-items: center;
     gap: 12px;
@@ -1001,9 +1001,6 @@ soc_nets_link-mod:focus .net_icon-mod {
     .hero-link-scroll:focus .icon-scroll {
       fill: var(--accent);
     }
-    
-    
-    
     
     .scroll-round {
       display: inline-block;
