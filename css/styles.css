@@ -560,6 +560,9 @@ soc_nets_link-mod:focus .net_icon-mod {
     position: absolute;
     justify-content: flex-end;
     margin-bottom: 40px;
+    bottom: 0;
+    margin-top: 671px;
+
 }
 .hero-buttons {
     display: flex; /* Создаем гибкий контейнер */
@@ -570,16 +573,16 @@ soc_nets_link-mod:focus .net_icon-mod {
     left: 0; /* Прижимаем к левой стороне */
     margin: 0;
     position: absolute; /* Абсолютное позиционирование */
-    bottom: 40px; /* Отступ от нижнего края родителя */
-    bottom: 40px; /
-    
-}}
+
+}
 .scroll-down {
     display: flex;
+    align-items: center;
+    display: flex;
     flex-direction: row; /* Выстраивает иконку и текст в строку */
-    align-items: center; /* Выравнивание элементов по центру */
     gap: 14px; /* Расстояние между иконкой и текстом */
-    margin-right: 153px; 
+    margin-right: auto; 
+   
 
 }
 
