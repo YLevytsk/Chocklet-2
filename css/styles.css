@@ -976,6 +976,9 @@ soc_nets_link-mod:focus .net_icon-mod {
     border-color: var(--orange);
     color: var(--orange);
 }
+.hero-link-sellers {
+    display: none;
+  }
 .hero-link-scroll {
     font-weight: 500;
     font-size: 12px;
