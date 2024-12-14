@@ -158,7 +158,6 @@ a {
     }
 }
 
-
 .logo_simply {
     font-family: var(--font-family);
     font-style: italic;
@@ -208,7 +207,6 @@ a {
     stroke: var(--main);
     margin-left: auto;
     justify-content: center;
-
 
 }
 
