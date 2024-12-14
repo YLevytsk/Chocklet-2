@@ -548,7 +548,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
