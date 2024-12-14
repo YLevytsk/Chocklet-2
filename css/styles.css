@@ -51,6 +51,7 @@ body {
 .navigation {
     padding-top: 20px;
     padding-bottom: 20px;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
     width: 100%;
