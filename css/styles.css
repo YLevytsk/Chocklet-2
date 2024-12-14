@@ -153,6 +153,7 @@ a {
 @media only screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
+        width: 100%;
     }
 
     .logo-icon {
@@ -161,6 +162,7 @@ a {
         background-image: url('./images/icon-Vector-24.svg');
     }
 }
+
 
 .logo_simply {
     font-family: var(--font-family);
@@ -235,12 +237,11 @@ a {
 
 /* Stills for tablet*/
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
-
+@media only screen and (min-width: 768px) {
 
     .logo-icon {
         margin-bottom: -2px;
-        margin-left: 4px;
+
 
     }
 
@@ -248,6 +249,7 @@ a {
         padding-top: 20px;
         padding-bottom: 20px;
         display: flex;
+        justify-content: flex-start;
         align-items: center;
     }
 
@@ -255,7 +257,8 @@ a {
         display: flex;
         justify-content: flex-end;
         gap: 20px;
-        /* Отступ между пунктами меню */
+        margin-left: auto;
+
     }
 
     .navi-link-menu {
@@ -266,6 +269,10 @@ a {
         line-height: 114%;
         letter-spacing: -0.02em;
         color: var(--main);
+    }
+
+    .soc_nets {
+        margin-left: 28px;
     }
 
     .navi-link-menu {
