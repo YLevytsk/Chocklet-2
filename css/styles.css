@@ -952,7 +952,7 @@ soc_nets_link-mod:focus .net_icon-mod {
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    @media screen and (min-width: 768px) {
+    media screen and (min-width: 768px) {
         .hero {
           padding-bottom: 40px;
         }
@@ -969,7 +969,7 @@ soc_nets_link-mod:focus .net_icon-mod {
           padding-bottom: 40px;
         }}
 
-        @media screen and (min-device-pixel-ratio: 2),
+        media screen and (min-device-pixel-ratio: 2),
         screen and (min-resolution: 192dpi),
         screen and (min-resolution: 2dppx) {
         .hero-container {
