@@ -58,8 +58,8 @@ body {
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 1200px;
-
-
+        height: 100%;
+        max-width: 100%;
     }
 }
 
@@ -509,6 +509,12 @@ soc_nets_link-mod:focus .net_icon-mod {
     text-align: center;
     box-sizing: border-box;
     border-radius: 30px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .hero {
