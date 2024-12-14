@@ -729,7 +729,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     border-radius: 30px;
     position: relative;
     background-size: cover;
-
+    
     margin: 0 20px;
     min-height: 621px;
     max-width: 375px;
@@ -894,11 +894,15 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 
 .hero-content {
+    display: flex;
     position: relative;
     z-index: 1;
     text-align: center;
     color: var(--cards);
-    margin-bottom: 20px; /* Отступ снизу */
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
     }
 
 
