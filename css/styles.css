@@ -966,12 +966,30 @@ soc_nets_link-mod:focus .net_icon-mod {
           padding-bottom: 40px;
         }}
 
+        @media screen and (min-device-pixel-ratio: 2),
+        screen and (min-resolution: 192dpi),
+        screen and (min-resolution: 2dppx) {
+        .hero-container {
+          background-image: linear-gradient(
+              to bottom,
+              rgba(17, 17, 17, 0.4),
+              rgba(17, 17, 17, 0.4)
+            ),
+            url(/images/chocolate_main-2x-tab.webp);
+        }
+      }   
+
  @media screen and (min-width: 768px) {     
   .hero-title {
     font-size: 28px;
     max-width: 484px;
   }
-
+  .hero-link-scroll:last-child { 
+    display: flex;
+    white-space: nowrap;
+    margin-left: 153px;
+    justify-content: flex-end;
+  }
   .hero-btn-link-wrap {
     display: flex;
     justify-content: space-between;
@@ -1015,8 +1033,12 @@ soc_nets_link-mod:focus .net_icon-mod {
     }
     .hero-link-scroll:last-child { 
         display: flex;
+        white-space: nowrap;
         margin-left: 388px;
+        justify-content: flex-end;
       }
+
+    
     .hero-content {
       max-width: 1136px;
       background-image: linear-gradient(
@@ -1027,7 +1049,8 @@ soc_nets_link-mod:focus .net_icon-mod {
         url(../images/chocolate_main-1x-desk.webp);
       padding-top: 381px;
       padding-bottom: 40px;
-    }}
+    }
+}
   
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
