@@ -721,19 +721,19 @@ soc_nets_link-mod:focus .net_icon-mod {
         url('../images/chocolate_main-1x-mob.webp');
     background-position: center;
     background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-end;
     display: flex;
     align-items: center;
-    justify-content: center;
     text-align: center;
     box-sizing: border-box;
     border-radius: 30px;
     position: relative;
     background-size: cover;
-    
     margin: 0 20px;
-    min-height: 621px;
+    height: 620px;
     max-width: 375px;
-    height: 100vh;
+    
 }
 
 .hero .container {
