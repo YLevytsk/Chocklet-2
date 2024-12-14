@@ -535,6 +535,22 @@ soc_nets_link-mod:focus .net_icon-mod {
     .hero {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-mob.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Фон должен покрывать всю область */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 30px;
+        position: relative;
+        padding: 0 20px;
+        margin: 0 20px;
+        min-height: 621px;
+        width: 100%;
+        /* Ширина на мобильных устройствах должна быть 100% */
     }
 }
 
