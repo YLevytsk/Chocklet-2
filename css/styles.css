@@ -781,85 +781,11 @@ soc_nets_link-mod:focus .net_icon-mod {
         min-height: 890px;
         flex-direction: column;
         margin: 0 32px;
-
-
     }
+    .hero {
+    padding-bottom: 40px;
 }
-
-@media screen and (min-width: 768px) {
-    .hero-title {
-        font-weight: 500;
-        font-size: 28px;
-        line-height: 121%;
-        letter-spacing: -0.03em;
-        color: var(--cards);
-        text-align: left;
-    }
-
-    .btn-primary {
-        border-radius: 100px;
-        padding: 14px 40px;
-        width: 144px;
-        height: 45px;
-    }
-
-    .btn-secondary {
-        border-radius: 100px;
-        padding: 14px 40px;
-        width: 183px;
-        height: 45px;
-    }
-
-    .span {
-        width: 38px;
-        height: 38px;
-    }
-
-    .hero-content {
-        position: absolute;
-        justify-content: flex-end;
-        margin-bottom: 40px;
-        bottom: 0;
-        margin-top: 671px;
-
-    }
-
-    .hero-buttons {
-        display: flex;
-        /* Создаем гибкий контейнер */
-        flex-direction: row;
-        /* Выстраиваем кнопки в строку */
-        gap: 14px;
-        /* Расстояние между кнопками */
-        justify-content: flex-start;
-        /* Выравниваем элементы к левому краю */
-        position: absolute;
-        /* Абсолютное позиционирование для точного контроля */
-        left: 0;
-        /* Прижимаем к левой стороне */
-        margin: 0;
-        position: absolute;
-        position: relative;
-        z-index: 2;
-        /* Абсолютное позиционирование */
-
-    }
-
-    .scroll-down {
-        display: flex;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        /* Выстраивает иконку и текст в строку */
-        gap: 14px;
-        /* Расстояние между иконкой и текстом */
-        margin-right: auto;
-
-
-    }
 }
-
-
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
@@ -881,7 +807,9 @@ soc_nets_link-mod:focus .net_icon-mod {
         min-height: 600px;
         box-sizing: border-box;
         margin: 0 auto;
-        /* Фон для десктопа */
+    }
+    .hero-link-scroll {
+margin-right: auto;
     }
 }
 
@@ -951,9 +879,8 @@ soc_nets_link-mod:focus .net_icon-mod {
 .btn-secondary {
     background-color: transparent;
     display: flex;
-
     color: var(--cards);
-    border: 1px solid var(--cards);
+    border: 1px solid #fff;
     border-radius: 100px;
     padding: 12px 28px;
     width: 159px;
@@ -969,13 +896,14 @@ soc_nets_link-mod:focus .net_icon-mod {
 .btn-primary:hover,
 .btn-primary:focus {
     background-color: #fcf1e0;
-    color: var(--orange);
+    color: var(--accent);
 }
 .btn-secondary:hover,
 .btn-secondary:focus {
-    border-color: var(--orange);
-    color: var(--orange);
-}
+      border-color: var(--accent);
+      color: var(--accent)
+    }
+
 .hero-link-sellers {
     display: none;
   }
@@ -997,7 +925,7 @@ soc_nets_link-mod:focus .net_icon-mod {
 
     .hero-link-scroll:hover .scroll-round, 
     .hero-link-scroll:focus .scroll-round {
-      background-color: var(--orange);
+      background-color: var(--accent);
     }
     
     .hero-link-scroll:hover .icon-scroll, 
@@ -1021,14 +949,113 @@ soc_nets_link-mod:focus .net_icon-mod {
       transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
+    @media screen and (min-width: 768px) {
+        .hero {
+          padding-bottom: 40px;
+        }
+      
+        .hero-content {
+          max-width: 704px;
+          background-image: linear-gradient(
+              to bottom,
+              rgba(17, 17, 17, 0.4),
+              rgba(17, 17, 17, 0.4)
+            ),
+            url(../images/chocolate_main-1x-tab.webp);
+          padding-top: 671px;
+          padding-bottom: 40px;
+        }}
 
-.skrol-icon {
-    width: 28px;
-    height: 28px;
-    background-color: #fff;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    padding: 6px;
-    transform: rotate(360deg);
+ @media screen and (min-width: 768px) {     
+  .hero-title {
+    font-size: 28px;
+    max-width: 484px;
+  }
+
+  .hero-btn-link-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero-buttons {
+    justify-content: start;
+    margin-bottom: 0;
+  }
+
+  .btn-primary{
+    width: 144px;
+    height: 45px;
+  }
+
+  .btn-secondary{
+    width: 183px;
+    height: 45px;
+  }
+
+  .hero-link-scroll {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+
+  .scroll-round {
+    display: inline-block;
+    padding: 8px;
+    width: 38px;
+    height: 38px;
+  }
+
+  .icon-scroll {
+    width: 22px;
+    height: 22px;
+  }
 }
+@media screen and (min-width: 1200px) {
+    .hero {
+      padding-bottom: 80px;
+    }
+  
+    .hero-content {
+      max-width: 1136px;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url(../images/chocolate_main-1x-desk.webp);
+      padding-top: 381px;
+      padding-bottom: 40px;
+    }}
+  
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .hero-content {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(17, 17, 17, 0.4),
+            rgba(17, 17, 17, 0.4)
+          ),
+          url(/../images/chocolate_main-1x-desk.webp);
+      }
+      }
+  
+    .hero-link-sellers{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #fff;
+      border-radius: 100px;
+      font-weight: 600;
+      font-size: 14px;
+      width: 183px;
+      height: 45px;
+      color: var(--cards);
+      box-sizing: border-box;
+       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  
+    .hero-link-sellers:hover,
+    .hero-link-sellers:focus {
+        background-color: #fcf1e0;
+        color: var(--accent);
+    }
+  
