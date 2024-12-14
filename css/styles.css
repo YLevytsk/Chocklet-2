@@ -525,11 +525,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     border-radius: 30px;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
+
 
 .hero {
     background-size: cover;
