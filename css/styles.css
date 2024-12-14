@@ -51,9 +51,24 @@ body {
 .navigation {
     display: flex;
     justify-content: space-between;
+    /* Распределяем элементы по контейнеру */
     align-items: center;
+    /* Выравниваем по вертикали */
+    width: 100%;
     padding-top: 20px;
     padding-bottom: 14px;
+}
+
+.navigation .logo {
+    display: flex;
+    /* Оборачиваем лого и иконку лого в flex контейнер */
+    align-items: center;
+    /* Выравниваем их по вертикали */
+}
+
+.navigation .burger-icon {
+    margin-left: auto;
+    /* Отодвигаем иконку бургера вправо */
 }
 
 @media only screen and (min-width: 768px) {
