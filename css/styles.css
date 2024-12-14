@@ -888,7 +888,12 @@ soc_nets_link-mod:focus .net_icon-mod {
     letter-spacing: -0.03em;
     color: var(--cards);
     position: relative;
-    margin-bottom: 153px;
+}
+
+.hero-title {
+    margin-bottom:32px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-content {
@@ -899,19 +904,6 @@ soc_nets_link-mod:focus .net_icon-mod {
     color: var(--cards);
 
 }
-
-.hero-title {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
-    color: var(--cards);
-    position: relative;
-
-}
-
-
 
 .hero-buttons {
     display: flex;
