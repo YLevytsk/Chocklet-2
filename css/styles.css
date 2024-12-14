@@ -690,7 +690,7 @@ mobile-messengers-button-svg {
     transition: color 0.3s ease;
 }
 
-.net_icon-mod {}
+
 
 .soc_nets_link-mod {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -994,8 +994,9 @@ soc_nets_link-mod:focus .net_icon-mod {
   .hero-link-scroll {
     font-size: 14px;
     line-height: 1.29;
+    
   }
-
+ 
   .scroll-round {
     display: inline-block;
     padding: 8px;
@@ -1012,7 +1013,10 @@ soc_nets_link-mod:focus .net_icon-mod {
     .hero {
       padding-bottom: 80px;
     }
-  
+    .hero-link-scroll:last-child { 
+        display: flex;
+        margin-left: 388px;
+      }
     .hero-content {
       max-width: 1136px;
       background-image: linear-gradient(
@@ -1036,8 +1040,8 @@ soc_nets_link-mod:focus .net_icon-mod {
           ),
           url(/../images/chocolate_main-1x-desk.webp);
       }
-      }
-  
+    }
+    @media screen and (min-width: 1200px){
     .hero-link-sellers{
       display: flex;
       justify-content: center;
@@ -1058,4 +1062,4 @@ soc_nets_link-mod:focus .net_icon-mod {
         background-color: #fcf1e0;
         color: var(--accent);
     }
-  
+}
