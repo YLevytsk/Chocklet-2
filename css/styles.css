@@ -375,6 +375,7 @@ a {
     .nav-list {
         gap: 24px;
         margin-left: auto;
+        margin-right: 90px;
     }
 
     .container-header {
@@ -728,12 +729,18 @@ soc_nets_link-mod:focus .net_icon-mod {
     border-radius: 30px;
     position: relative;
     background-size: cover;
-    padding: 0 20px;
+
     margin: 0 20px;
     min-height: 621px;
     max-width: 375px;
+    height: 100vh;
 }
 
+.hero .container {
+    height: 100%;
+    width: 100%;
+    /* Контейнер в секции hero будет растягиваться на всю высоту секции */
+}
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
