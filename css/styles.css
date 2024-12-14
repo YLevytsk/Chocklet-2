@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
-}
 
 @media screen and (min-width: 1200px) {
     .container {
@@ -256,10 +250,10 @@ a {
     .nav-list {
         display: flex;
         justify-content: flex-end;
-        gap: 20px;
         margin-left: auto;
         margin-right: 28px;
-
+        align-items: center;
+        gap: 20px;
     }
 
     .navi-link-menu {
@@ -281,50 +275,7 @@ a {
     }
 }
 
-/*LOGO*/
-
-.logo_simply,
-.logo_chocolate {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 129%;
-    align-items: center;
-}
-
-.soc_nets {
-    display: none;
-}
-
-.nav-list {
-    display: none;
-}
-
-.header-button {
-    width: 28px;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    border: none;
-    stroke: var(--main);
-    margin-left: auto;
-    justify-content: center;
-
-
-}
-
-.header-button-svg {
-    display: block;
-    fill: var(--main);
-}
-
-
 @media only screen and (min-width: 768px) {
-    .nav-list {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
 
     .header-button {
         display: none;
@@ -366,6 +317,45 @@ a {
         align-items: center;
     }
 }
+
+/*LOGO*/
+
+.logo_simply,
+.logo_chocolate {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 129%;
+    align-items: center;
+}
+
+.soc_nets {
+    display: none;
+}
+
+.nav-list {
+    display: none;
+}
+
+.header-button {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    stroke: var(--main);
+    margin-left: auto;
+    justify-content: center;
+
+
+}
+
+.header-button-svg {
+    display: block;
+    fill: var(--main);
+}
+
+
 
 .navi-link-menu:hover,
 .navi-link-menu:focus {
@@ -587,9 +577,11 @@ soc_nets_link-mod:focus .net_icon-mod {
         border-radius: 30px;
         background-position: center;
         background-repeat: no-repeat;
-        max-width: 704px;
+        max-width: 768px;
         min-height: 890px;
         flex-direction: column;
+        margin: 0 32px;
+
 
     }
 }
