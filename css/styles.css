@@ -742,43 +742,31 @@ soc_nets_link-mod:focus .net_icon-mod {
 /* Section first */
 
 /* Мобильная версия */
-.hero {
+.hero-content {
     background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
         url('../images/chocolate_main-1x-mob.webp');
     background-position: center;
     background-repeat: no-repeat;
-    flex-direction: column;
-    justify-content: flex-end;
-    display: flex;
-    align-items: center;
-    text-align: left;
+    max-width: 335px;
     box-sizing: border-box;
     border-radius: 30px;
-    position: relative;
     background-size: cover;
-    margin: 0 20px;
-    height: 620px;
-    max-width: 375px;
+    padding-bottom: 20px;
+    padding-top: 395px;
 
-}
-
-.hero .container {
-    height: 100%;
-    width: 100%;
-    /* Контейнер в секции hero будет растягиваться на всю высоту секции */
 }
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
-    .hero {
+    .hero-content {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-2x-mob.webp');
     }
 }
 
 @media screen and (min-width: 768px) {
-    .hero {
+    .hero-content {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-tab.webp');
         background-size: cover;
@@ -808,14 +796,14 @@ soc_nets_link-mod:focus .net_icon-mod {
         text-align: left;
     }
 
-    .btn.primary {
+    .btn-primary {
         border-radius: 100px;
         padding: 14px 40px;
         width: 144px;
         height: 45px;
     }
 
-    .btn.secondary {
+    .btn-secondary {
         border-radius: 100px;
         padding: 14px 40px;
         width: 183px;
@@ -827,7 +815,7 @@ soc_nets_link-mod:focus .net_icon-mod {
         height: 38px;
     }
 
-    hero-content {
+    .hero-content {
         position: absolute;
         justify-content: flex-end;
         margin-bottom: 40px;
@@ -875,14 +863,14 @@ soc_nets_link-mod:focus .net_icon-mod {
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
-    .hero {
+    .hero-content {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-2x-tab.webp');
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .hero {
+    .hero-content {
         background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-1x-desk.webp');
         background-size: cover;
@@ -900,7 +888,7 @@ soc_nets_link-mod:focus .net_icon-mod {
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi),
 (-webkit-min-device-pixel-ratio: 2) {
-    .hero {
+    .hero-content {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url('../images/chocolate_main-2x-desk.webp');
     }
@@ -915,8 +903,7 @@ soc_nets_link-mod:focus .net_icon-mod {
     color: var(--cards);
     position: relative;
     margin-bottom: 32px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 291px;
 }
 
 .hero-content {
@@ -935,19 +922,13 @@ soc_nets_link-mod:focus .net_icon-mod {
 .hero-buttons {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     gap: 14px;
-    margin-bottom: 80px;
-    margin: 20px;
-}
-
-.btn {
-
-    border: none;
-    cursor: pointer;
+    margin-bottom: 32px;
 
 }
 
-.btn.primary {
+.btn-primary {
     background-color: var(--accent);
     color: var(--cards);
     border-radius: 100px;
@@ -958,10 +939,19 @@ soc_nets_link-mod:focus .net_icon-mod {
     font-weight: 600;
     font-size: 14px;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
-.btn.secondary {
+.btn-secondary {
     background-color: transparent;
+    display: flex;
+
     color: var(--cards);
     border: 1px solid var(--cards);
     border-radius: 100px;
@@ -969,16 +959,68 @@ soc_nets_link-mod:focus .net_icon-mod {
     width: 159px;
     height: 41px;
     white-space: nowrap;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
     font-size: 14px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.scroll-down {
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #fcf1e0;
+    color: var(--orange);
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+    border-color: var(--orange);
+    color: var(--orange);
+}
+.hero-link-scroll {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    color: var(--accent);
     display: flex;
     align-items: center;
-    gap: 8px;
-    color: white;
-}
+    gap: 12px;
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .hero-link-scroll:hover,
+    .hero-link-scroll:focus {
+        color: var(--accent);
+    }
+
+    .hero-link-scroll:hover .scroll-round, 
+    .hero-link-scroll:focus .scroll-round {
+      background-color: var(--orange);
+    }
+    
+    .hero-link-scroll:hover .icon-scroll, 
+    .hero-link-scroll:focus .icon-scroll {
+      fill: var(--accent);
+    }
+    
+    
+    
+    
+    .scroll-round {
+      display: inline-block;
+      padding: 6px;
+      background-color: #fff;
+      border-radius: 50px;
+      width: 28px;
+      height: 28px;
+      box-sizing: border-box;
+       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-scroll {
+      fill: #fd9222;
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
 
 .skrol-icon {
     width: 28px;
@@ -989,48 +1031,4 @@ soc_nets_link-mod:focus .net_icon-mod {
     align-items: center;
     padding: 6px;
     transform: rotate(360deg);
-}
-
-.skrol-icon {
-    fill: var(--accent);
-    stroke-width: 2;
-
-}
-
-scroll-down svg {
-    stroke: white;
-}
-
-.scroll-down {
-    display: flex;
-    align-items: center;
-    /* Выравниваем элементы по вертикали */
-    justify-content: flex-start;
-    /* Выравниваем элементы по горизонтали */
-    padding-left: 20px;
-    flex-direction: row-reverse;
-    /* Отступ текста от левого края контейнера */
-}
-
-.scroll-down svg {
-    margin-right: 12px;
-}
-
-/* Дополнительные стили для мобильной версии */
-
-.section_title {
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
-    width: 299px;
-    height: 72px;
-}
-
-.span {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 117%;
-    letter-spacing: -0.03em;
-    color: var(--cards);
 }
