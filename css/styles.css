@@ -55,7 +55,13 @@ img {
     max-width: 100%;
     height: auto;
 }
-
+.modal-nav-soc-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    min-height: 100%;
+  }
 .visually-hidden {
     position: absolute;
     width: 1px;
