@@ -118,6 +118,8 @@ logo-icon {
 .navigation .burger-icon {
     stroke-width: 2px;
     stroke: #111;
+    position: absolute;
+   
 }
 
 @media only screen and (min-width: 768px) {
