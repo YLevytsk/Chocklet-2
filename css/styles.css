@@ -86,15 +86,22 @@ img {
     padding-top: 20px;
     padding-bottom: 14px;
 }
-
-.navigation .logo {
+.logo-wrap {
     display: flex;
     align-items: center;
-   
-}
+  }
+  .header {
+    padding-top: 20px;
+    padding-bottom: 14px;
+  }
+  .header-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 .navigation .burger-icon {
-   
     stroke-width: 2px;
     stroke: #111;
 }
