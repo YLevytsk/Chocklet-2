@@ -291,7 +291,7 @@ ul {
         align-items: center;
         gap: 28px;
       }
-      
+
     .logo-icon {
         margin-bottom: -2px;
         margin-left: 4px;
@@ -396,12 +396,6 @@ ul {
         width: 24px;
         height: 24px;
         background-image: url('./images/icon-Vector-24.svg');
-    }
-
-    .soc-conteiner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
     }
 
     .navi-link-menu {
