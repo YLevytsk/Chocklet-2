@@ -69,13 +69,17 @@ img {
     overflow: hidden;
 }
 
-.logo-icon {
+logo-icon {
     margin-bottom: -6px;
     width: 21px;
     height: 21px;
     margin-right: 4px;
 }
-
+.logo-icon {
+    fill: #fcf1e0;
+    stroke-width: 1.8px;
+    stroke: #fd9222;
+  }
 .navigation {
     display: flex;
     justify-content: space-between;
