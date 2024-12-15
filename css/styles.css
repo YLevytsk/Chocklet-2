@@ -75,6 +75,10 @@ logo-icon {
     height: 21px;
     margin-right: 4px;
 }
+.icon-menu {
+    stroke-width: 2px;
+    stroke: #111;
+  }
 .logo-icon {
     fill: #fcf1e0;
     stroke-width: 1.8px;
@@ -282,7 +286,12 @@ ul {
 
 /* Stills for tablet */
 @media only screen and (min-width: 768px) {
-
+    .header-nav-soc-wrap {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+      }
+      
     .logo-icon {
         margin-bottom: -2px;
         margin-left: 4px;
