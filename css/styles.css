@@ -59,9 +59,11 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+   
     min-height: 100%;
-  }
+    align-items: center;
+    padding-top: 20px;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -90,7 +92,7 @@ logo-icon {
     stroke-width: 1.8px;
     stroke: #fd9222;
   }
-.navigation {
+navigation {
     display: flex;
     justify-content: space-between;
     
@@ -118,7 +120,7 @@ logo-icon {
 .navigation .burger-icon {
     stroke-width: 2px;
     stroke: #111;
-    position: absolute;
+   
    
 }
 
