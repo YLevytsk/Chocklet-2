@@ -495,26 +495,24 @@ ul {
 }
 
 .mobile-container {
-    padding-top: 136px;
-    padding-bottom: 20px;
+    padding: 136px 20px 20px 20px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    align-items: left;
+    justify-content: space-between;
 
 }
 
 .mobile-button {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 28px;
-    height: 28px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    border: none;
+    position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 28px;
+  height: 28px;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 88px;
 }
 
 .mobile-nav-wrap {
