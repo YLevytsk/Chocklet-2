@@ -419,150 +419,6 @@ ul {
     }
 }
 
-/*
-@media only screen and (min-width: 1200px) {
-
-    .soc-conteiner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .navi-link-menu {
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 114%;
-        letter-spacing: -0.02em;
-        color: var(--main);
-    }
-
-    .navi-link-menu {
-        transition: color 0.3s;
-    }
-
-    .nav-item {
-        position: relative;
-    }
-
-    .nav-list {
-        gap: 24px;
-        margin-left: auto;
-    }
-
-    .container-header {
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .header-button {
-        display: none;
-    }
-
-    .navigation {
-        display: flex;
-        justify-content: space-between;
-
-    }
-}
-
-/* Stills for tablet*/
-/*
-@media only screen and (min-width: 768px) {
-
-    .logo-icon {
-        margin-bottom: -2px;
-        margin-left: 4px;
-    }
-
-    .navigation {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .nav-list {
-        display: flex;
-        justify-content: flex-end;
-        gap: 2px;
-        margin-left: auto;
-        margin-right: 28px;
-
-    }
-
-    .navi-link-menu {
-        text-decoration: none;
-        font-family: "Montserrat", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 114%;
-        letter-spacing: -0.02em;
-        color: var(--main);
-    }
-
-    .soc_nets {
-        margin-left: 28px;
-    }
-
-    .navi-link-menu {
-        white-space: nowrap;
-    }
-}
-*/
-
-
-/*
-@media only screen and (min-width: 768px) {
-    .nav-list {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .header-button {
-        display: none;
-    }
-
-    .nav-item {
-        position: relative;
-        list-style: none;
-    }
-
-    .soc_nets_item {
-        position: relative;
-        list-style: none;
-    }
-
-    .soc_nets {
-        display: flex;
-        margin: 0;
-        justify-content: space-between;
-        gap: 14px;
-    }
-
-    .soc_nets_link {
-        border: 1px solid rgba(17, 17, 17, 0.1);
-        border-radius: 10px;
-        padding: 8px;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-
-    }
-
-    .logo_simply {
-        display: flex;
-        align-items: center;
-    }
-}
-*/
 .navi-link-menu:hover,
 .navi-link-menu:focus {
     color: var(--accent);
@@ -610,12 +466,12 @@ ul {
 
 .mobile-menu.is-open {
     display: block;
-    /* Показываем модалку при наличии класса */
+   
 }
 
 .mobile-menu {
     display: none;
-    /* По умолчанию скрыто */
+   
 }
 
 .mobile-menu.is-open {
@@ -685,7 +541,7 @@ mobile-messengers-button-svg {
     list-style: none;
     text-decoration: none;
     list-style-type: none;
-    /* Убирает маркеры у списков */
+
     padding-left: 0;
     transition: color 0.3s ease;
 }
@@ -764,64 +620,7 @@ soc_nets_link-mod:focus .net_icon-mod {
             url(../images/chocolate_main-2x-mob.webp);
     }
 }
-/*
-@media screen and (min-width: 768px) {
-    .hero-content {
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-1x-tab.webp');
-        background-size: cover;
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        box-sizing: border-box;
-        border-radius: 30px;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-width: 768px;
-        min-height: 890px;
-        flex-direction: column;
-        margin: 0 32px;
-    }
-    .hero {
-    padding-bottom: 40px;
-}
-}
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
-    .hero-content {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-2x-tab.webp');
-    }
-}
 
-@media screen and (min-width: 1200px) {
-    .hero-content {
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-1x-desk.webp');
-        background-size: cover;
-        border-radius: 30px;
-        background-position: center;
-        background-repeat: no-repeat;
-        max-width: 1136px;
-        min-height: 600px;
-        box-sizing: border-box;
-        margin: 0 auto;
-    }
-    .hero-link-scroll {
-     margin-right: 388px;
-    }
-}
-
-@media screen and (min-resolution: 2dppx),
-(min-resolution: 192dpi),
-(-webkit-min-device-pixel-ratio: 2) {
-    .hero-content {
-        background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
-            url('../images/chocolate_main-2x-desk.webp');
-    }
-}
-*/
 .hero-title {
     font-family: var(--font-family);
     font-weight: 500;
