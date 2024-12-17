@@ -240,8 +240,8 @@ ul {
 }
 
 .header-button {
-    width: 28px;
-    height: 28px;
+    width: 24px;
+    height: 16px;
     display: flex;
     align-items: center;
     background-color: transparent;
