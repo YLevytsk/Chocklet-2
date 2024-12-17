@@ -251,6 +251,10 @@ header-button {
     justify-content: center;
 
 }
+.header-button-svg{
+    stroke-width: 2px;
+    stroke: #111;
+  }
 
 .header-button-svg {
     display: block;
