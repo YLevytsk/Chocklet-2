@@ -253,7 +253,7 @@ ul {
 }
 
 .header-button-svg {
-    display: flex;
+    display: block;
     fill: var(--main);
 }
 
