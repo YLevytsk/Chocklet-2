@@ -256,11 +256,6 @@ ul {
     stroke: #111;
   }
 
-.header-button-svg {
-   
-    fill: var(--main);
-}
-
 .navi-link-menu:hover,
 .navi-link-menu:focus {
     color: var(--accent);
