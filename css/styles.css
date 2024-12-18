@@ -465,17 +465,17 @@ ul {
 .mobile-menu {
     font-family: var(--font-family);
     position: fixed;
-    background-color: #1E1823;
+    background-color: #1e1823;
+    max-width: 220px;
+    min-height: 100vh;
     top: 0;
     right: 0;
-    width: 220px;
-    height: 100%;
     z-index: 999;
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      color 250ms visibility (0.4, 0, 0.2, 1);
 }
 
 .mobile-menu.is-open {
@@ -483,7 +483,7 @@ ul {
    
 }
 
-.mobile-menu {
+mobile-menu {
     display: none;
    
 }
@@ -491,7 +491,7 @@ ul {
 .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
-    pointer-events: auto;
+    pointer-events: visible;
 }
 
 .mobile-container {
@@ -528,7 +528,7 @@ ul {
 }
 
 
-mobile-messengers-list {
+.mobile-messengers-list {
     display: flex;
     gap: 14px;
 }
