@@ -55,15 +55,17 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 .modal-nav-soc-wrap {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+
     min-height: 100%;
     align-items: center;
     padding-top: 20px;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -83,36 +85,40 @@ logo-icon {
     height: 21px;
     margin-right: 4px;
 }
+
 .icon-menu {
     stroke-width: 2px;
     stroke: #111;
-  }
+}
+
 .logo-icon {
     fill: #fcf1e0;
     stroke-width: 1.8px;
     stroke: #fd9222;
-  }
+}
 
 .logo-wrap {
     display: flex;
     align-items: center;
-  }
-  .header {
+}
+
+.header {
     padding-top: 20px;
     padding-bottom: 14px;
-  }
-  .header-container {
+}
+
+.header-container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
 
 .navigation .burger-icon {
     stroke-width: 2px;
     stroke: #111;
-   
-   
+
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -239,7 +245,7 @@ ul {
     display: none;
 }
 
- .burger-icon {
+.burger-icon {
     width: 24px;
     height: 16px;
     display: flex;
@@ -251,10 +257,11 @@ ul {
     justify-content: center;
 
 }
-.header-button-svg{
+
+.header-button-svg {
     stroke-width: 2px;
     stroke: #111;
-  }
+}
 
 .navi-link-menu:hover,
 .navi-link-menu:focus {
@@ -290,7 +297,7 @@ ul {
         display: flex;
         align-items: center;
         gap: 28px;
-      }
+    }
 
     .logo-icon {
         margin-bottom: -2px;
@@ -475,17 +482,17 @@ ul {
     visibility: hidden;
     pointer-events: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      color 250ms visibility (0.4, 0, 0.2, 1);
+        color 250ms visibility (0.4, 0, 0.2, 1);
 }
 
 .mobile-menu.is-open {
     display: block;
-   
+
 }
 
 mobile-menu {
     display: none;
-   
+
 }
 
 .mobile-menu.is-open {
@@ -505,14 +512,14 @@ mobile-menu {
 
 .mobile-button {
     position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 28px;
-  height: 28px;
-  padding: 5px;
-  background-color: transparent;
-  border: none;
-  margin-bottom: 88px;
+    top: 20px;
+    right: 20px;
+    width: 28px;
+    height: 28px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 88px;
 }
 
 .mobile-nav-wrap {
@@ -625,8 +632,8 @@ soc_nets_link-mod:focus .net_icon-mod {
 }
 
 @media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
     .hero-content {
         background-image: linear-gradient(rgba(17, 17, 17, 0.4), rgba(17, 17, 17, 0.4)),
             url(../images/chocolate_main-2x-mob.webp);
@@ -710,14 +717,17 @@ soc_nets_link-mod:focus .net_icon-mod {
     background-color: #fcf1e0;
     color: var(--accent);
 }
+
 .btn-secondary:hover,
 .btn-secondary:focus {
     background-color: #fcf1e0;
-    color: var(--accent);}
+    color: var(--accent);
+}
 
 .hero-link-sellers {
     display: none;
-  }
+}
+
 .hero-link-scroll {
     font-weight: 500;
     font-size: 12px;
@@ -727,176 +737,213 @@ soc_nets_link-mod:focus .net_icon-mod {
     display: flex;
     align-items: center;
     gap: 12px;
-     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .hero-link-scroll:hover,
-    .hero-link-scroll:focus {
-        color: var(--accent);
-    }
-
-    .hero-link-scroll:hover .scroll-round, 
-    .hero-link-scroll:focus .scroll-round {
-      background-color: var(--accent);
-    }
-    
-    .hero-link-scroll:hover , 
-    .hero-link-scroll:focus  {
-      fill: var(--accent);
-    }
-    .icon-scroll:hover,
-    .icon-scroll:focus {
-        fill: var(--cards)
-    }
-    .scroll-round {
-      display: inline-block;
-      padding: 6px;
-      background-color: #fff;
-      border-radius: 50px;
-      width: 28px;
-      height: 28px;
-      box-sizing: border-box;
-       transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .icon-scroll {
-      fill: #fd9222;
-      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    @media screen and (min-width: 768px) {
-        .hero {
-          padding-bottom: 40px;
-        }
-      
-        .hero-content {
-          max-width: 704px;
-          background-image: linear-gradient(
-              to bottom,
-              rgba(17, 17, 17, 0.4),
-              rgba(17, 17, 17, 0.4)
-            ),
-            url(../images/chocolate_main-1x-tab.webp);
-          padding-top: 671px;
-          padding-bottom: 40px;
-        }}
-
-        @media screen and (min-device-pixel-ratio: 2),
-        screen and (min-resolution: 192dpi),
-        screen and (min-resolution: 2dppx) {
-        .hero-container {
-          background-image: linear-gradient(
-              to bottom,
-              rgba(17, 17, 17, 0.4),
-              rgba(17, 17, 17, 0.4)
-            ),
-            url(../images/chocolate_main-2x-tab.webp);
-        }
-      }   
-
- @media screen and (min-width: 768px) {     
-  .hero-title {
-    font-size: 28px;
-    max-width: 484px;
-  }
-  .hero-link-scroll:last-child { 
-    display: flex;
-    white-space: nowrap;
-    margin-left: 153px;
-    justify-content: flex-end;
-  }
-  .hero-btn-link-wrap {
-    display: flex;
-    justify-content: space-between;
-  }
-  .hero-buttons {
-    justify-content: start;
-    margin-bottom: 0;
-  }
-
-  .btn-primary{
-    width: 144px;
-    height: 45px;
-  }
-
-  .btn-secondary{
-    width: 183px;
-    height: 45px;
-  }
-
-  .hero-link-scroll {
-    font-size: 14px;
-    line-height: 1.29;
-    
-  }
- 
-  .scroll-round {
-    display: inline-block;
-    padding: 8px;
-    width: 38px;
-    height: 38px;
-  }
-
-  .icon-scroll {
-    width: 22px;
-    height: 22px;
-  }
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.hero-link-scroll:hover,
+.hero-link-scroll:focus {
+    color: var(--accent);
+}
+
+.hero-link-scroll:hover .scroll-round,
+.hero-link-scroll:focus .scroll-round {
+    background-color: var(--accent);
+}
+
+.hero-link-scroll:hover,
+.hero-link-scroll:focus {
+    fill: var(--accent);
+}
+
+.icon-scroll:hover,
+.icon-scroll:focus {
+    fill: var(--cards)
+}
+
+.scroll-round {
+    display: inline-block;
+    padding: 6px;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-scroll {
+    fill: #fd9222;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-bottom: 40px;
+    }
+
+    .hero-content {
+        max-width: 704px;
+        background-image: linear-gradient(to bottom,
+                rgba(17, 17, 17, 0.4),
+                rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-1x-tab.webp);
+        padding-top: 671px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+    .hero-container {
+        background-image: linear-gradient(to bottom,
+                rgba(17, 17, 17, 0.4),
+                rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-2x-tab.webp);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero-title {
+        font-size: 28px;
+        max-width: 484px;
+    }
+
+    .hero-link-scroll:last-child {
+        display: flex;
+        white-space: nowrap;
+        margin-left: 153px;
+        justify-content: flex-end;
+    }
+
+    .hero-btn-link-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero-buttons {
+        justify-content: start;
+        margin-bottom: 0;
+    }
+
+    .btn-primary {
+        width: 144px;
+        height: 45px;
+    }
+
+    .btn-secondary {
+        width: 183px;
+        height: 45px;
+    }
+
+    .hero-link-scroll {
+        font-size: 14px;
+        line-height: 1.29;
+
+    }
+
+    .scroll-round {
+        display: inline-block;
+        padding: 8px;
+        width: 38px;
+        height: 38px;
+    }
+
+    .icon-scroll {
+        width: 22px;
+        height: 22px;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .hero {
-      padding-bottom: 80px;
+        padding-bottom: 80px;
     }
-    .hero-link-scroll:last-child { 
+
+    .hero-link-scroll:last-child {
         display: flex;
         white-space: nowrap;
         margin-left: 388px;
         justify-content: flex-end;
-      }
+    }
 
-    
+
     .hero-content {
-      max-width: 1136px;
-      background-image: linear-gradient(
-          to bottom,
-          rgba(17, 17, 17, 0.4),
-          rgba(17, 17, 17, 0.4)
-        ),
-        url(../images/chocolate_main-1x-desk.webp);
-      padding-top: 381px;
-      padding-bottom: 40px;
+        max-width: 1136px;
+        background-image: linear-gradient(to bottom,
+                rgba(17, 17, 17, 0.4),
+                rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-1x-desk.webp);
+        padding-top: 381px;
+        padding-bottom: 40px;
     }
 }
-  
+
 @media screen and (min-device-pixel-ratio: 2),
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
-      .hero-content {
-        background-image: linear-gradient(
-            to bottom,
-            rgba(17, 17, 17, 0.4),
-            rgba(17, 17, 17, 0.4)
-          ),
-          url(../images/chocolate_main-1x-desk.webp);
-      }
+    .hero-content {
+        background-image: linear-gradient(to bottom,
+                rgba(17, 17, 17, 0.4),
+                rgba(17, 17, 17, 0.4)),
+            url(../images/chocolate_main-1x-desk.webp);
     }
-    @media screen and (min-width: 1200px){
-    .hero-link-sellers{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 1px solid #fff;
-      border-radius: 100px;
-      font-weight: 600;
-      font-size: 14px;
-      width: 183px;
-      height: 45px;
-      color: var(--cards);
-      box-sizing: border-box;
-       transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+    .hero-link-sellers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff;
+        border-radius: 100px;
+        font-weight: 600;
+        font-size: 14px;
+        width: 183px;
+        height: 45px;
+        color: var(--cards);
+        box-sizing: border-box;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-  
+
     .hero-link-sellers:hover,
     .hero-link-sellers:focus {
         background-color: #fcf1e0;
         color: var(--accent);
     }
 }
+
+/* 2 Sektion*/
+.skills-title {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+color: var(--cards);
+}
+.section-second {
+    background: var(--main);
+}
+.skills-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+
+    color: var(--cards);  
+}
+.icon-bg {
+    fill: var(--accent);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+border-radius: 365px;
+width: 62px;
+height: 62px;
+align-items: center;
+justify-content: center;
+margin-bottom: 8px;
+display: flex;
+}
+.section-second {
+    padding: 80px 0;
+}
+
