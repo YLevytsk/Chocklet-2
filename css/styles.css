@@ -986,16 +986,16 @@ display: flex;
         width: calc((100% - 88px) / 2); 
         box-sizing: border-box;
         }
-    } 
+ 
     .skills-text {
         max-width: 308px;
     }
     .skills-list{
         flex-wrap: wrap;
         display: flex;          
-       flex-direction: row; 
+    
     }
-
+ }
 @media screen and (max-width: 1200px) {
     .section-second {
         max-width: 1200px;
