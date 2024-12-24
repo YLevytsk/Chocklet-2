@@ -975,7 +975,9 @@ display: flex;
     .skills-list-item {
             width: calc((100% - 88px) / 2);
         }
-    
+    } 
+    .skills-list{
+    row-gap: 88px;
     }
 
 @media screen and (max-width: 1200px) {
