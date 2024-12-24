@@ -914,6 +914,13 @@ screen and (min-resolution: 2dppx) {
 }
 
 /* 2 Sektion*/
+.skills-list{
+    display: flex;
+    flex-direction: column;            
+    align-items: center;     
+    justify-content: center; 
+}
+
 .skills-title {
     font-family: var(--font-family);
 font-weight: 600;
