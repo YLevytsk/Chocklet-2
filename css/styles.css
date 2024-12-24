@@ -929,7 +929,8 @@ color: var(--cards);
     font-size: 14px;
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
-    color: var(--cards);  
+    color: var(--cards); 
+    margin-bottom: 32px; 
 }
 .icon-bg {
     fill: var(--accent);
@@ -941,13 +942,21 @@ align-items: center;
 justify-content: center;
 margin-bottom: 8px;
 display: flex;
+
 }
 .section-second {
-    padding: 80px 0;
+    padding: 20px;
     max-width: 375px;
     align-items: center;
     justify-content: center;
     display: flex;
 
 }
+.skills-title {
+    margin-bottom: 18px; /* Отступ вниз от заголовка до текста */
+  }
+  
+  .skills-text {
+    margin-bottom: 20px; /* Отступ вниз от текста до следующего блока */
+  }
 
