@@ -975,11 +975,13 @@ display: flex;
     .skills-list-item {
             width: calc((100% - 88px) / 2); 
            box-sizing: border-box;
-           max-width: 308px;
         }
     } 
-    .skills-list{
-    row-gap: 88px;
+    .skills-text {
+        max-width: 308px;
+    }
+    skills-list{
+        flex-wrap: wrap;
     }
 
 @media screen and (max-width: 1200px) {
