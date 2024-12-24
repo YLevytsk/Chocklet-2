@@ -990,7 +990,7 @@ display: flex;
     .skills-text {
         max-width: 308px;
     }
-    .skills-list{
+    .skills-list {
         flex-wrap: wrap;
         display: flex;          
     
