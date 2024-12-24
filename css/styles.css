@@ -962,6 +962,8 @@ display: flex;
  .skills-list-item {
     margin-bottom: 20px;
  }
+
+ 
  @media screen and (max-width: 767px) {
     .skills-list-item:not(:last-child) {
         margin-bottom: 100px;
