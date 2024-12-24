@@ -977,7 +977,7 @@ screen and (min-resolution: 2dppx) {
  }
 
 
- @media screen and (max-width: 767px) {
+ @media screen and (min-width: 767px) {
     .skills-list-item:not(:last-child) {
         margin-bottom: 100px;
     }
@@ -987,7 +987,7 @@ screen and (min-resolution: 2dppx) {
     
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
-        box-sizing: border-box;
+       max-width: 308px;
         }
  
     .skills-text {
@@ -1000,8 +1000,13 @@ screen and (min-resolution: 2dppx) {
         column-gap: 88px;          
     }
  }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .section-second {
         max-width: 1200px;
     }
+    .skills-list{
+        display: flex;
+        flex-direction: row;
+
+}
 }
