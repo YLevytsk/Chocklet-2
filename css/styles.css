@@ -915,7 +915,8 @@ screen and (min-resolution: 2dppx) {
 
 /* 2 Sektion*/
 .skills-list{
-    display: flex;           
+    display: flex;
+    flex-direction: column;           
     gap: 20px;
     padding-right: 28px; 
 }
