@@ -918,6 +918,7 @@ screen and (min-resolution: 2dppx) {
     display: flex;
     flex-direction: column;           
     gap: 20px;
+    max-width: 100%;
     padding-right: 28px; 
 }
 
