@@ -915,10 +915,10 @@ screen and (min-resolution: 2dppx) {
 
 /* 2 Sektion*/
 .skills-list{
-    display: flex;
-    flex-direction: column;            
-    align-items: center;     
-    justify-content: center; 
+    display: flex;           
+    gap: 20px;
+    padding-right: 28px;
+  
 }
 
 .skills-title {
@@ -963,14 +963,15 @@ display: flex;
 
 }
 .skills-title {
-    margin-bottom: 18px; /* Отступ вниз от заголовка до текста */
+    margin-bottom: 18px; 
   }
   
   .skills-text {
-    margin-bottom: 20px; /* Отступ вниз от текста до следующего блока */
+    margin-bottom: 20px;
   }
  .skills-list-item {
     margin-bottom: 20px;
+    justify-content: space-between;
  }
 
 
@@ -990,10 +991,10 @@ display: flex;
     .skills-text {
         width: 308px;
     }
+
     .skills-list {
         flex-wrap: wrap;
         display: flex;          
-    
     }
  }
 @media screen and (max-width: 1200px) {
