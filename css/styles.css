@@ -972,8 +972,10 @@ display: flex;
         max-width: 768px;
     }
     
+    
     .skills-list-item {
-            width: calc((100% - 88px) / 2);
+            width: calc((100% - 88px) / 2); 
+           box-sizing: border-box;
         }
     } 
     .skills-list{
