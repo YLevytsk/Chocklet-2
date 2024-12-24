@@ -946,7 +946,7 @@ display: flex;
 }
 .section-second {
     padding: 20px;
-    max-width: 375px;
+    min-width: 375px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -963,7 +963,7 @@ display: flex;
     margin-bottom: 20px;
  }
 
- 
+
  @media screen and (max-width: 767px) {
     .skills-list-item:not(:last-child) {
         margin-bottom: 100px;
@@ -971,7 +971,13 @@ display: flex;
     .section-second {
         max-width: 768px;
     }
-}
+    
+    .skills-list-item {
+            width: calc((100% - 88px) / 2);
+        }
+    
+    }
+
 @media screen and (max-width: 1200px) {
     .section-second {
         max-width: 1200px;
