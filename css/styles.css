@@ -1138,3 +1138,6 @@ color: var(--background);
     padding-top: 32px;
     padding-bottom: 16px;
 }
+.picture-descr {
+    padding-left: 28px;
+}
