@@ -1091,8 +1091,10 @@ color: var(--background);
     color: var(--main);
     border: 1px solid var(--accent);
     border-radius: 15px;
-    width: 335px;
     height: 270px;
+    width: 100%;
+    position: relative;
+
 }
 .ingredients-list-item:nth-child(3) .ingredients-item-wrapper {
     background-color: var(--main);
