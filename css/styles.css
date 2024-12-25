@@ -1083,6 +1083,7 @@ color: var(--background);
 }
 .ingredients-list-item:nth-child(2) .ingredients-item-wrapper {
     background-color: var(--cards);
+    color: var(--main);
 }
 .ingredients-list-item:nth-child(3) .ingredients-item-wrapper {
     background-color: var(--main);
