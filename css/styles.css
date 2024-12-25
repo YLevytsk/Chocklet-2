@@ -1067,7 +1067,7 @@ section-second {
     border-radius: 15px;
     width: 335px;
     height: 270px;
-    background: var(--accent); 
+    
 }
 .picture-descr {
     font-family: var(--font-family);
