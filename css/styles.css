@@ -921,7 +921,7 @@ screen and (min-resolution: 2dppx) {
     max-width: 100%;
     padding-right: 28px; 
 }
-.about-us-container {
+.about-us-wrapper {
     padding: 20px;
 }
 .skills-title {
@@ -980,11 +980,11 @@ section-second {
 
 
  @media screen and (min-width: 767px) {
-    .about-us-container {
+    .about-us-wrapper{
         padding: 32px;
       }
 
-    .skills-list-item {
+    skills-list-item {
         max-width: 308px;
     }
 
@@ -1003,7 +1003,7 @@ section-second {
     }
  
 @media screen and (min-width: 1200px) {
-    .about-us-container {
+    .about-us-wrapper {
         padding: 50px;
       }
 
