@@ -1061,4 +1061,20 @@ section-second {
 }
 .ingredients-list-item {
     margin-bottom: 20px;
+
+}
+.ingredients-item-wrapper {
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
+    background: var(--accent); 
+}
+.picture-descr {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--background);
 }
