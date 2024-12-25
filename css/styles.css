@@ -1080,6 +1080,9 @@ color: var(--background);
 }
 .ingredients-list-item:nth-child(1) .ingredients-item-wrapper {
     background-color: var(--accent);
+    position: relative;
+    width: 100%;
+    height: 270px;
 }
 .ingredients-list-item:nth-child(2) .ingredients-item-wrapper,
 .ingredients-list-item:nth-child(4) .ingredients-item-wrapper 
