@@ -1081,9 +1081,15 @@ color: var(--background);
 .ingredients-list-item:nth-child(1) .ingredients-item-wrapper {
     background-color: var(--accent);
 }
-.ingredients-list-item:nth-child(2) .ingredients-item-wrapper {
+.ingredients-list-item:nth-child(2) .ingredients-item-wrapper,
+.ingredients-list-item:nth-child(4) .ingredients-item-wrapper 
+ {
     background-color: var(--cards);
     color: var(--main);
+    border: 1px solid var(--orange);
+    border-radius: 15px;
+    width: 335px;
+    height: 270px;
 }
 .ingredients-list-item:nth-child(3) .ingredients-item-wrapper {
     background-color: var(--main);
@@ -1093,8 +1099,5 @@ color: var(--background);
 .ingredients-list-item:nth-child(4) .ingredients-item-wrapper .picture-descr
 {
     color: var(--main);
-    border: 1px solid var(--orange);
-    border-radius: 15px;
-    width: 335px;
-height: 270px;
+
 }
