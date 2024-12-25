@@ -1078,3 +1078,9 @@ letter-spacing: -0.02em;
 text-transform: uppercase;
 color: var(--background);
 }
+.ingredients-list-item:nth-child(1) .ingredients-item-wrapper {
+    background-color: var(--accent);
+}
+.ingredients-list-item:nth-child(2) .ingredients-item-wrapper {
+    background-color: var(--cards);
+}
