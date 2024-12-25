@@ -1068,7 +1068,7 @@ section-second {
     width: 335px;
     height: 270px;    
 }
-.arrow {
+arrow {
     position: absolute;
     top: 14px;
     right: 14px;
@@ -1117,7 +1117,7 @@ color: var(--background);
     fill: transparent;
     stroke: var(--cards);
     position: absolute;
-    top: 14px;
+    top: auto;
     right: 14px;
 }
 .ingredients-list-item:nth-child(1) .ingredients-item-wrapper {
