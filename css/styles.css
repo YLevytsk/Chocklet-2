@@ -1056,3 +1056,6 @@ section-second {
 .ingredients-wrapper {
     padding: 20px;
 }
+.ingredients-list {
+    margin-top: 32px;
+}
