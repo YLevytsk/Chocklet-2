@@ -997,8 +997,9 @@ section-second {
         display: flex;
         padding: 0;
         gap: 44px 88px; 
-        display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
+
                  
      } 
     }
