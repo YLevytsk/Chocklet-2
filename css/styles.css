@@ -916,10 +916,8 @@ screen and (min-resolution: 2dppx) {
 /* 2 Sektion*/
 .skills-list{
     display: flex;
-    flex-direction: column;           
-    gap: 20px;
-    max-width: 100%;
-    padding-right: 28px; 
+        flex-wrap: wrap;
+        gap: 38px 0;
 }
 .about-us-wrapper {
     padding: 20px;
@@ -994,11 +992,7 @@ section-second {
     }
 
     .skills-list {
-        display: flex;
-        padding: 0;
-        gap: 44px 88px; 
-        flex-wrap: wrap;
-        flex-direction: row;             
+        gap: 44px 88px;               
      } 
     }
  
