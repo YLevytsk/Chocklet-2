@@ -982,13 +982,8 @@ section-second {
         padding: 32px;
       }
 
-    skills-list-item {
-        max-width: 308px;
-    }
-
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
-        justify-content: space-between;
     }
 
     .skills-list {
