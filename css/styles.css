@@ -1109,3 +1109,10 @@ color: var(--background);
     color: var(--main);
 
 }
+.ingredients-item-wrapper:nth-child(4n+1) .icon-arrow {
+    fill: transparent;
+    stroke: var(--cards);
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
