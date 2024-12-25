@@ -999,7 +999,9 @@ screen and (min-resolution: 2dppx) {
 
     .skills-list {
         padding: 0;
-        gap: 44px 88px;            
+        gap: 44px 88px; 
+        display: flex;
+        flex-wrap: wrap;           
      } 
     }
  
