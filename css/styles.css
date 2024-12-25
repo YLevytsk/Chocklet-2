@@ -1146,3 +1146,10 @@ color: var(--background);
 .picture-descr {
     padding-left: 28px;
 }
+.ingredients-item-wrapper:nth-child(2n+2) .icon-arrow  {
+    fill: transparent;
+    stroke: var(--accent);
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
