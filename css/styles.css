@@ -982,8 +982,6 @@ screen and (min-resolution: 2dppx) {
     .section-second {
     padding: 50px 32px;
     margin-bottom: 100px;
-    max-width: 768px;
-    max-width: 100%;
     }
 
     .skills-list-item {
@@ -999,7 +997,8 @@ screen and (min-resolution: 2dppx) {
         padding: 0;
         gap: 44px 88px; 
         display: flex;
-        flex-wrap: wrap;           
+        flex-wrap: wrap;
+        flex-direction: row;          
      } 
     }
  
