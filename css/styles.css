@@ -1068,8 +1068,8 @@ section-second {
     width: 335px;
     height: 270px;    
 }
-.icon-arrow {
-    display: block;
+.arrow {
+    display: flex;
     position: absolute;
     top: 14px;
     right: 14px;
@@ -1114,7 +1114,7 @@ color: var(--background);
     color: var(--main);
 
 }
-.ingredients-item-wrapper:nth-child(4n+1) .icon-arrow {
+.ingredients-item-wrapper:nth-child(4n+1) .arrow {
     fill: transparent;
     stroke: var(--cards);
     position: absolute;
@@ -1146,7 +1146,7 @@ color: var(--background);
 .picture-descr {
     padding-left: 28px;
 }
-.ingredients-item-wrapper:nth-child(2n+2) .icon-arrow  {
+.ingredients-item-wrapper:nth-child(2n+2) .arrow  {
     fill: transparent;
     stroke: var(--accent);
     position: absolute;
