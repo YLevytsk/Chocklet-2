@@ -978,16 +978,12 @@ screen and (min-resolution: 2dppx) {
 
 
  @media screen and (min-width: 767px) {
-    .skills-list-item:not(:last-child) {
-        margin-bottom: 100px;
-    }
     .section-second {
     padding: 50px 32px;
     margin-bottom: 100px;
-}
-    .section-second {
-        max-width: 768px;
+    max-width: 768px;
     }
+
     .section-about {
         padding: 32px;
     }
@@ -998,13 +994,7 @@ screen and (min-resolution: 2dppx) {
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
         flex-direction: row;
-        
         }
-
-    .skills-list-item {
-        flex: 1 1 calc(50% - 20px); /* Задаем ширину элементов, чтобы два блока помещались в строку */
-        box-sizing: border-box;     /* Чтобы отступы учитывались в расчете */
-         }
 
     .skills-list {
         padding: 0;
