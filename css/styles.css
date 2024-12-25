@@ -1129,3 +1129,6 @@ color: var(--background);
     border-radius: 15px;
     position: relative;
 }
+.ingredient-photo { 
+    padding: 32px 49px 62px 50px;
+ }
