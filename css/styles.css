@@ -984,29 +984,38 @@ screen and (min-resolution: 2dppx) {
     .section-second {
         max-width: 768px;
     }
-    
+    .section-about {
+        padding: 32px;
+    }
+
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
        max-width: 308px;
         }
- 
-    .skills-text {
-        width: 308px;
-    }
-
+    .skills-list-item {
+            flex: 1 1 calc(50% - 20px); /* Задаем ширину элементов, чтобы два блока помещались в строку */
+            box-sizing: border-box;     /* Чтобы отступы учитывались в расчете */
+          }
     .skills-list {
-        padding: 0;
-        row-gap: 44px;
-        column-gap: 88px;          
+            display: flex;             
+            flex-wrap: wrap;          
+            gap: 88px;                 
+          }          
     }
- }
+ 
 @media screen and (min-width: 1200px) {
     .section-second {
         max-width: 1200px;
+    }
+    .section-about {
+        padding: 50px;
     }
     .skills-list{
         display: flex;
         flex-direction: row;
 
+}
+.skills-list-item {
+     max-width: calc((100% - 88px * 2) / 3);
 }
 }
