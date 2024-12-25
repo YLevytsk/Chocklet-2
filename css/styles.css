@@ -990,7 +990,6 @@ section-second {
 
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
-        flex-direction: row;
         justify-content: space-between;
         }
 
