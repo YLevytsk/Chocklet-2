@@ -1164,3 +1164,6 @@ color: var(--background);
     padding: 0; /* Убедитесь, что нет внутренних отступов */
     box-sizing: content-box;
 }
+.ingredients-item-wrapper:nth-child(2) .arrow,
+.ingredients-item-wrapper:nth-child(4) .arrow {
+  fill: var(--accent); }
