@@ -1094,7 +1094,7 @@ color: var(--background);
 {
     color: var(--main);
     border: 1px solid var(--orange);
-border-radius: 15px;
-width: 335px;
+    border-radius: 15px;
+    width: 335px;
 height: 270px;
 }
