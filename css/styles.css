@@ -991,9 +991,10 @@ section-second {
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
         justify-content: space-between;
-        }
+    }
 
     .skills-list {
+        display: flex;
         padding: 0;
         gap: 44px 88px; 
         display: flex;
