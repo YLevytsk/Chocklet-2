@@ -1089,6 +1089,8 @@ color: var(--background);
     background-color: var(--main);
    
 }
-ingredients-list-item:nth-child(2) .ingredients-item-wrapper .picture-descr {
-    color: var(--main); /* Текст на белой карточке будет черным */
+.ingredients-list-item:nth-child(2) .ingredients-item-wrapper .picture-descr,
+.ingredients-list-item:nth-child(4) .ingredients-item-wrapper .picture-descr
+{
+    color: var(--main);
 }
