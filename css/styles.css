@@ -982,16 +982,23 @@ screen and (min-resolution: 2dppx) {
         margin-bottom: 100px;
     }
     .section-second {
+    padding: 50px 32px;
+    margin-bottom: 100px;
+}
+    .section-second {
         max-width: 768px;
     }
     .section-about {
         padding: 32px;
     }
+    .skills-list-item {
+        max-width: 308px;
+    }
 
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
         flex-direction: row;
-        max-width: 308px;
+        
         }
 
     .skills-list-item {
@@ -1001,8 +1008,7 @@ screen and (min-resolution: 2dppx) {
 
     .skills-list {
         padding: 0;
-        row-gap: 44px;
-        column-gap: 88px;                
+        gap: 44px 88px;            
      } 
     }
  
