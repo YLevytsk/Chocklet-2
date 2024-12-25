@@ -1032,6 +1032,7 @@ section-second {
 /*ingredients*/
 .ingredients {
     max-width: 100%;
+    margin-top: 88px;
 }
 .ingredients-wrapper {
     display: flex;
@@ -1051,4 +1052,7 @@ section-second {
 }
 .ingredients-title-item {
     color: #fd9222;
+}
+.ingredients-wrapper {
+    padding: 20px;
 }
