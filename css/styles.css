@@ -1167,5 +1167,7 @@ ingredients-list-item:nth-child(4n+1) {
 .ingredients-item-wrapper:nth-child(2) .arrow,
 .ingredients-item-wrapper:nth-child(4) .arrow {
   fill: var(--accent); }
-  ingredients-item-wrapper:first-child .arrow {
-    fill: var(--cards);}
+.ingredients-item-wrapper:nth-child(2n+1) .arrow {
+    fill: var(--white); /* Белый цвет стрелки */
+   
+  }
