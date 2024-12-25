@@ -1004,16 +1004,14 @@ screen and (min-resolution: 2dppx) {
     }
  
 @media screen and (min-width: 1200px) {
- 
     .section-about {
         padding: 50px;
     }
     .skills-list{
         display: flex;
         flex-direction: row;
-
-}
-.skills-list-item {
+    }
+    .skills-list-item {
      max-width: calc((100% - 88px * 2) / 3);
-}
+    }
 }
