@@ -1059,3 +1059,6 @@ section-second {
 .ingredients-list {
     margin-top: 32px;
 }
+.ingredients-list-item {
+    margin-bottom: 20px;
+}
