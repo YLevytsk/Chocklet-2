@@ -1017,3 +1017,12 @@ screen and (min-resolution: 2dppx) {
         line-height: 129%;
     }
 }
+@media screen and (min-width: 1200px) {
+    .benefits-line {
+        display: block;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 0px;
+        height: 124px;
+        margin-top: 60px;
+    }
+}
