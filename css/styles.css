@@ -1026,4 +1026,7 @@ section-second {
         height: 124px;
         margin-top: 60px;
     }
+    .skills-list {
+        flex-wrap: nowrap;
+    }
 }
