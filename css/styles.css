@@ -931,6 +931,7 @@ screen and (min-resolution: 2dppx) {
 
 .section-second {
     background: var(--main);
+    max-width: 100%;
 }
 
 .skills-text {
@@ -960,7 +961,7 @@ screen and (min-resolution: 2dppx) {
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-direction: column; 
+   
 }
 
 .skills-title {
@@ -985,9 +986,6 @@ screen and (min-resolution: 2dppx) {
     max-width: 100%;
     }
 
-    .section-about {
-        padding: 32px;
-    }
     .skills-list-item {
         max-width: 308px;
     }
@@ -1006,9 +1004,7 @@ screen and (min-resolution: 2dppx) {
     }
  
 @media screen and (min-width: 1200px) {
-    .section-second {
-        max-width: 1200px;
-    }
+ 
     .section-about {
         padding: 50px;
     }
