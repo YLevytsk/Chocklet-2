@@ -981,10 +981,9 @@ screen and (min-resolution: 2dppx) {
 
 
  @media screen and (min-width: 767px) {
-    section-second {
-    padding: 50px 32px;
-    margin-bottom: 100px;
-    }
+    .about-us-container {
+        padding: 32px;
+      }
 
     .skills-list-item {
         max-width: 308px;
@@ -1005,9 +1004,10 @@ screen and (min-resolution: 2dppx) {
     }
  
 @media screen and (min-width: 1200px) {
-    section-second {
+    .about-us-container {
         padding: 50px;
-    }
+      }
+      
     .skills-list{
         display: flex;
         flex-direction: row;
