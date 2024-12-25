@@ -921,7 +921,9 @@ screen and (min-resolution: 2dppx) {
     max-width: 100%;
     padding-right: 28px; 
 }
-
+.about-us-container {
+    padding: 20px;
+}
 .skills-title {
     font-family: var(--font-family);
     font-weight: 600;
@@ -979,7 +981,7 @@ screen and (min-resolution: 2dppx) {
 
 
  @media screen and (min-width: 767px) {
-    .section-second {
+    section-second {
     padding: 50px 32px;
     margin-bottom: 100px;
     }
@@ -1003,7 +1005,7 @@ screen and (min-resolution: 2dppx) {
     }
  
 @media screen and (min-width: 1200px) {
-    .section-second {
+    section-second {
         padding: 50px;
     }
     .skills-list{
