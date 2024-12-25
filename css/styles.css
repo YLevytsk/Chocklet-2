@@ -1070,6 +1070,9 @@ section-second {
 }
 .icon-arrow {
     display: block;
+    position: absolute;
+    top: 14px;
+    right: 14px;
 }
 .picture-descr {
     font-family: var(--font-family);
