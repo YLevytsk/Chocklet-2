@@ -957,7 +957,7 @@ screen and (min-resolution: 2dppx) {
     display: flex;
 }
 
-.section-second {
+section-second {
     min-width: 375px;
     align-items: center;
     justify-content: center;
