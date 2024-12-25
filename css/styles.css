@@ -1033,7 +1033,7 @@ section-second {
 .ingredients {
     max-width: 100%;
 }
-ingredients-wrapper {
+.ingredients-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
