@@ -916,8 +916,8 @@ screen and (min-resolution: 2dppx) {
 /* 2 Sektion*/
 .skills-list{
     display: flex;
-        flex-wrap: wrap;
-        gap: 38px 0;
+    flex-wrap: wrap;
+     gap: 38px 0;
 }
 .about-us-wrapper {
     padding: 20px;
@@ -987,8 +987,12 @@ section-second {
     }
 
     .skills-list {
-        gap: 44px 88px;               
+        
+        flex-direction: row;              
      } 
+     .skills-list-item:nth-child(1) {
+        margin-right: 88px; 
+    }
     }
  
 @media screen and (min-width: 1200px) {
@@ -1017,5 +1021,12 @@ section-second {
     }
     .skills-list {
         flex-wrap: nowrap;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+        
+    }  .skills-list-item:nth-child(1) {
+        margin-right: 0;
     }
+
 }
