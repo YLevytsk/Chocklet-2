@@ -1087,5 +1087,8 @@ color: var(--background);
 }
 .ingredients-list-item:nth-child(3) .ingredients-item-wrapper {
     background-color: var(--main);
-    color: white; /* Если нужно, чтобы текст был виден на чёрном фоне */
+    color: var(--cards); /* Если нужно, чтобы текст был виден на чёрном фоне */
+}
+ingredients-list-item:nth-child(2) .ingredients-item-wrapper .picture-descr {
+    color: var(--main); /* Текст на белой карточке будет черным */
 }
