@@ -1033,3 +1033,8 @@ section-second {
 .ingredients {
     max-width: 100%;
 }
+ingridients-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
