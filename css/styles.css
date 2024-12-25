@@ -1033,8 +1033,19 @@ section-second {
 .ingredients {
     max-width: 100%;
 }
-ingridients-wrapper {
+ingredients-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.ingredients-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+    max-width: 283px;
+    margin-bottom: 32px;
 }
