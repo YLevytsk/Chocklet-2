@@ -1003,7 +1003,7 @@ screen and (min-resolution: 2dppx) {
     }
  
 @media screen and (min-width: 1200px) {
-    .section-about {
+    .section-second {
         padding: 50px;
     }
     .skills-list{
