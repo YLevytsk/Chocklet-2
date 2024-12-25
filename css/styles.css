@@ -1013,4 +1013,7 @@ screen and (min-resolution: 2dppx) {
     .skills-list-item {
      max-width: calc((100% - 88px * 2) / 3);
     }
+    .skills-text {
+        line-height: 129%;
+    }
 }
