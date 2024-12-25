@@ -991,6 +991,7 @@ section-second {
     .skills-list-item {
         width: calc((100% - 88px) / 2); 
         flex-direction: row;
+        justify-content: space-between;
         }
 
     .skills-list {
@@ -998,7 +999,7 @@ section-second {
         gap: 44px 88px; 
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;          
+                 
      } 
     }
  
