@@ -958,7 +958,6 @@ screen and (min-resolution: 2dppx) {
 }
 
 .section-second {
-    padding: 20px;
     min-width: 375px;
     align-items: center;
     justify-content: center;
@@ -1007,7 +1006,7 @@ screen and (min-resolution: 2dppx) {
     .about-us-container {
         padding: 50px;
       }
-      
+
     .skills-list{
         display: flex;
         flex-direction: row;
