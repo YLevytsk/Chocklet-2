@@ -1066,8 +1066,10 @@ section-second {
 .ingredients-item-wrapper {
     border-radius: 15px;
     width: 335px;
-    height: 270px;
-    
+    height: 270px;    
+}
+.icon-arrow {
+    display: block;
 }
 .picture-descr {
     font-family: var(--font-family);
