@@ -1188,8 +1188,14 @@ arrow {
     right: 14px;
 }
 .arrow {
- position: absolute;
-top: 14px;
-right: 14px;
-fill: transparent;
-stroke: #fafafa;}
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    fill: transparent;
+    stroke: var(--accent);
+    margin: 0; /* Убедитесь, что нет внешних отступов */
+    padding: 0; /* Убедитесь, что нет внутренних отступов */
+    box-sizing: content-box;
+}
