@@ -1215,12 +1215,11 @@ screen and (min-resolution: 2dppx) {
       
       .ingredients-photo {
         max-width: 100%;
-        height: auto;
+        
       }
       
       .picture-descr {
-        margin-top: 32px; /* Отступ сверху для текста */
-        text-align: center
+      
       
 }
 }
