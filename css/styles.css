@@ -1036,10 +1036,10 @@ screen and (min-resolution: 2dppx) {
 
 /*ingredients*/
 .ingredients {
-        font-family: var(--font-family);
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+    font-family: var(--font-family);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
 .ingredients-wrapper {
     display: flex;
@@ -1069,18 +1069,19 @@ screen and (min-resolution: 2dppx) {
 }
 
 .ingredients-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
 ingredients-list-item {
     margin-bottom: 20px;
 
 
 }
-ingredients-list-item :nth-child(4n+1) {
+
+.ingredients-list-item :nth-child(4n+1) {
     background-color: var(--accent);
     width: 100%;
     height: 270px;
@@ -1104,6 +1105,7 @@ ingredients-list-item :nth-child(4n+1) {
     text-transform: uppercase;
     color: var(--cards);
 }
+
 /*
 .ingredients-list-item:nth-child(1) .ingredients-item-wrapper {
     background-color: var(--accent);
@@ -1191,42 +1193,48 @@ ingredients-item-wrapper:nth-child(4n+1) {
     top: 14px;
     right: 14px;
 }
+
 arrow {
     width: 24px;
     height: 24px;
-    
+
     top: 14px;
     right: 14px;
     fill: transparent;
     display: flex;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
     box-sizing: content-box;
 }
+
 @media screen and (min-width: 767px) {
-    .ingredients-list{
-       margin-top: 50px;
-       
+    .ingredients-list {
+        margin-top: 50px;
+
     }
+
     .ingredients-list {
         display: flex;
-        gap: 32px; /* Отступ между элементами */
+        gap: 32px;
+        /* Отступ между элементами */
         padding: 32px;
-         /* Общий отступ вокруг списка */
-      }
-      
-      .ingredients-item-wrapper {
+        /* Общий отступ вокруг списка */
+    }
+
+    .ingredients-item-wrapper {
         display: flex;
         align-items: center;
-        padding: 32px; /* Внутренний отступ вокруг содержимого */
-      }   
+        padding: 32px;
+        /* Внутренний отступ вокруг содержимого */
+    }
 }
+
 @media screen and (min-width: 768px) {
     .ingredients-list-item:nth-child(4n+3) {
         width: calc((100% - 32px) / 2);
     }
-    .ingredients-list-item {
-    flex-wrap: wrap;
-}
-}
 
+    .ingredients-list-item {
+        flex-wrap: wrap;
+    }
+}
