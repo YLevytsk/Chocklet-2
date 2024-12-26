@@ -958,13 +958,6 @@ screen and (min-resolution: 2dppx) {
     display: flex;
 }
 
-section-second {
-    min-width: 375px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-
-}
 
 .skills-title {
     margin-bottom: 18px;
@@ -1087,11 +1080,6 @@ section-second {
     height: 270px;
 }
 
-arrow {
-    position: absolute;
-    top: 14px;
-    right: 14px;
-}
 
 .picture-descr {
     font-family: var(--font-family);
@@ -1164,23 +1152,25 @@ arrow {
     padding-left: 28px;
 }
 
-.products-item:nth-child(4n+1) .arrow {
+.ingredients-list-item:nth-child(4n+1) .arrow {
     fill: transparent;
     stroke: var(--cards);
     position: absolute;
     top: 14px;
     right: 14px;
+    display: flex;
 }
 
-.products-item:nth-child(2n+2) .arrow {
+.ingredients-list-item:nth-child(2n+2) .arrow {
     fill: transparent;
     stroke: var(--accent);
     position: absolute;
     top: 14px;
     right: 14px;
+    display: flex;
 }
 
-.products-item:nth-child(4n+3) .arrow {
+.ingredients-list-item:nth-child(4n+3) .arrow {
     fill: transparent;
     stroke: var(--cards);
     position: absolute;
@@ -1194,7 +1184,7 @@ arrow {
     top: 14px;
     right: 14px;
     fill: transparent;
-   
+    display: flex;
     margin: 0; /* Убедитесь, что нет внешних отступов */
     padding: 0; /* Убедитесь, что нет внутренних отступов */
     box-sizing: content-box;
