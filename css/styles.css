@@ -473,7 +473,7 @@ ul {
 .mobile-menu {
     font-family: var(--font-family);
     position: fixed;
-    background-color: #1e1823;
+    background-color: var(--violet);
     max-width: 220px;
     min-height: 100vh;
     top: 0;
@@ -933,7 +933,7 @@ screen and (min-resolution: 2dppx) {
 }
 
 .section-second {
-    background: var(--main);
+    background: var(--violet);
     max-width: 100%;
 }
 
