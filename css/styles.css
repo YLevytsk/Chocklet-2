@@ -1176,7 +1176,7 @@ ingredients-item-wrapper:nth-child(4n+1) {
     padding-left: 28px;
 }
 
-.ingredients-list-item:nth-child(4n+1) .arrow {
+.arrow:nth-child(4n+1) {
     fill: transparent;
     stroke: var(--cards);
     position: absolute;
@@ -1185,7 +1185,7 @@ ingredients-item-wrapper:nth-child(4n+1) {
     display: flex;
 }
 
-.ingredients-list-item:nth-child(2n+2) .arrow {
+.arrow :nth-child(2n+2)  {
     fill: transparent;
     stroke: var(--accent);
     position: absolute;
@@ -1194,7 +1194,7 @@ ingredients-item-wrapper:nth-child(4n+1) {
     display: flex;
 }
 
-.ingredients-list-item:nth-child(4n+3) .arrow {
+.arrow :nth-child(4n+3) {
     fill: transparent;
     stroke: var(--cards);
     position: absolute;
@@ -1212,7 +1212,6 @@ arrow {
     display: flex;
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
 }
 
 @media screen and (min-width: 767px) {
