@@ -1189,3 +1189,38 @@ screen and (min-resolution: 2dppx) {
     padding: 0; /* Убедитесь, что нет внутренних отступов */
     box-sizing: content-box;
 }
+@media screen and (min-width: 767px) {
+    .ingredients-list{
+       margin-top: 50px;
+       
+    }
+    .ingredients-list {
+        display: flex;
+        flex-wrap: wrap; /* Разрешаем перенос элементов */
+        gap: 32px; /* Отступ между элементами */
+        padding: 32px; /* Общий отступ вокруг списка */
+      }
+      
+      .ingredients-list-item {
+        flex: 0 0 calc(50% - 16px); /* Каждый элемент занимает 50% ширины, с учетом отступа */
+        box-sizing: border-box; /* Учитываем отступы в ширине элемента */
+        margin-bottom: 32px; /* Отступ снизу для каждого элемента */
+      }
+      
+      .ingredients-item-wrapper {
+        display: flex;
+        align-items: center;
+        padding: 32px; /* Внутренний отступ вокруг содержимого */
+      }
+      
+      .ingredients-photo {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .picture-descr {
+        margin-top: 32px; /* Отступ сверху для текста */
+        text-align: center
+      
+}
+}
