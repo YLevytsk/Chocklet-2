@@ -1214,12 +1214,6 @@ arrow {
         padding: 32px; /* Общий отступ вокруг списка */
       }
       
-      .ingredients-list-item {
-        width: calc((100% - 88px) / 2); /* Каждый элемент занимает 50% ширины, с учетом отступа */
-        box-sizing: border-box; /* Учитываем отступы в ширине элемента */
-        margin-bottom: 32px; /* Отступ снизу для каждого элемента */
-      }
-      
       .ingredients-item-wrapper {
         display: flex;
         align-items: center;
