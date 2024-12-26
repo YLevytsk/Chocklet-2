@@ -1224,15 +1224,11 @@ arrow {
         display: flex;
         align-items: center;
         padding: 32px; /* Внутренний отступ вокруг содержимого */
-      }
-      
-      .ingredients-photo {
-        max-width: 100%;
-        
-      }
-      
-      .picture-descr {
-      
-      
+      }   
 }
+@media screen and (min-width: 768px) {
+    .ingredients-list-item:nth-child(4n+3) {
+        width: calc((100% - 32px) / 2);
+    }
 }
+
