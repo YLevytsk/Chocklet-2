@@ -1035,7 +1035,6 @@ screen and (min-resolution: 2dppx) {
 
 /*ingredients*/
 .ingredients {
-    
         font-family: var(--font-family);
         padding-top: 80px;
         padding-bottom: 80px;
@@ -1074,7 +1073,7 @@ screen and (min-resolution: 2dppx) {
         gap: 20px;
     }
 
-.ingredients-list-item {
+ingredients-list-item {
     margin-bottom: 20px;
 
 
