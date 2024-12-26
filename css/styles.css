@@ -1056,6 +1056,7 @@ screen and (min-resolution: 2dppx) {
     text-align: center;
     color: #111;
     max-width: 283px;
+    margin-bottom: 32px;
 
 }
 
@@ -1190,10 +1191,10 @@ ingredients-list-item :nth-child(4n+1) {
     top: 14px;
     right: 14px;
 }
-.arrow {
+arrow {
     width: 24px;
     height: 24px;
-    position: absolute;
+    
     top: 14px;
     right: 14px;
     fill: transparent;
@@ -1209,13 +1210,12 @@ ingredients-list-item :nth-child(4n+1) {
     }
     .ingredients-list {
         display: flex;
-        flex-wrap: wrap; /* Разрешаем перенос элементов */
         gap: 32px; /* Отступ между элементами */
         padding: 32px; /* Общий отступ вокруг списка */
       }
       
       .ingredients-list-item {
-        flex: 0 0 calc(50% - 16px); /* Каждый элемент занимает 50% ширины, с учетом отступа */
+        width: calc((100% - 88px) / 2); /* Каждый элемент занимает 50% ширины, с учетом отступа */
         box-sizing: border-box; /* Учитываем отступы в ширине элемента */
         margin-bottom: 32px; /* Отступ снизу для каждого элемента */
       }
