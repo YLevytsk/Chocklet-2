@@ -1200,6 +1200,15 @@ screen and (min-resolution: 2dppx) {
         gap: 32px;
     }
 
+    .ingredients-list-item:nth-child(6) {
+        /* Стили для 6-й карточки */
+        background-color: var(--cards);
+        border: 1px solid var(--accent);
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
+    }
+
     .ingredients-list-item {
         flex-wrap: wrap;
     }
