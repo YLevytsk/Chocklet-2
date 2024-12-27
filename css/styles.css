@@ -1069,6 +1069,7 @@ screen and (min-resolution: 2dppx) {
 
 .ingredients-list {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
