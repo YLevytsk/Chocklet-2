@@ -1062,9 +1062,7 @@ screen and (min-resolution: 2dppx) {
 
 }
 
-.ingredients-title-item {
-    color: var(--accent);
-}
+
 
 .ingredients-list {
     display: flex;
@@ -1086,8 +1084,7 @@ screen and (min-resolution: 2dppx) {
     background-color: var(--accent);
     border-radius: 15px;
     position: relative;
-    
-   
+    width: 100%;
 }
 /* Скрытие лишних карточек на мобильной версии */
 @media (max-width: 768px) {
@@ -1128,6 +1125,7 @@ screen and (min-resolution: 2dppx) {
   color: var(--main); 
   border: 1px solid var(--accent); 
   border-radius: 15px;
+  width: 100%;
 }
 
 /* Стрелка на второй и четвертой карточке - оранжевая */
@@ -1146,6 +1144,7 @@ screen and (min-resolution: 2dppx) {
     background: var(--violet);
     border-radius: 15px;
     position: relative;
+    width: 100%;
 }
 .ingredient-photo {
     padding: 32px 49px 62px 50px;
