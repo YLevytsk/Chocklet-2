@@ -1095,24 +1095,24 @@ screen and (min-resolution: 2dppx) {
 }
 
 /* Скрытие лишних карточек на мобильной версии */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .ingredients-list-item:nth-child(n+5) {
         display: none;
-        /* Скрываем все карточки, начиная с пятой */
+
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .ingredients-list-item:nth-child(n+5) .arrow {
         display: none;
-        /* Скрываем стрелки у невидимых карточек */
+
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .ingredients-list-item:nth-child(n+5) .ingredients-photo {
         display: none;
-        /* Скрываем изображения у невидимых карточек */
+
     }
 }
 
