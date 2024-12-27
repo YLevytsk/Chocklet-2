@@ -1075,7 +1075,7 @@ screen and (min-resolution: 2dppx) {
 
 .ingredients-photo {
     max-height: 176px;
-    width: 100%;
+    max-width: 236px;
 }
 .arrow {
     width: 24px;
