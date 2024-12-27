@@ -1085,10 +1085,26 @@ screen and (min-resolution: 2dppx) {
     background-color: var(--accent);
     border-radius: 15px;
     position: relative;
-    height: 270px;
-    width: 335px;
+    max-height: 270px;
+    max-width: 335px;
    
 }
+/* Скрытие лишних карточек на мобильной версии */
+@media (max-width: 768px) {
+    .ingredients-list-item:nth-child(n+5) {
+      display: none; /* Скрываем все карточки, начиная с пятой */
+    }
+  }
+  @media (max-width: 768px) {
+    .ingredients-list-item:nth-child(n+5) .arrow {
+      display: none; /* Скрываем стрелки у невидимых карточек */
+    }
+  }
+  @media (max-width: 768px) {
+    .ingredients-list-item:nth-child(n+5) .ingredients-photo {
+      display: none; /* Скрываем изображения у невидимых карточек */
+    }
+  } 
 .ingredients-list-item:nth-child(4n+1) .arrow {
         fill: transparent;
         stroke: var(--cards);
