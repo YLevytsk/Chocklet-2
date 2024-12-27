@@ -1067,7 +1067,7 @@ screen and (min-resolution: 2dppx) {
 
 .ingredients-list {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
 }
@@ -1086,7 +1086,8 @@ screen and (min-resolution: 2dppx) {
     border-radius: 15px;
     position: relative;
     height: 270px;
-    width: 100%;
+    width: 335px;
+   
 }
 .ingredients-list-item:nth-child(4n+1) .arrow {
         fill: transparent;
@@ -1095,11 +1096,6 @@ screen and (min-resolution: 2dppx) {
         top: 14px;
         right: 14px;
     }
-
-
-
-
-
 .picture-descr {
     font-family: var(--font-family);
     font-weight: 600;
