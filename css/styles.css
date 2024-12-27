@@ -1041,7 +1041,7 @@ screen and (min-resolution: 2dppx) {
     padding-bottom: 80px;
 }
 
-.ingredients-сontainer {
+.ingredients-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
