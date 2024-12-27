@@ -1073,7 +1073,10 @@ screen and (min-resolution: 2dppx) {
     gap: 20px;
 }
 
-
+.ingredients-photo {
+    max-height: 176px;
+    width: 100%;
+}
 .arrow {
     width: 24px;
     height: 24px;
@@ -1119,17 +1122,23 @@ screen and (min-resolution: 2dppx) {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     color: var(--cards);
+    position: absolute;
+    bottom: 28px;   
+    margin: 0;  
+    text-align: left; 
 }
 /* Вторая карточка - белый фон */
 .ingredients-list-item:nth-child(2),
 .ingredients-list-item:nth-child(4) {
-  background-color: var(--cards); 
-  color: var(--main); 
+  background-color: var(--cards);  
   border: 1px solid var(--accent); 
   border-radius: 15px;
   width: 100%;
 }
-
+.ingredients-list-item:nth-child(2) .picture-descr,
+.ingredients-list-item:nth-child(4) .picture-descr {
+  color: var(--main); /* Черный цвет текста */
+}
 /* Стрелка на второй и четвертой карточке - оранжевая */
 .ingredients-list-item:nth-child(2) .arrow,
 .ingredients-list-item:nth-child(4) .arrow {
