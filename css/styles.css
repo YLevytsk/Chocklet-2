@@ -1121,54 +1121,19 @@ screen and (min-resolution: 2dppx) {
     text-transform: uppercase;
     color: var(--cards);
 }
-
-/*
-.ingredients-list-item:nth-child(1) .ingredients-item-wrapper {
-    background-color: var(--accent);
-    position: relative;
-    width: 100%;
-    height: 270px;
+/* Вторая карточка - белый фон */
+.ingredients-list-item:nth-child(2),
+.ingredients-list-item:nth-child(4) {
+  background-color: var(--cards); /* Белый фон */
+  color: var(--main); /* Черный текст для контраста */
 }
 
-.ingredients-list-item:nth-child(2) .ingredients-item-wrapper,
-.ingredients-list-item:nth-child(4) .ingredients-item-wrapper {
-    background-color: var(--cards);
-    color: var(--main);
-    border: 1px solid var(--accent);
-    border-radius: 15px;
-    height: 270px;
-    width: 100%;
-    position: relative;
-
+/* Стрелка на второй и четвертой карточке - оранжевая */
+.ingredients-list-item:nth-child(2) .arrow,
+.ingredients-list-item:nth-child(4) .arrow {
+  fill: var(--accent); /* Оранжевая стрелка */
 }
 
-.ingredients-list-item:nth-child(3) .ingredients-item-wrapper {
-    background-color: var(--main);
-    height: 270px;
-    width: 100%;
-    position: relative;
-
-}
-
-.ingredients-list-item:nth-child(2) .ingredients-item-wrapper .picture-descr,
-.ingredients-list-item:nth-child(4) .ingredients-item-wrapper .picture-descr {
-    color: var(--main);
-
-}
-*/
-ingredients-item-wrapper:nth-child(4n+1) {
-    fill: transparent;
-    stroke: var(--cards);
-}
-
-/*
-.ingredients-list-item:nth-child(1) .ingredients-item-wrapper {
-    background-color: var(--accent);
-    position: relative;
-    width: 100%;
-    height: 270px;
-}
-*/
 .ingredient-photo {
     padding: 32px 49px 62px 50px;
 }
@@ -1184,17 +1149,6 @@ ingredients-item-wrapper:nth-child(4n+1) {
     padding-left: 28px;
 }
 
-
-arrow {
-    width: 24px;
-    height: 24px;
-    top: 14px;
-    right: 14px;
-    fill: transparent;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
 
 @media screen and (min-width: 767px) {
     .ingredients-list {
