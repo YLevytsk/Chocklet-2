@@ -1123,8 +1123,10 @@ screen and (min-resolution: 2dppx) {
 /* Вторая карточка - белый фон */
 .ingredients-list-item:nth-child(2),
 .ingredients-list-item:nth-child(4) {
-  background-color: var(--cards); /* Белый фон */
-  color: var(--main); /* Черный текст для контраста */
+  background-color: var(--cards); 
+  color: var(--main); 
+  border: 1px solid var(--accent); 
+  border-radius: 15px;
 }
 
 /* Стрелка на второй и четвертой карточке - оранжевая */
