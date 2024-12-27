@@ -1039,6 +1039,7 @@ screen and (min-resolution: 2dppx) {
     font-family: var(--font-family);
     padding-top: 80px;
     padding-bottom: 80px;
+    max-width: 335px;
 }
 
 .ingredients-container {
