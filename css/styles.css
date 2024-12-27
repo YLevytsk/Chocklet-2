@@ -1171,17 +1171,14 @@ screen and (min-resolution: 2dppx) {
     .ingredients-list {
         display: flex;
         gap: 32px;
-        /* Отступ между элементами */
         padding: 32px;
-        /* Общий отступ вокруг списка */
     }
 
     .ingredients-item-wrapper {
         display: flex;
         align-items: center;
         padding: 32px;
-        /* Внутренний отступ вокруг содержимого */
-    }
+    
 }
 
 @media screen and (min-width: 768px) {
