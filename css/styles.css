@@ -1063,8 +1063,9 @@ screen and (min-resolution: 2dppx) {
 }
 
 .ingredients-list-item {
-    position: relative; /* Установить как "контейнер" для абсолютных потомков */
-  }
+    position: relative;
+    /* Установить как "контейнер" для абсолютных потомков */
+}
 
 .ingredients-list {
     display: flex;
@@ -1077,6 +1078,7 @@ screen and (min-resolution: 2dppx) {
     max-height: 176px;
     max-width: 236px;
 }
+
 .arrow {
     width: 24px;
     height: 24px;
@@ -1091,29 +1093,37 @@ screen and (min-resolution: 2dppx) {
     position: relative;
     width: 100%;
 }
+
 /* Скрытие лишних карточек на мобильной версии */
 @media (max-width: 768px) {
     .ingredients-list-item:nth-child(n+5) {
-      display: none; /* Скрываем все карточки, начиная с пятой */
+        display: none;
+        /* Скрываем все карточки, начиная с пятой */
     }
-  }
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .ingredients-list-item:nth-child(n+5) .arrow {
-      display: none; /* Скрываем стрелки у невидимых карточек */
+        display: none;
+        /* Скрываем стрелки у невидимых карточек */
     }
-  }
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .ingredients-list-item:nth-child(n+5) .ingredients-photo {
-      display: none; /* Скрываем изображения у невидимых карточек */
+        display: none;
+        /* Скрываем изображения у невидимых карточек */
     }
-  } 
+}
+
 .ingredients-list-item:nth-child(4n+1) .arrow {
-        fill: transparent;
-        stroke: var(--cards);
-        position: absolute;
-        top: 14px;
-        right: 14px;
-    }
+    fill: transparent;
+    stroke: var(--cards);
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
 .picture-descr {
     font-family: var(--font-family);
     font-weight: 600;
@@ -1123,31 +1133,36 @@ screen and (min-resolution: 2dppx) {
     text-transform: uppercase;
     color: var(--cards);
     position: absolute;
-    bottom: 28px;   
-    margin: 0;  
-    text-align: left; 
+    bottom: 28px;
+    margin: 0;
+    text-align: left;
 }
+
 /* Вторая карточка - белый фон */
 .ingredients-list-item:nth-child(2),
 .ingredients-list-item:nth-child(4) {
-  background-color: var(--cards);  
-  border: 1px solid var(--accent); 
-  border-radius: 15px;
-  width: 100%;
+    background-color: var(--cards);
+    border: 1px solid var(--accent);
+    border-radius: 15px;
+    width: 100%;
 }
+
 .ingredients-list-item:nth-child(2) .picture-descr,
 .ingredients-list-item:nth-child(4) .picture-descr {
-  color: var(--main); /* Черный цвет текста */
+    color: var(--main);
+    /* Черный цвет текста */
 }
+
 /* Стрелка на второй и четвертой карточке - оранжевая */
 .ingredients-list-item:nth-child(2) .arrow,
 .ingredients-list-item:nth-child(4) .arrow {
-  fill: transparent;
-  stroke: var(--accent);
-   position: absolute;
+    fill: transparent;
+    stroke: var(--accent);
+    position: absolute;
     top: 14px;
     right: 14px;
 }
+
 .ingredients-list-item:nth-child(4n+3) .arrow {
     fill: transparent;
     stroke: var(--cards);
@@ -1155,12 +1170,14 @@ screen and (min-resolution: 2dppx) {
     top: 14px;
     right: 14px;
 }
+
 .ingredients-list-item:nth-child(4n+3) {
     background: var(--violet);
     border-radius: 15px;
     position: relative;
     width: 100%;
 }
+
 .ingredients-photo {
     padding: 32px 49px 62px 50px;
 }
@@ -1193,12 +1210,14 @@ screen and (min-resolution: 2dppx) {
         display: flex;
         align-items: center;
         padding: 32px;
-    
+
+    }
 }
-}
+
 @media screen and (min-width: 768px) {
     .ingredients-list-item:nth-child(4n+3) {
         width: calc((100% - 32px) / 2);
+        display: flex;
     }
 
     .ingredients-list-item {
