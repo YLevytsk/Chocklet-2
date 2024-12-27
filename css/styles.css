@@ -1194,25 +1194,6 @@ screen and (min-resolution: 2dppx) {
 }
 
 
-@media screen and (min-width: 767px) {
-    .ingredients-list {
-        margin-top: 50px;
-
-    }
-
-    .ingredients-list {
-        display: flex;
-        gap: 32px;
-        padding: 32px;
-    }
-
-    .ingredients-item-wrapper {
-        display: flex;
-        align-items: center;
-        padding: 32px;
-
-    }
-}
 
 @media screen and (min-width: 768px) {
     .ingredients-list-item:nth-child(4n+3) {
