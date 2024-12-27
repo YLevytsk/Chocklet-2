@@ -1218,6 +1218,8 @@ screen and (min-resolution: 2dppx) {
     .ingredients-list-item:nth-child(4n+3) {
         width: calc((100% - 32px) / 2);
         display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
     }
 
     .ingredients-list-item {
