@@ -1072,6 +1072,7 @@ screen and (min-resolution: 2dppx) {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -1247,6 +1248,7 @@ screen and (min-resolution: 2dppx) {
 @media screen and (min-width: 1200px) {
     .ingredients-list {
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
         column-gap: 32px;
         row-gap: 24px;
