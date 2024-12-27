@@ -1041,7 +1041,7 @@ screen and (min-resolution: 2dppx) {
     padding-bottom: 80px;
 }
 
-.ingredients-wrapper {
+.ingredients-сontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1064,7 +1064,7 @@ screen and (min-resolution: 2dppx) {
     color: var(--accent);
 }
 
-.ingredients-wrapper {
+.ingredients-сontainer {
     padding: 20px;
 }
 
@@ -1090,11 +1090,16 @@ ingredients-list-item {
 }
 
 .ingredients-list-item :nth-child(4n+1) {
-    background-color: var(--orange);
-    width: 100%;
-    height: 270px;
+    background-color: var(--accent);
     border-radius: 15px;
     position: relative;
+}
+.products-item:nth-child(4n+1) .arrow {
+    fill: transparent;
+    stroke: var(--cards);
+    position: absolute;
+    top: 14px;
+    right: 14px;
 }
 
 .ingredients-item-wrapper {
@@ -1176,36 +1181,10 @@ ingredients-item-wrapper:nth-child(4n+1) {
     padding-left: 28px;
 }
 
-.arrow:nth-child(4n+1) {
-    fill: transparent;
-    stroke: var(--cards);
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    display: flex;
-}
-
-.arrow :nth-child(2n+2)  {
-    fill: transparent;
-    stroke: var(--accent);
-    position: absolute;
-    top: 14px;
-    right: 14px;
-    display: flex;
-}
-
-.arrow :nth-child(4n+3) {
-    fill: transparent;
-    stroke: var(--cards);
-    position: absolute;
-    top: 14px;
-    right: 14px;
-}
 
 arrow {
     width: 24px;
     height: 24px;
-
     top: 14px;
     right: 14px;
     fill: transparent;
