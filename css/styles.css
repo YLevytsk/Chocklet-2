@@ -1204,8 +1204,3 @@ screen and (min-resolution: 2dppx) {
         flex-wrap: wrap;
     }
 }
-
-.ingredients-list-item:nth-child(4n+3) {
-    border: 2px solid red;
-    /* Проверяем, применяется ли правило */
-}
