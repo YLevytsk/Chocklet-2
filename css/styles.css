@@ -1085,8 +1085,7 @@ screen and (min-resolution: 2dppx) {
     background-color: var(--accent);
     border-radius: 15px;
     position: relative;
-    max-height: 270px;
-    max-width: 335px;
+    
    
 }
 /* Скрытие лишних карточек на мобильной версии */
@@ -1143,8 +1142,6 @@ screen and (min-resolution: 2dppx) {
 .ingredients-list-item:nth-child(4n+3) {
     background: var(--violet);
     border-radius: 15px;
-   max-width: 335;
-    max-height: 270px;
     position: relative;
 }
 .ingredient-photo {
