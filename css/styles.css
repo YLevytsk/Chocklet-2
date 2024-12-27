@@ -1056,13 +1056,15 @@ screen and (min-resolution: 2dppx) {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: center;
-    color: #111;
+    color: var(--main);
     max-width: 283px;
     margin-bottom: 32px;
 
 }
 
-
+.ingredients-list-item {
+    position: relative; /* Установить как "контейнер" для абсолютных потомков */
+  }
 
 .ingredients-list {
     display: flex;
@@ -1131,7 +1133,11 @@ screen and (min-resolution: 2dppx) {
 /* Стрелка на второй и четвертой карточке - оранжевая */
 .ingredients-list-item:nth-child(2) .arrow,
 .ingredients-list-item:nth-child(4) .arrow {
-  fill: var(--accent); /* Оранжевая стрелка */
+  fill: transparent;
+  stroke: var(--accent);
+   position: absolute;
+    top: 14px;
+    right: 14px;
 }
 .ingredients-list-item:nth-child(4n+3) .arrow {
     fill: transparent;
