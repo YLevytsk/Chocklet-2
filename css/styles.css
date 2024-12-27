@@ -1064,7 +1064,7 @@ screen and (min-resolution: 2dppx) {
 
 .ingredients-list-item {
     position: relative;
-    /* Установить как "контейнер" для абсолютных потомков */
+
 }
 
 .ingredients-list {
