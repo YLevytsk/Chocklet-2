@@ -1143,8 +1143,8 @@ screen and (min-resolution: 2dppx) {
 .ingredients-list-item:nth-child(4n+3) {
     background: var(--violet);
     border-radius: 15px;
-    width: 100%;
-    height: 270px;
+   max-width: 335;
+    max-height: 270px;
     position: relative;
 }
 .ingredient-photo {
