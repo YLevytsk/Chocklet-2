@@ -1209,7 +1209,36 @@ screen and (min-resolution: 2dppx) {
         width: 100%;
     }
 
+    .ingredients-list-item:nth-child(6) .arrow {
+        fill: transparent;
+        stroke: var(--accent);
+        position: absolute;
+        top: 14px;
+        right: 14px;
+    }
+
+    .ingredients-list-item:nth-child(6) .picture-descr {
+        color: var(--main);
+        /* Черный цвет текста */
+    }
+
+    .ingredients-list-item:nth-child(4n+1) .ingredients-photo {
+        padding: 32px 50px 62px 50px;
+        /* Отступы сверху, справа, снизу, слева */
+    }
+
     .ingredients-list-item {
         flex-wrap: wrap;
+    }
+}
+
+/* 4 cad */
+@media screen and (min-width: 1200px) {
+    .ingredients-list-item:nth-child(4) {
+        background-color: var(--cards);
+        border: 1px solid var(--accent);
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
     }
 }
