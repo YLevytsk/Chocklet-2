@@ -1260,3 +1260,14 @@ screen and (min-resolution: 2dppx) {
         row-gap: 24px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .ingredients-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* Распределяем элементы по строкам */
+        gap: 32px;
+        /* Расстояние между карточками */
+    }
+}
