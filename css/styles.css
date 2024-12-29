@@ -1289,10 +1289,8 @@ ingredients-photo {
     }
 }
 @media screen and (min-width: 1200px) {
-    .ingredients-list-item:nth-child(4),
-    .ingredients-list-item:nth-child(4n+1)
-    .ingredients-list-item:nth-child(4n+3){
-    
+   
+    .ingredients-list-item:nth-child(4n+1){
       width: 260px;
       height: 270px;
     }
