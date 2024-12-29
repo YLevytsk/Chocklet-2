@@ -1057,6 +1057,7 @@ screen and (min-resolution: 2dppx) {
 .ingredients-title {
     text-align: center; 
     margin: 0 auto;
+    margin-bottom: 32px;
 }
 .ingredients-title-item{
     color: var(--accent);
@@ -1275,6 +1276,9 @@ screen and (min-resolution: 2dppx) {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 32px;
+    }
+    .ingredients-title{
+        margin-bottom: 50px;
     }
 }
 @media screen and (min-width: 768px) {
