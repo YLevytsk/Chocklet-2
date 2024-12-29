@@ -1294,5 +1294,8 @@ ingredients-photo {
       width: 260px;
       height: 270px;
     }
-
+    .ingredients-list-item:nth-child(2){
+        width: 260px;
+        height: 270px; 
+    }
 }
