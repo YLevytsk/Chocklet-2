@@ -1061,6 +1061,9 @@ screen and (min-resolution: 2dppx) {
     margin-bottom: 32px;
 
 }
+.ingredients-title-item{
+    color: var(--accent);
+}
 
 .ingredients-list-item {
     position: relative;
