@@ -1199,7 +1199,7 @@ ingredients-photo {
 }
 
 @media screen and (min-width: 1200px) {
-    .ingredients-list:nth-child(4n+1) {
+    .ingredients-list {
         width: calc((100% - 96px) / 4);
     }
 }
@@ -1248,7 +1248,7 @@ ingredients-photo {
         border: 1px solid var(--accent);
         border-radius: 15px;
         position: relative;
-        width: 335px;
+        width: 260px;
         height: 270px;
     }
 }
