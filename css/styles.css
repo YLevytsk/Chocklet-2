@@ -1039,14 +1039,13 @@ screen and (min-resolution: 2dppx) {
     font-family: var(--font-family);
     padding-top: 80px;
     padding-bottom: 80px;
-    justify-content: center;
-    align-items: center;
    
 
 }
 .products-title-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .ingredients-title {
     font-weight: 600;
