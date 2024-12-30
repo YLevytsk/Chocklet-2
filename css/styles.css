@@ -1260,6 +1260,7 @@ ingredients-photo {
         flex-wrap: wrap;
         column-gap: 32px;
         row-gap: 24px;
+        width: 1136px;
 
     }
 }
@@ -1295,6 +1296,14 @@ ingredients-photo {
       height: 270px;
     }
     .ingredients-list-item:nth-child(2){
+        width: 260px;
+        height: 270px; 
+    }
+    .ingredients-list-item:nth-child(4n+3){
+        width: 260px;
+        height: 270px;   
+    }
+    .ingredients-list-item:nth-child(6){
         width: 260px;
         height: 270px; 
     }
