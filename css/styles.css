@@ -1275,6 +1275,16 @@ ingredients-photo {
     }
     .ingredients-title{
         margin-bottom: 50px;
+        width: 486px;
+        height: 56px;
+        font-family: var(--font-family);
+       font-weight: 600;
+       font-size: 24px;
+       line-height: 117%;
+       letter-spacing: -0.03em;
+        text-transform: uppercase;
+       text-align: center;
+
     }
     .ingredients-list-item {
         width: 336px;
