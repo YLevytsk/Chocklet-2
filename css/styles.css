@@ -1273,6 +1273,7 @@ ingredients-photo {
         flex-wrap: wrap;
         gap: 32px;
     }
+@media screen and (min-width: 768px) {
     .ingredients-title{
         margin-bottom: 50px;
         width: 486px;
@@ -1285,7 +1286,7 @@ ingredients-photo {
         text-transform: uppercase;
        text-align: center;
 
-    }
+    }}
     .ingredients-title-item {
         margin-bottom: 50px;
         width: 486px;
