@@ -1045,7 +1045,6 @@ screen and (min-resolution: 2dppx) {
 .products-title-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .ingredients-title {
     font-weight: 600;
@@ -1057,9 +1056,9 @@ screen and (min-resolution: 2dppx) {
     color: var(--main);
     max-width: 283px;
     margin-bottom: 32px;
-    
-   
+  
 }
+
 media screen and (min-width: 768px) {
     .ingredients {
         padding-top: 100px;
