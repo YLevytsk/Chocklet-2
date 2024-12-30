@@ -1054,7 +1054,7 @@ screen and (min-resolution: 2dppx) {
     text-align: center;
     color: var(--main);
     max-width: 283px;
-    height: 72px;
+    
     margin-bottom: 32px;
     margin: 0 auto;
 
