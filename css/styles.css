@@ -1283,7 +1283,7 @@ ingredients-photo {
 }
 @media screen and (min-width: 768px) {
     .ingredients-list  {
-        width: 704px;
+        min-width: 704px;
         margin: 0 32px;
         column-gap: 32px;
         row-gap: 32px;
