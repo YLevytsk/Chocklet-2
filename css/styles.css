@@ -1042,6 +1042,7 @@ screen and (min-resolution: 2dppx) {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 
 }
 
@@ -1055,9 +1056,10 @@ screen and (min-resolution: 2dppx) {
     color: var(--main);
     max-width: 283px;
     margin-bottom: 32px;
+    
    
 }
-@media screen and (min-width: 768px) {
+media screen and (min-width: 768px) {
     .ingredients {
         padding-top: 100px;
         padding-bottom: 100px;
