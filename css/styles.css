@@ -1050,15 +1050,15 @@ screen and (min-resolution: 2dppx) {
     text-transform: uppercase;
     text-align: center;
     color: var(--main);
-    max-width: 283px;
+    max-width: 335px;
+    height: 72px;
     margin-bottom: 32px;
+    margin: 0 auto;
+    
+
 
 }
-.ingredients-title {
-    text-align: center; 
-    margin: 0 auto;
-    margin-bottom: 32px;
-}
+
 .ingredients-title-item{
     color: var(--accent);
 }
@@ -1305,6 +1305,7 @@ ingredients-photo {
     .ingredients-list-item {
         width: 336px;
         height: 270px;
+        width: 100%;
     }
 }
 
