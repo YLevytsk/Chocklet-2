@@ -1367,3 +1367,12 @@ ingredients-photo {
         height: 400px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .media-picture {
+        display: flex;
+        width: 600px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+}
