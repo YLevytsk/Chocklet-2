@@ -1405,7 +1405,8 @@ ingredients-photo {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: center;
-    color: var(--main);}
+    color: var(--main);
+}
 .made-span-title {
     color: var(--accent);
 }
@@ -1426,4 +1427,19 @@ ingredients-photo {
     line-height: 129%;
     letter-spacing: -0.02em;
     color: var(--main);
+    margin-top: 20px;
 }
+.media-list {
+    list-style-type: disc; /* Устанавливает маркеры (точки) для списка */
+    /* Убираем отступы для списка по умолчанию */
+    padding-left: 20px; /* Отступ для маркеров */
+  }
+  
+  .media-list-item {
+    margin-bottom: 18px; /* Отступ между элементами списка */
+  }
+  
+  .media-list-item:last-child {
+    margin-bottom: 0; /* Убираем отступ для последнего элемента */
+  }
+  
