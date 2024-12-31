@@ -1480,10 +1480,11 @@ ingredients-photo {
         margin: 32px;
     }
 
-    media-wrapper {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-        flex-direction: row;
+    @media screen and (min-width: 1200px) {
+        .media-text-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-direction: row;
+        }
     }
-}
