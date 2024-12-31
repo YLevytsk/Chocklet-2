@@ -1360,3 +1360,10 @@ ingredients-photo {
     width: 100%;
     height: auto;
 }
+
+@media screen and (min-width: 768px) {
+    .media-picture {
+        width: 614px;
+        height: 400px;
+    }
+}
