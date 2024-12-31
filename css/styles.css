@@ -1526,6 +1526,10 @@ transform: rotateY(180deg);
     right: 14px;
     display: flex;
     cursor: pointer;
+    fill: transparent;
+    stroke: var(--accent);
+    position: absolute;
+   
   
  
 }
