@@ -1383,7 +1383,7 @@ ingredients-photo {
 @media screen and (min-width: 1200px) {
     .media-picture {
         display: flex;
-        width: 600px;
+        width: 100%;
         height: 400px;
         flex-shrink: 0;
     }
@@ -1495,6 +1495,13 @@ ingredients-photo {
         gap: 20px;
         flex-direction: row;
     }
+    .ingredients-item-wrapper {
+        position: relative;
+        width:100%;
+        height: 270px;
+    transform-style: preserve-3d;
+    transition: transform 1s; 
+    }
 
     .made-texst {
         width: 516px;
@@ -1507,8 +1514,8 @@ transform: rotateY(180deg);
 
 .ingredients-item-wrapper {
     position: relative;
-    width: 260px; 
-    height: 270px;
+    width: 100%;
+    height: 100%;
     transform-style: preserve-3d;
     transition: transform 1s;
 }
@@ -1559,7 +1566,7 @@ transform: rotateY(180deg);
     position: absolute;
     top: 0;
     left: 0;
-    width: 335px;
+    width: 100%;
     height: 100%;
     backface-visibility: hidden;  /* Скрыть обратную сторону при повороте */
   }
