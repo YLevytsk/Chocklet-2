@@ -1059,12 +1059,7 @@ screen and (min-resolution: 2dppx) {
   
 }
 
-media screen and (min-width: 768px) {
-    .ingredients {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-}
+
 .ingredients-title-item{
     color: var(--accent);
 }
