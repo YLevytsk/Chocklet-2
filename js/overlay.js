@@ -18,15 +18,18 @@ document.addEventListener("DOMContentLoaded", () => {
     // Обработчик клика по карточке
     allWrappers.forEach(wrapper => {
         wrapper.addEventListener("click", () => {
+            // Если карточка уже открыта, то не нужно закрывать её снова
+            if (wrapper.classList.contains("flipped")) {
+                return;
+            }
+
             // Закрываем все карточки
             allWrappers.forEach(otherWrapper => {
-                if (otherWrapper !== wrapper) {
-                    otherWrapper.classList.remove("flipped"); // Убираем класс flipped у других карточек
-                }
+                otherWrapper.classList.remove("flipped"); // Убираем класс flipped у всех карточек
             });
 
             // Открываем текущую карточку
-            wrapper.classList.toggle("flipped"); // Переключаем класс flipped на текущей карточке
+            wrapper.classList.add("flipped"); // Добавляем класс flipped текущей карточке
         });
     });
 });
