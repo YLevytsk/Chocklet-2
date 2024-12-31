@@ -1660,30 +1660,9 @@ transform: rotateY(180deg);
   .products-section {
     margin-bottom: 100px;
   }
-  products-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 32px;
-    row-gap: 24px;
-    width: 1136px;
-  }
-  .product-item {
-  width: calc((100% - 96px) / 2);
-}
 }
 @media screen and (min-width: 1200px) {
-    .product-item{
-        width: calc((100% - 96px) / 4);
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        column-gap: 32px;
-        row-gap: 24px;
-        width: 1136px;
-    }
     .products-section {
         margin-bottom: 120px;
-    
       }
 }
