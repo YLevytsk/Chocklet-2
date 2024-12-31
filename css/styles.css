@@ -1556,3 +1556,15 @@ transform: rotateY(180deg);
     height: 100%;
     backface-visibility: hidden;  /* Скрыть обратную сторону при повороте */
   }
+.overlay-text{
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--cards);
+  position: absolute;
+  bottom: 28px;
+  margin: 0;
+  text-align: left;}
