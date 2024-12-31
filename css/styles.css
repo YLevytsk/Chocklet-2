@@ -1520,6 +1520,12 @@ transform: rotateY(180deg);
 }
 .arrow-back {
     color: var(--accent);
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    right: 14px;
+    display: flex;
+    cursor: pointer;
 }
 .overlay {
     position: absolute;
