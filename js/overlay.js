@@ -1,26 +1,22 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Находим все кнопки управления (стрелки)
-    const overlayButtons = document.querySelectorAll(".arrow");
-  
-    // Перебираем каждую кнопку
+    const overlayButtons = document.querySelectorAll("[data-overlay]"); // Ищем элементы с data-overlay
+
     overlayButtons.forEach(button => {
-      button.addEventListener("click", () => {
-        // Получаем ID связанного оверлея из data-атрибута
-        const overlayId = button.getAttribute("data-overlay");
-        const overlay = document.getElementById(overlayId);
-  
-        // Проверяем, открыт ли уже оверлей
-        if (overlay.classList.contains("active")) {
-          overlay.classList.remove("active"); // Закрываем
-        } else {
-          // Закрываем все остальные оверлеи
-          document.querySelectorAll(".overlay.active").forEach(openOverlay => {
-            openOverlay.classList.remove("active");
-          });
-  
-          overlay.classList.add("active"); // Открываем текущий
-        }
-      });
+        button.addEventListener("click", () => {
+            const overlayId = button.getAttribute("data-overlay"); // Получаем значение data-overlay
+            const overlay = document.getElementById(overlayId); // Ищем связанный оверлей
+
+            if (overlay.classList.contains("active")) {
+                overlay.classList.remove("active");
+            } else {
+                document.querySelectorAll(".overlay.active").forEach(openOverlay => {
+                    openOverlay.classList.remove("active");
+                });
+
+                overlay.classList.add("active");
+            }
+        });
     });
-  });
+});
+
   
