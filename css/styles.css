@@ -1578,3 +1578,36 @@ transform: rotateY(180deg);
     letter-spacing: -0.02em;
     color: var(--main);
 }
+/*products-section*/
+.products-section {
+    padding: 80px; /* Отступ сверху и снизу 80px, слева и справа — 0 */
+}
+.section-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 32px; /* Отступ от заголовка до карточек */
+}   
+.products-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Выстраиваем карточки в колонку */
+    align-items: center; /* Центрируем карточки по горизонтали */
+    gap: 32px; /* Отступ между карточками */
+    padding: 0;
+    margin: 0;
+  }
+  .product-card {
+    border: 1px solid rgba(17, 17, 17, 0.1); /* Рамка вокруг карточки */
+    border-radius: 15px; /* Скругление углов карточки */
+    width: 335px; /* Ширина карточки */
+    height: 364px; /* Высота карточки */
+    display: flex; /* Для выравнивания контента внутри */
+    flex-direction: column; /* Выстраиваем элементы внутри карточки по вертикали */
+    justify-content: space-between; /* Разделяем элементы внутри карточки */
+    align-items: center; /* Центрируем элементы внутри карточки по горизонтали */
+    padding: 16px; /* Внутренние отступы карточки */
+    box-sizing: border-box; /* Включаем padding в общую ширину и высоту */
+    background-color: #fff; /* Цвет фона карточки */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); /* Легкая тень для объема */
+  }
+  
