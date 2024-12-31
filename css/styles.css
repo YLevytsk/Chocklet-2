@@ -1442,4 +1442,25 @@ ingredients-photo {
   .media-list-item:last-child {
     margin-bottom: 0; /* Убираем отступ для последнего элемента */
   }
-  
+  @media screen and (min-width: 768px) {
+    .media-content-wrapper {
+        margin-bottom: 50px; }
+
+    .made-texst{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        width: 614px;
+        height: 356px;
+        background-color: #ffffff;
+        }
+
+    .media-list {
+        margin-bottom: 28px;
+    } 
+    
+    .text-wrapper {
+        margin: 32px; 
+    }
+    }
