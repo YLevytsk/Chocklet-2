@@ -1377,7 +1377,7 @@ ingredients-photo {
     }
 }
 
-made-picture-svg {
+.made-picture-svg {
     position: absolute;
     fill: transparent;
     stroke: var(--cards);
