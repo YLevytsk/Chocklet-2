@@ -1563,7 +1563,7 @@ transform: rotateY(180deg);
   line-height: 129%;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: var(--cards);
+  color: var(--main);
   position: absolute;
   bottom: 28px;
   margin: 0;
