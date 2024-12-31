@@ -1523,13 +1523,13 @@ transform: rotateY(180deg);
     width: 24px;
     height: 24px;
     top: 14px;
-    right: 14px;
+    left:14px;
     display: flex;
     cursor: pointer;
     fill: transparent;
     stroke: var(--accent);
     position: absolute;
-    transform: rotateY(180deg);
+
    
   
  
