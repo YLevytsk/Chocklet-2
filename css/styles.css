@@ -1551,6 +1551,9 @@ ingredients-photo {
     height: 270px;
     perspective: 1000px; /* Это даст эффект 3D */
     cursor: pointer;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+
 }
 .card {
     position: relative;
@@ -1569,3 +1572,4 @@ ingredients-photo {
     background: var(--accent);
     z-index: 2;
 }
+
