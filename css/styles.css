@@ -1548,11 +1548,7 @@ transform: rotateY(180deg);
     border: 2px solid var(--accent);
  
 }
-card-back {
-    background-color: var(#FCF1E0);
-    border: 1px solid var(--accent);
-    border-radius: 15px; /* Задайте нужный цвет */
-}
+
 .ingredients-item-wrapper.flipped .card-back {
     background-color: #FCF1E0;
     border: 1px solid var(--accent); /* Задайте нужный цвет */
