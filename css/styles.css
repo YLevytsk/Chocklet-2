@@ -1610,7 +1610,7 @@ transform: rotateY(180deg);
     background-color: #fff; /* Цвет фона карточки */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); /* Легкая тень для объема */
   }
-  .product-button {
+  .product-price-button{
     border: 1px solid rgba(17, 17, 17, 0.1); /* Рамка кнопки */
     border-radius: 100px; /* Полностью скругленные углы */
     padding: 8px 20px; /* Внутренние отступы */
@@ -1626,7 +1626,7 @@ transform: rotateY(180deg);
     transition: background-color 0.3s ease, color 0.3s ease; /* Плавный переход для эффектов */
   }
   
-  .product-button:hover {
+  .product-price-button:hover {
     background-color: rgba(17, 17, 17, 0.1); /* Изменение фона при наведении */
     color: #000; /* Темнее текст при наведении */
   }
