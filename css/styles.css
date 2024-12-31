@@ -1611,7 +1611,8 @@ transform: rotateY(180deg);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); /* Легкая тень для объема */
   }
   .product-price-button{
-    border: 1px solid rgba(17, 17, 17, 0.1); /* Рамка кнопки */
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    white-space: nowrap; /* Рамка кнопки */
     border-radius: 100px; /* Полностью скругленные углы */
     padding: 8px 20px; /* Внутренние отступы */
     width: 94px; /* Ширина кнопки */
