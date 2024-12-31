@@ -1536,3 +1536,6 @@ ingredients-photo {
     opacity: 1;
     visibility: visible;
 }
+.ingredients-item-wrapper {
+    cursor: pointer;
+}
