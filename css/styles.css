@@ -1512,7 +1512,7 @@ transform: rotateY(180deg);
     width: 260px; 
     height: 270px;
     transform-style: preserve-3d;
-    transition: transform 0.6s;
+    transition: transform 1s;
 }
 
 .ingredients-item-wrapper.flipped {
@@ -1544,8 +1544,13 @@ transform: rotateY(180deg);
     visibility: hidden;
     backface-visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+ 
 }
-
+.card-back {
+    background-color: var(#FCF1E0);
+    border: 1px solid var(--accent);
+    border-radius: 15px; /* Задайте нужный цвет */
+}
 .ingredients-item-wrapper.flipped .overlay {
     opacity: 1;
     visibility: visible;
