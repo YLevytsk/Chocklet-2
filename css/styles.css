@@ -1360,7 +1360,12 @@ ingredients-photo {
     width: 100%;
     height: auto;
 }
-
+.media-wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media screen and (min-width: 768px) {
     .media-picture {
         width: 614px;
@@ -1379,9 +1384,17 @@ ingredients-photo {
 
 .made-picture-svg {
     position: absolute;
-    margin: 232px 150px;
     fill: transparent;
     stroke: var(--cards);
     cursor: pointer;
     transition: transform .5s cubic-bezier(.4, 0, .2, 1);
+}
+
+.media-wrapper {
+    position: relative;
+    margin: 232px 150px;
+}
+.media-picture {
+    display: block;
+   
 }
