@@ -1602,6 +1602,7 @@ transform: rotateY(180deg);
     }
  @media screen and (min-width: 768px) {
         .products-list  {
+            width: calc((100% - 96px) / 2);
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
@@ -1610,15 +1611,17 @@ transform: rotateY(180deg);
     } 
 @media screen and (min-width: 1200px) {
         .products-list  {
+            width: calc((100% - 96px) / 4);
             column-gap: 18px;
             row-gap: 24px;
+
         }
     }
   
 .product-card {
     border: 1px solid rgba(17, 17, 17, 0.1); /* Рамка вокруг карточки */
     border-radius: 15px; /* Скругление углов карточки */
-    width: 335px; /* Ширина карточки */
+    width: 100%; /* Ширина карточки */
     height: 364px; /* Высота карточки */
     display: flex; /* Для выравнивания контента внутри */
     flex-direction: column; /* Выстраиваем элементы внутри карточки по вертикали */
