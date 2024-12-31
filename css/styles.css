@@ -1631,4 +1631,7 @@ transform: rotateY(180deg);
     background-color: rgba(17, 17, 17, 0.1); /* Изменение фона при наведении */
     color: #000; /* Темнее текст при наведении */
   }
+  .product-image {
+    padding: 32px 53px 32px 52px; /* отступы для изображения */
+  }
   
