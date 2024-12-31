@@ -1503,7 +1503,9 @@ ingredients-photo {
         height: 400px; 
     }
 }
-
+.overlay-text{
+transform: rotateY(180deg);
+}
 
 .ingredients-item-wrapper {
     position: relative;
@@ -1516,7 +1518,9 @@ ingredients-photo {
 .ingredients-item-wrapper.flipped {
     transform: rotateY(180deg);
 }
-
+.arrow-back {
+    color: var(--accent);
+}
 .overlay {
     position: absolute;
     top: 0;
