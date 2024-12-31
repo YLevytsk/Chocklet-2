@@ -1502,7 +1502,7 @@ ingredients-photo {
     }
 }
 .ingredients-item-wrapper{
-.overflow: hidden;
+     overflow: hidden;
 }
 .overlay-text{
     font-weight: 400;
