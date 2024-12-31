@@ -1376,3 +1376,11 @@ ingredients-photo {
         flex-shrink: 0;
     }
 }
+
+made-picture-svg {
+    position: absolute;
+    fill: transparent;
+    stroke: var(--cards);
+    cursor: pointer;
+    transition: transform .5s cubic-bezier(.4, 0, .2, 1);
+}
