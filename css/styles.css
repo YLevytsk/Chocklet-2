@@ -1379,6 +1379,7 @@ ingredients-photo {
 
 .made-picture-svg {
     position: absolute;
+    margin: 232px 150px;
     fill: transparent;
     stroke: var(--cards);
     cursor: pointer;
