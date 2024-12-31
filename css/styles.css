@@ -1538,4 +1538,9 @@ ingredients-photo {
 }
 .ingredients-item-wrapper {
     cursor: pointer;
+    position: relative;
+    width: 260px;
+    height: 270px;
+    perspective: 1000px; /* Это даст эффект 3D */
+    cursor: pointer;
 }
