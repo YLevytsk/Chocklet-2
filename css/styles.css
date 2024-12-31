@@ -1526,8 +1526,8 @@ transform: rotateY(180deg);
     right: 14px;
     display: flex;
     cursor: pointer;
-    transform: translateX(-50%);
-    transition: transform 0.3s ease;
+  
+ 
 }
 .overlay {
     position: absolute;
