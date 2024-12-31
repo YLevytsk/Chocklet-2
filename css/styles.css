@@ -1343,3 +1343,12 @@ ingredients-photo {
 
     }
 }
+
+
+/* section media*/
+.media-picture {
+    border-radius: 15px;
+    width: 335px;
+    height: 500px;
+    background: rgba(17, 17, 17, 0.4), url("path_to_image");
+}
