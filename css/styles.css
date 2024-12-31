@@ -1529,6 +1529,7 @@ transform: rotateY(180deg);
     fill: transparent;
     stroke: var(--accent);
     position: absolute;
+    transform: rotateY(180deg);
    
   
  
