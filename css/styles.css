@@ -1208,7 +1208,6 @@ ingredients-photo {
 
 @media screen and (min-width: 768px) {
     .ingredients-list-item:nth-child(4n+3) {
-
         flex-wrap: wrap;
         flex-direction: row;
         gap: 32px;
@@ -1602,11 +1601,12 @@ transform: rotateY(180deg);
     }
  @media screen and (min-width: 768px) {
         .products-list  {
-            width: calc((100% - 96px) / 2);
+            min-width: 704px;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+            gap: 32px;
         }
     } 
 @media screen and (min-width: 1200px) {
@@ -1614,6 +1614,13 @@ transform: rotateY(180deg);
             width: calc((100% - 96px) / 4);
             column-gap: 18px;
             row-gap: 24px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            column-gap: 32px;
+
+            width: 1136px;
+    
 
         }
     }
@@ -1654,7 +1661,8 @@ transform: rotateY(180deg);
     color: #000; /* Темнее текст при наведении */
   }
   .product-image {
-    padding: 32px 53px 32px 52px; /* отступы для изображения */
+    padding: 32px 53px 32px 52px;
+    width: 100%; /* отступы для изображения */
   }
   .production-span {
     color: var(--accent);
