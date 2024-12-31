@@ -1516,6 +1516,7 @@ ingredients-photo {
     color: #111;
     overflow: hidden;
     text-overflow: ellipsis;
+    transform: rotateY(180deg); 
 }
 .overlay {
     position: absolute;
@@ -1564,6 +1565,6 @@ ingredients-photo {
     width: 100%;
     height: 100%;
     backface-visibility: hidden; /* Скрывает заднюю сторону при повороте */
-    background: #fff;
+    background: var(--accent);
     z-index: 2;
 }
