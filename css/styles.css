@@ -1390,11 +1390,40 @@ ingredients-photo {
     transition: transform .5s cubic-bezier(.4, 0, .2, 1);
 }
 
-.media-wrapper {
-    position: relative;
-    margin: 232px 150px;
+.media-content-wrapper {
+    margin-bottom: 32px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.media-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--main);}
+.made-span-title {
+    color: var(--accent);
 }
 .media-picture {
-    display: block;
-   
+    margin-bottom: 20px;
+}
+.made-texst {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--main);
+}
+.media-list {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: var(--main);
 }
