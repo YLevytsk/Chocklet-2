@@ -1537,19 +1537,25 @@ transform: rotateY(180deg);
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 1);
+    background: #FCF1E0;
     color: #111;
     padding: 20px;
     opacity: 1;
     visibility: hidden;
     backface-visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
+    border-radius: 15px;
+    border: 2px solid var(--accent);
  
 }
-.card-back {
+card-back {
     background-color: var(#FCF1E0);
     border: 1px solid var(--accent);
     border-radius: 15px; /* Задайте нужный цвет */
+}
+.ingredients-item-wrapper.flipped .card-back {
+    background-color: #FCF1E0;
+    border: 1px solid var(--accent); /* Задайте нужный цвет */
 }
 .ingredients-item-wrapper.flipped .overlay {
     opacity: 1;
@@ -1564,14 +1570,10 @@ transform: rotateY(180deg);
     backface-visibility: hidden;  /* Скрыть обратную сторону при повороте */
   }
 .overlay-text{
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 129%;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: var(--main);
-  position: absolute;
-  bottom: 28px;
-  margin: 0;
-  text-align: left;}
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: var(--main);
+}
