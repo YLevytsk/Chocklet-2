@@ -1487,7 +1487,7 @@ ingredients-photo {
     .text-wrapper {
         margin: 32px;
     }
-}
+
 
 
 @media screen and (min-width: 1200px) {
@@ -1503,6 +1503,8 @@ ingredients-photo {
         height: 400px; 
     }
 }
+
+
 .ingredients-item-wrapper{
      overflow: hidden;
 }
@@ -1514,4 +1516,14 @@ ingredients-photo {
     color: #111;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.overlay{
+    width: 153px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+    margin-bottom: 14px;
 }
