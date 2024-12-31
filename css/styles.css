@@ -1533,6 +1533,7 @@ ingredients-photo {
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: rotateY(180deg);
 }
 .ingredients-item-wrapper.active .card {
     transform: rotateY(180deg); /* Поворачиваем карточку на 180 градусов */
