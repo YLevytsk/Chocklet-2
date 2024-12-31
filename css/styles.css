@@ -1600,7 +1600,7 @@ transform: rotateY(180deg);
         align-items: center;
         gap: 32px;
     }
-    @media screen and (min-width: 768px) {
+ @media screen and (min-width: 768px) {
         .products-list  {
             flex-direction: row;
             flex-wrap: wrap;
@@ -1608,14 +1608,14 @@ transform: rotateY(180deg);
             align-items: center;
         }
     } 
-    @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
         .products-list  {
             column-gap: 18px;
             row-gap: 24px;
         }
     }
   
-  .product-card {
+.product-card {
     border: 1px solid rgba(17, 17, 17, 0.1); /* Рамка вокруг карточки */
     border-radius: 15px; /* Скругление углов карточки */
     width: 335px; /* Ширина карточки */
