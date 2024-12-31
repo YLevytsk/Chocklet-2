@@ -1517,35 +1517,22 @@ ingredients-photo {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.overlay{
-
-        position: absolute;
-        background: #fff;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        padding: 40px 32px;
-        overflow: auto;
-        transform: translateY(100%);
-        transition: transform .3s ease;
-        transition: transform .25s cubic-bezier(.4,0,.2,1);
-    }
-
 .overlay {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
     position: absolute;
     bottom: 0;
     left: 0;
-   
     background: rgba(255, 255, 255, 0.9);
     padding: 10px;
     z-index: 10;
+
+    /* Изначально скрываем элемент */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .overlay.active {
+    /* Показываем элемент */
     opacity: 1;
     visibility: visible;
 }
