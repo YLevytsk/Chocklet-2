@@ -1902,26 +1902,25 @@ product-image {
   }
   
   /* При наведении на карточку */
-  .card-setts:hover .card-overlay {
+  .card-setts:hover .card-description-overlay{
     opacity: 1; /* Оверлей появляется при наведении */
-    transform: translateY(0); /* Перемещаем оверлей в нормальное положение */
   }
   
   .card-setts:hover .product-image {
     filter: blur(4px); /* Размытие изображения при наведении */
   }
-  
+  .card-description-overlay{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
   /* Стили для карточки */
   .card-item {
     border-bottom: 1px solid rgba(17, 17, 17, 0.1);
     border-left: 1px solid rgba(17, 17, 17, 0.1);
     border-right: 1px solid rgba(17, 17, 17, 0.1);
-    border-radius: 0 0 15px 15px;
+    border-radius: 15px;
     width: 344px;
     height: 544px;
     background: var(--cards);
     position: relative; /* Убедитесь, что карточка тоже имеет position relative */
   }
-.footer {
-    margin-top: 80px;;
-}  
