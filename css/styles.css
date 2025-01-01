@@ -1861,6 +1861,16 @@ product-image {
         border-radius: 0 0 15px 15px;
         height: 72px;
   }
+  .card-description {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    visibility: hidden; /* Описание скрыто по умолчанию */
+  }
+  
+  .card-setts:hover .card-description {
+    visibility: visible; /* Описание появляется при наведении */
+  }
   
   
   
