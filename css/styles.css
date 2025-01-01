@@ -1815,12 +1815,12 @@ product-image {
     }
   }
   @media (min-width: 600px) and (max-width: 1199px) {
-    .card-setts:nth-child(n+3) {
+    .card-item:nth-child(n+3) {
       display: none; /* Скрыть все карточки, начиная с 3-й, на планшетах */
     }
   }
   @media (max-width: 767px) {
-    .card-setts:nth-child(n+2) {
+    .card-item:nth-child(n+2) {
       display: none; /* Скрыть все карточки, начиная с 2-й, на мобильных устройствах */
     }
   }
