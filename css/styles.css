@@ -1759,6 +1759,8 @@ product-image {
     text-transform: uppercase;
     text-align: center;
     color: var(--main);
+    margin-bottom: 32px;
+
 
 }
 .sellers-span {
