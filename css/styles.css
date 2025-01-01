@@ -1816,3 +1816,54 @@ card-setts{
       display: none; /* Скрыть все карточки, начиная с 2-й, на мобильных устройствах */
     }
   }
+  .card-setts {
+    position: relative;
+    width: 335px;
+    height: 464px;
+    border-radius: 15px 15px 0 0; /* Радиус для верхних углов карточки */
+    overflow: hidden; /* Скрываем элементы, выходящие за пределы карточки */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Фото заполняет карточку */
+    border-radius: 15px 15px 0 0; /* Скругляем углы фото */
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: -72px; /* Начальная позиция оверлея за пределами карточки */
+    left: 0;
+    width: 100%;
+    height: 72px;
+    background: linear-gradient(161deg, rgba(253, 253, 255, 0.1) 0%, rgba(8, 2, 21, 0.1) 100%);
+    backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+    border-left: 1px solid rgba(17, 17, 17, 0.1);
+    border-right: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 0 0 15px 15px;
+    transition: top 0.3s ease-in-out; /* Плавное опускание оверлея при наведении */
+  }
+  
+  .card-setts:hover .card-overlay {
+    top: 0; /* При наведении оверлей опускается */
+  }
+  
+  .card-content {
+    padding: 15px; /* Отступы внутри контента */
+    color: white; /* Цвет текста */
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-description {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
