@@ -1777,15 +1777,16 @@ card-setts{
     width: 344px;
     height: 80px;
   }
-  .cards-container {
+  .cards-sellers {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px; /* Отступы между карточками */
+    gap: 16px; 
+    justify-content: space-between;/* Отступы между карточками */
   } 
   .card-setts{
     width: 100%; /* По умолчанию одна карточка на мобильных */
     height: auto;
-    max-width: 344px; /* Ограничиваем максимальную ширину */
+    max-width: 335px; /* Ограничиваем максимальную ширину */
   }
 
   .card {
@@ -1799,7 +1800,17 @@ card-setts{
   }
   
   @media (min-width: 1200px) {
-    .card-setts{
+    .cards-sellers{
       flex-basis: calc(33.33% - 10px); /* 3 карточки на десктопах */
+    }
+  }
+  @media (min-width: 600px) and (max-width: 1199px) {
+    .card-setts:nth-child(n+3) {
+      display: none; /* Скрыть все карточки, начиная с 3-й, на планшетах */
+    }
+  }
+  @media (max-width: 767px) {
+    .card-setts:nth-child(n+2) {
+      display: none; /* Скрыть все карточки, начиная с 2-й, на мобильных устройствах */
     }
   }
