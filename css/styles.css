@@ -1817,11 +1817,11 @@ product-image {
   /* Карточка */
   .card-setts {
     position: relative;
- /* Полностью скругленные углы карточки */
     overflow: hidden;
-    background-color: #fff;
+    background-color: var(--cards);
     text-align: center;
-    padding-bottom: 16px; /* Отступ снизу для заголовка */
+    padding-bottom: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Отступ снизу для заголовка */
   }
   
   /* Фото карточки */
