@@ -1856,6 +1856,9 @@ product-image {
     bottom: 0;
     left: 0;
     right: 0;
+    padding-top: 187px;
+    padding-left: 40px;
+    padding-right: 40px;
     background: rgba(255, 255, 255, 0.4); /* Белый полупрозрачный фон */
     backdrop-filter: blur(8px); /* Эффект размытия для фона */
     opacity: 0;
@@ -1866,7 +1869,7 @@ product-image {
   }
   
   /* Описание внутри оверлея */
-  .card-description {
+  .card-description-overlay {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
