@@ -1616,7 +1616,6 @@ transform: rotateY(180deg);
     } 
 @media screen and (min-width: 1200px) {
         .products-list  {
-
             column-gap: 18px;
             row-gap: 24px;
             display: flex;
@@ -1677,11 +1676,11 @@ transform: rotateY(180deg);
   }
   @media screen and (min-width: 768px) {
   .products-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 @media screen and (min-width: 1200px) {
     .products-section {
-        margin-bottom: 120px;
+        padding-bottom: 120px;
       }
 }
