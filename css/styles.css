@@ -1809,6 +1809,7 @@ product-image {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 16px;
   }
   
   /* Элемент списка */
@@ -1911,7 +1912,7 @@ product-image {
     border-right: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 0 0 15px 15px;
     width: 344px;
-    height: 80px;
+    height: 544px;
     background: var(--cards);
     position: relative; /* Убедитесь, что карточка тоже имеет position relative */
   }
