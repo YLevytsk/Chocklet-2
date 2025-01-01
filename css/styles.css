@@ -1838,8 +1838,14 @@ product-image {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #fff;
-    border-radius: 0 0 15px 15px; /* Скругление только нижних углов */
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     background: var(--cards);
+     width: 100%;
+    
+     border-radius: 0 0 15px 15px;
+     height: 72px; /* Скругление только нижних углов */
   }
   /* Скрыть карточки по умолчанию */
 .card-item {
