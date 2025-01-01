@@ -1857,7 +1857,7 @@ product-image {
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
-    color: var(--background);
+    color: var(--main);
   }
   
   /* При наведении на карточку */
