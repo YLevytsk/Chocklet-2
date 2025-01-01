@@ -1881,7 +1881,7 @@ card-setts{
     font-size: 14px;
     line-height: 1.5;
     visibility: hidden;
-    color: ; /* Описание скрыто по умолчанию */
+    color: var(--cards); /* Описание скрыто по умолчанию */
   }
   
   .card-setts:hover .card-description {
