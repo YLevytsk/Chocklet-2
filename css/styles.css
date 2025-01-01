@@ -1738,9 +1738,22 @@ product-image {
 
 /* Секция Top Sellers */
 .top-sellers {
-    margin-top: 80px; /* Отступ от предыдущей секции */
+    margin-top: 80px; 
+    margin-bottom: 80px;/* Отступ от предыдущей секции */
   }
   
+  @media screen and (min-width: 768px) {
+    .top-sellers {
+      margin-bottom: 100px;
+      margin-top: 100px; 
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .top-sellers {
+      margin-bottom: 120px;
+      margin-top: 120px; 
+    }
+  }
   .top-sellers-title {
     margin-bottom: 32px; /* Отступ вниз от заголовка */
     text-align: center;
