@@ -1881,4 +1881,6 @@ product-image {
     background: var(--cards);
     position: relative; /* Убедитесь, что карточка тоже имеет position relative */
   }
-  
+.footer {
+    margin-top: 80px;;
+}  
