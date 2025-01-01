@@ -1579,7 +1579,7 @@ transform: rotateY(180deg);
 }
 /*products-section*/
 .products-section {
-    padding: 80px; /* Отступ сверху и снизу 80px, слева и справа — 0 */
+    padding-bottom: 80px; /* Отступ сверху и снизу 80px, слева и справа — 0 */
 }
 .section-title {
     text-align: center;
@@ -1628,7 +1628,7 @@ transform: rotateY(180deg);
 
         }
     
-    .product-card {
+    .product-item{
         width: calc((100% - 3 * 32px) / 4); /* Вычисляем ширину для 4 карточек в ряду */
     }
 } 
