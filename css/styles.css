@@ -1741,7 +1741,11 @@ product-image {
     margin-top: 80px; 
     margin-bottom: 80px;/* Отступ от предыдущей секции */
   }
-  
+  .card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
   @media screen and (min-width: 768px) {
     .top-sellers {
       margin-bottom: 100px;
@@ -1773,13 +1777,13 @@ product-image {
   /* Элемент списка */
   .card-item {
     flex: 1 1 calc(100%); /* Для мобильных устройств 1 карточка */
-    max-width: 344px;
+    
   }
   
   /* Для планшета - 2 карточки */
   @media (min-width: 768px) {
     .card-item {
-      flex: 1 1 calc(50% - 16px);
+        width: calc((100% - 32px) / 2);
     }
   }
   
@@ -1793,7 +1797,7 @@ product-image {
   /* Карточка */
   .card-setts {
     position: relative;
-    border-radius: 15px; /* Полностью скругленные углы карточки */
+ /* Полностью скругленные углы карточки */
     overflow: hidden;
     background-color: #fff;
     text-align: center;
@@ -1850,4 +1854,5 @@ product-image {
     border-radius: 0 0 15px 15px;
     width: 344px;
     height: 80px;
+    background: var(--cards);
   }
