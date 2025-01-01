@@ -1739,7 +1739,15 @@ product-image {
 .top-sellers {
     margin-top: 80px;
     margin-bottom: 80px;
+   
 }
+
+.card-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
 @media screen and (min-width: 768px) {
     .top-sellers{
         margin-top: 100px;
@@ -1817,15 +1825,7 @@ card-setts{
       display: none; /* Скрыть все карточки, начиная с 2-й, на мобильных устройствах */
     }
   }
-  .card-setts {
-    position: relative;
-    width: 344px;
-    height: 544px; /* Размер всей карточки */
-    border-radius: 15px; /* Скругление углов карточки */
-    overflow: hidden; /* Скрытие элементов, выходящих за пределы */
-    background-color: var(--cards); /* Белый фон карточки */
-  }
-  
+ 
   .product-image {
     width: 344px; /* Ширина фото */
     height: 464px; /* Высота фото */
@@ -1833,58 +1833,8 @@ card-setts{
     border-radius: 15px 15px 0 0; /* Скругление верхних углов фото */
   }
   
-  .card-header {
-    position: absolute;
-    bottom: 0; /* Заголовок находится внизу карточки */
-    left: 0;
-    width: 100%;
-    padding: 15px;
-    background-color: var(--cards);
-    border-radius: 0 0 15px 15px; /* Скругляем нижние углы */
-    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Легкая тень под заголовком */
-    z-index: 1; /* Заголовок поверх оверлея */
-  }
   
-  .card-overlay {
-    position: absolute;
-    bottom: -72px; /* Оверлей начинается ниже карточки */
-    left: 0;
-    width: 100%;
-    height: 72px;
-    background: linear-gradient(161deg, rgba(253, 253, 255, 0.1) 0%, rgba(8, 2, 21, 0.1) 100%);
-    backdrop-filter: blur(15px);
-    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
-    border-left: 1px solid rgba(17, 17, 17, 0.1);
-    border-right: 1px solid rgba(17, 17, 17, 0.1);
-    border-radius: 15px 15px 0 0;
-    transition: bottom 0.3s ease-in-out; /* Плавное движение оверлея */
-  }
   
-  .card-setts:hover .card-overlay {
-    bottom: 0; /* При наведении оверлей выплывает снизу */
-  }
   
-  card-content {
-    padding: 15px;
-    color: white;
-  }
   
-  .card-title {
-    margin: 0;
-    font-size: 18px;
-    font-weight: bold;
-    color: var(--main);
-  }
-  
-  .card-description {
-    margin-top: 10px;
-    font-size: 14px;
-    line-height: 1.5;
-    visibility: hidden;
-    color: var(--cards); /* Описание скрыто по умолчанию */
-  }
-  
-  .card-setts:hover .card-description {
-    visibility: visible; /* Описание появляется при наведении */
-  }
-  
+ 
