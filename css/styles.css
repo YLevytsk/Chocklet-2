@@ -1736,21 +1736,7 @@ product-image {
 }
 /*  TOP SELLERS*/
 
-/* Секция Top Sellers */
-.top-sellers {
-    background-color: rgba(255, 0, 0, 0.1); /* Легкий красный фон для проверки */
-    margin-bottom: 80px;
-  }
-  
-.top-sellers {
-    margin-top: 80px; 
-    padding-bottom: 80px;/* Отступ от предыдущей секции */
-  }
-.card-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
+
 
 .top-sellers-title{
     font-weight: 600;
@@ -1774,12 +1760,12 @@ product-image {
   }
   @media screen and (min-width: 1200px) {
     .top-sellers {
-     padding-bottom: 80px;
+     padding-bottom: 120px;
       margin-top: 120px; 
     }
   }
   .top-sellers-title {
-    margin-bottom: 32px; /* Отступ вниз от заголовка */
+    margin-bottom: 32px; 
     text-align: center;
   }
   
@@ -1788,7 +1774,7 @@ product-image {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px; /* Расстояние между карточками */
+    gap: 16px; 
     justify-content: center;
     padding: 0;
     margin: 0;
@@ -1821,7 +1807,7 @@ product-image {
     background-color: var(--cards);
     text-align: center;
     padding-bottom: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.1); /* Отступ снизу для заголовка */
+    border: 1px solid rgba(0, 0, 0, 0.1); 
   }
   
   /* Фото карточки */
@@ -1843,30 +1829,48 @@ product-image {
     border-radius: 0 0 15px 15px; /* Скругление только нижних углов */
   }
   
+  /* Контейнер карточки */
+.card-setts {
+    position: relative; /* Для позиционирования оверлея */
+    overflow: hidden; /* Скрывает элементы, выходящие за пределы карточки */
+  }
+  
   /* Оверлей */
   .card-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background: rgba(255, 255, 255, 0.4); /* Белый полупрозрачный фон */
+    backdrop-filter: blur(8px); /* Эффект размытия для фона */
+    opacity: 0;
+    transform: translateY(100%); /* Оверлей скрыт за пределами карточки */
+    transition: opacity 0.3s ease, transform 0.3s ease-in-out; /* Плавное появление и сдвиг */
     color: #fff;
     padding: 16px;
-    transform: translateY(100%); /* Скрыт за пределами карточки */
-    transition: transform 0.3s ease-in-out;
   }
   
   /* Описание внутри оверлея */
   .card-description {
+    font-family: var(--font-family);
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.5;
-    text-align: left;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: var(--background);
   }
   
-  /* Появление оверлея при наведении */
+  /* При наведении на карточку */
   .card-setts:hover .card-overlay {
-    transform: translateY(0);
+    opacity: 1; /* Оверлей появляется при наведении */
+    transform: translateY(0); /* Перемещаем оверлей в нормальное положение */
   }
+  
+  .card-setts:hover .product-image {
+    filter: blur(4px); /* Размытие изображения при наведении */
+  }
+  
+  /* Стили для карточки */
   .card-item {
     border-bottom: 1px solid rgba(17, 17, 17, 0.1);
     border-left: 1px solid rgba(17, 17, 17, 0.1);
@@ -1875,4 +1879,6 @@ product-image {
     width: 344px;
     height: 80px;
     background: var(--cards);
+    position: relative; /* Убедитесь, что карточка тоже имеет position relative */
   }
+  
