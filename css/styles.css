@@ -1764,3 +1764,17 @@ product-image {
 .sellers-span {
     color: var(--accent); 
 }
+.product-image{
+border-radius: 15px 15px 0 0;
+width: 344px;
+height: 464px;
+}
+.card-setts{
+    border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+    border-left: 1px solid rgba(17, 17, 17, 0.1);
+    border-right: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 0 0 15px 15px;
+    width: 344px;
+    height: 80px;
+  }
+  
