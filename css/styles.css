@@ -1812,25 +1812,7 @@ product-image {
     gap: 16px;
   }
   
-  /* Элемент списка */
-  .card-item {
-    flex: 1 1 calc(100%); /* Для мобильных устройств 1 карточка */
-    
-  }
-  
-  /* Для планшета - 2 карточки */
-  @media (min-width: 768px) {
-    .card-item {
-        width: calc((100% - 32px) / 2);
-    }
-  }
-  
-  /* Для десктопа - 3 карточки */
-  @media (min-width: 1024px) {
-    .card-item {
-      flex: 1 1 calc(33.333% - 16px);
-    }
-  }
+
   
   /* Карточка */
   .card-setts {
@@ -1839,7 +1821,6 @@ product-image {
     background-color: var(--cards);
     text-align: center;
     padding-bottom: 16px;
-    border: 1px solid rgba(0, 0, 0, 0.1); 
   }
   
   /* Фото карточки */
@@ -1859,6 +1840,31 @@ product-image {
     text-transform: uppercase;
     background-color: #fff;
     border-radius: 0 0 15px 15px; /* Скругление только нижних углов */
+  }
+  /* Скрыть карточки по умолчанию */
+.card-item {
+    display: none;
+  }
+  
+  /* На десктопах показываем все карточки */
+  @media (min-width: 1200px) {
+    .card-item {
+      display: block;
+    }
+  }
+  
+  /* На планшетах показываем только первые две карточки */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .card-item:nth-child(-n+2) {
+      display: block;
+    }
+  }
+  
+  /* На мобильных показываем только первую карточку */
+  @media (max-width: 767px) {
+    .card-item:nth-child(1) {
+      display: block;
+    }
   }
   
   /* Контейнер карточки */
