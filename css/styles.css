@@ -1738,6 +1738,7 @@ product-image {
 
 .top-sellers {
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 @media screen and (min-width: 768px) {
     .top-sellers{
