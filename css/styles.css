@@ -1873,26 +1873,21 @@ product-image {
     overflow: hidden; /* Скрывает элементы, выходящие за пределы карточки */
   }
   
-  /* Оверлей */
-  .card-description-overlay{
+/* Оверлей */
+.card-description-overlay {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    padding-top: 187px;
-    padding-left: 40px;
-    padding-right: 40px;
+   width: 100%;
+   height: 544px;
     background: rgba(255, 255, 255, 0.4); /* Белый полупрозрачный фон */
     backdrop-filter: blur(8px); /* Эффект размытия для фона */
-    opacity: 0;
+    opacity: 0; /* Скрыт по умолчанию */
     transform: translateY(100%); /* Оверлей скрыт за пределами карточки */
     transition: opacity 0.3s ease, transform 0.3s ease-in-out; /* Плавное появление и сдвиг */
     color: #fff;
     padding: 16px;
-  }
-  
-  /* Описание внутри оверлея */
-  .card-description-overlay {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
@@ -1902,16 +1897,18 @@ product-image {
   }
   
   /* При наведении на карточку */
-  .card-setts:hover .card-description-overlay{
+/* При наведении на изображение */
+.product-image:hover + .card-description-overlay {
     opacity: 1; /* Оверлей появляется при наведении */
+    transform: translateY(0); /* Сдвиг оверлея на место */
   }
   
+  /* Размытие изображения при наведении */
   .card-setts:hover .product-image {
-    filter: blur(4px); /* Размытие изображения при наведении */
+    filter: blur(4px); /* Размытие изображения */
   }
-  .card-description-overlay{
-    opacity: 0;
-    transition: opacity 0.3s ease;
+  .product-image {
+    position: relative; /* Сделаем изображение контейнером для оверлея */
   }
   /* Стили для карточки */
   .card-item {
