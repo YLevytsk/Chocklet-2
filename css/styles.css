@@ -1608,22 +1608,30 @@ transform: rotateY(180deg);
             align-items: center;
             gap: 32px;
         }
+        @media screen and (min-width: 768px) {
+            .product-item{
+                width: calc((100% - 32px) / 2);
+            }
+        }   
     } 
 @media screen and (min-width: 1200px) {
         .products-list  {
-            width: calc((100% - 96px) / 4);
+
             column-gap: 18px;
             row-gap: 24px;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             column-gap: 32px;
-
             width: 1136px;
     
 
         }
+    
+    .product-card {
+        width: calc((100% - 3 * 32px) / 4); /* Вычисляем ширину для 4 карточек в ряду */
     }
+} 
   
 .product-card {
     border: 1px solid rgba(17, 17, 17, 0.1); /* Рамка вокруг карточки */
@@ -1660,7 +1668,7 @@ transform: rotateY(180deg);
     background-color: rgba(17, 17, 17, 0.1); /* Изменение фона при наведении */
     color: #000; /* Темнее текст при наведении */
   }
-  .product-image {
+  product-image {
     padding: 32px 53px 32px 52px;
     width: 100%; /* отступы для изображения */
   }
