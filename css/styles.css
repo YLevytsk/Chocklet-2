@@ -1736,3 +1736,98 @@ product-image {
 }
 /*  TOP SELLERS*/
 
+/* Секция Top Sellers */
+.top-sellers {
+    margin-top: 80px; /* Отступ от предыдущей секции */
+  }
+  
+  .top-sellers-title {
+    margin-bottom: 32px; /* Отступ вниз от заголовка */
+    text-align: center;
+  }
+  
+  /* Список карточек */
+  .card-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Расстояние между карточками */
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Элемент списка */
+  .card-item {
+    flex: 1 1 calc(100%); /* Для мобильных устройств 1 карточка */
+    max-width: 344px;
+  }
+  
+  /* Для планшета - 2 карточки */
+  @media (min-width: 768px) {
+    .card-item {
+      flex: 1 1 calc(50% - 16px);
+    }
+  }
+  
+  /* Для десктопа - 3 карточки */
+  @media (min-width: 1024px) {
+    .card-item {
+      flex: 1 1 calc(33.333% - 16px);
+    }
+  }
+  
+  /* Карточка */
+  .card-setts {
+    position: relative;
+    border-radius: 15px; /* Полностью скругленные углы карточки */
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    padding-bottom: 16px; /* Отступ снизу для заголовка */
+  }
+  
+  /* Фото карточки */
+  .product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px 15px 0 0; /* Скругление только верхних углов */
+  }
+  
+  /* Заголовок карточки */
+  .card-title {
+    margin: 0;
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px; /* Скругление только нижних углов */
+  }
+  
+  /* Оверлей */
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 16px;
+    transform: translateY(100%); /* Скрыт за пределами карточки */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Описание внутри оверлея */
+  .card-description {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  /* Появление оверлея при наведении */
+  .card-setts:hover .card-overlay {
+    transform: translateY(0);
+  }
+  
