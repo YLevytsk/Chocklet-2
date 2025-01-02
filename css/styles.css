@@ -1589,7 +1589,6 @@ screen and (min-resolution: 2dppx) {
 /*products-section*/
 .products-section {
     margin-top: 80px;
-    /* Отступ сверху и снизу 80px, слева и справа — 0 */
 }
 
 .section-title {
@@ -1603,7 +1602,6 @@ screen and (min-resolution: 2dppx) {
     text-transform: uppercase;
     text-align: center;
     color: var(--main);
-    /* Отступ от заголовка до карточек */
 }
 
 .products-list {
@@ -1615,7 +1613,7 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) {
     .products-list {
-        min-width: 704px;
+       
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -1638,7 +1636,7 @@ screen and (min-resolution: 2dppx) {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 32px;
-        width: 1136px;
+        
 
 
     }
@@ -1693,31 +1691,32 @@ screen and (min-resolution: 2dppx) {
     font-family: var(--font-family);
     /* Шрифт текста кнопки */
     font-size: 14px;
-    /* Размер шрифта текста */
+   
     font-weight: 600;
-    /* Полужирный текст */
+   
     text-align: center;
-    /* Выравнивание текста по центру */
+   
     color: var(--main);
-    /* Цвет текста */
+   
     cursor: pointer;
-    /* Указатель курсора при наведении */
+   
     transition: background-color 0.3s ease, color 0.3s ease;
-    /* Плавный переход для эффектов */
+    
 }
-
 .product-price-button:hover {
     background-color: rgba(17, 17, 17, 0.1);
-    /* Изменение фона при наведении */
+   
     color: #000;
-    /* Темнее текст при наведении */
 }
 
-product-image {
+.product-image {
     padding: 32px 53px 32px 52px;
-    width: 100%;
-    /* отступы для изображения */
+    width: 230px;
+    height: 201px;
+    margin-bottom: 8px;
 }
+
+
 
 .production-span {
     color: var(--accent);
@@ -1824,7 +1823,7 @@ product-image {
   }
   
   /* Фото карточки */
-  .product-image {
+  .product-image-card {
     width: 100%;
     height: auto;
     display: block;
@@ -1903,27 +1902,20 @@ product-image {
     text-align: left;
   }
   
-  /* При наведении на карточку */
-  .card-setts:hover .card-description-overlay {
-    opacity: 1; /* Оверлей появляется при наведении */
-    transform: translateY(0); /* Оверлей становится видимым */
+  card-setts:hover .card-description-overlay {
+    opacity: 1; 
+    transform: translateY(0); 
   }
   
-  .product-image {
-
-  }
- 
-/* При наведении на изображение */
-.product-image:hover + .card-description-overlay {
-    opacity: 1; /* Оверлей появляется при наведении */
-    transform: translateY(0); /* Сдвиг оверлея на место */
+.product-image-card:hover + .card-description-overlay {
+    opacity: 1; 
+    transform: translateY(0); 
   }
   
-  /* Размытие изображения при наведении */
   .card-setts:hover .product-image {
-    filter: blur(4px); /* Размытие изображения */
+    filter: blur(4px); 
   }
-  .product-image {
+  .product-image-card {
     position: relative; 
     width: 100%;
     height: 100%;
