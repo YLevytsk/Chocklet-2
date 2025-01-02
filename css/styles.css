@@ -1629,6 +1629,7 @@ screen and (min-resolution: 2dppx) {
     line-height: 117%;
     letter-spacing: -0.02em;
     color: rgba(17, 17, 17, 0.7);
+    margin-bottom: 18px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1666,7 +1667,9 @@ screen and (min-resolution: 2dppx) {
         /* Вычисляем ширину для 4 карточек в ряду */
     }
 }
-
+.product-card {
+    padding-bottom: 32px; /* Добавляем пространство снизу для кнопки */
+  }
 .product-card {
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
@@ -1704,8 +1707,8 @@ screen and (min-resolution: 2dppx) {
     color: #000;
 }
 
-.product-image {
-    padding: 32px 53px 32px 52px;
+product-image {
+   
     margin-bottom: 8px;
 }
 
@@ -1724,7 +1727,15 @@ screen and (min-resolution: 2dppx) {
         margin-top: 120px;
     }
 }
-
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для движения и теней */
+    will-change: transform; /* Оптимизация производительности */
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px); /* Поднимаем карточку вверх */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Добавляем тень для большего объема */
+  }
 
 
 
