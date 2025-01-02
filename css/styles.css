@@ -1622,6 +1622,15 @@ screen and (min-resolution: 2dppx) {
     text-transform: uppercase;
     color: var(--main);
 }
+.product-description {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
 @media screen and (min-width: 768px) {
     .products-list {
        
@@ -1660,63 +1669,38 @@ screen and (min-resolution: 2dppx) {
 
 .product-card {
     border: 1px solid rgba(17, 17, 17, 0.1);
-    /* Рамка вокруг карточки */
     border-radius: 15px;
-    /* Скругление углов карточки */
     width: 100%;
-    /* Ширина карточки */
-    height: 364px;
-    /* Высота карточки */
     display: flex;
-    /* Для выравнивания контента внутри */
     flex-direction: column;
-    /* Выстраиваем элементы внутри карточки по вертикали */
     justify-content: space-between;
-    /* Разделяем элементы внутри карточки */
     align-items: center;
-    /* Центрируем элементы внутри карточки по горизонтали */
     padding: 16px;
-    /* Внутренние отступы карточки */
     box-sizing: border-box;
-    /* Включаем padding в общую ширину и высоту */
-    background-color: #fff;
-    /* Цвет фона карточки */
+    background-color: var(--cards);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-    /* Легкая тень для объема */
+
 }
 
 .product-price-button {
     border: 1px solid rgba(17, 17, 17, 0.1);
     white-space: nowrap;
-    /* Рамка кнопки */
     border-radius: 100px;
-    /* Полностью скругленные углы */
     padding: 8px 20px;
-    /* Внутренние отступы */
     width: 94px;
-    /* Ширина кнопки */
     height: 33px;
-    /* Высота кнопки */
     background-color: #FAFAFA;
-    /* Белый фон кнопки */
     font-family: var(--font-family);
-    /* Шрифт текста кнопки */
     font-size: 14px;
-   
     font-weight: 600;
-   
     text-align: center;
-   
     color: var(--main);
-   
     cursor: pointer;
-   
     transition: background-color 0.3s ease, color 0.3s ease;
     
 }
 .product-price-button:hover {
     background-color: rgba(17, 17, 17, 0.1);
-   
     color: #000;
 }
 
@@ -1724,8 +1708,6 @@ screen and (min-resolution: 2dppx) {
     padding: 32px 53px 32px 52px;
     margin-bottom: 8px;
 }
-
-
 
 .production-span {
     color: var(--accent);
