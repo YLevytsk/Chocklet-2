@@ -1350,7 +1350,8 @@ screen and (min-resolution: 2dppx) {
 
 
 /* section media*/
-.media-picture {
+
+ .media-picture {
     border-radius: 15px;
     width: 100%;
     height: auto;
@@ -1613,6 +1614,7 @@ screen and (min-resolution: 2dppx) {
     align-items: center;
     gap: 32px;
 }
+
 .product-title {
     font-family: var(--font-family);
     font-weight: 600;
@@ -1622,6 +1624,7 @@ screen and (min-resolution: 2dppx) {
     text-transform: uppercase;
     color: var(--main);
 }
+
 .product-description {
     font-family: var(--font-family);
     font-weight: 400;
@@ -1634,7 +1637,7 @@ screen and (min-resolution: 2dppx) {
 
 @media screen and (min-width: 768px) {
     .products-list {
-       
+
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
@@ -1657,7 +1660,7 @@ screen and (min-resolution: 2dppx) {
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 32px;
-        
+
 
 
     }
@@ -1667,9 +1670,12 @@ screen and (min-resolution: 2dppx) {
         /* Вычисляем ширину для 4 карточек в ряду */
     }
 }
+
 .product-card {
-    padding-bottom: 32px; /* Добавляем пространство снизу для кнопки */
-  }
+    padding-bottom: 32px;
+    /* Добавляем пространство снизу для кнопки */
+}
+
 .product-card {
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
@@ -1700,15 +1706,16 @@ screen and (min-resolution: 2dppx) {
     color: var(--main);
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-    
+
 }
+
 .product-price-button:hover {
     background-color: rgba(17, 17, 17, 0.1);
     color: #000;
 }
 
 product-image {
-   
+
     margin-bottom: 8px;
 }
 
@@ -1727,15 +1734,20 @@ product-image {
         margin-top: 120px;
     }
 }
+
 .product-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для движения и теней */
-    will-change: transform; /* Оптимизация производительности */
-  }
-  
-  .product-card:hover {
-    transform: translateY(-10px); /* Поднимаем карточку вверх */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Добавляем тень для большего объема */
-  }
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* Плавный переход для движения и теней */
+    will-change: transform;
+    /* Оптимизация производительности */
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    /* Поднимаем карточку вверх */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* Добавляем тень для большего объема */
+}
 
 
 
@@ -1753,16 +1765,20 @@ product-image {
     height: 592px;
 
 }
+
 @media screen and (min-width: 768px) {
     .top-sellers {
-        width:100%;
-        height: 622px;}} 
+        width: 100%;
+        height: 622px;
+    }
+}
 
 @media screen and (min-width: 1200px) {
     .top-sellers {
         width: 100%;
-        height: 622px; 
-    }}     
+        height: 622px;
+    }
+}
 
 .cards-sellers {
     width: 100%;
@@ -1773,7 +1789,7 @@ product-image {
     display: flex;
     align-items: center;
     justify-content: space-between;
- }
+}
 
 .top-sellers-title {
     font-weight: 600;
@@ -1785,98 +1801,104 @@ product-image {
     color: var(--main);
     margin-bottom: 32px;
 }
+
 .sellers-span {
     color: var(--accent);
 }
 
 @media screen and (min-width: 768px) {
     .top-sellers {
-      margin-top: 100px; 
+        margin-top: 100px;
     }
-  }
-  @media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1200px) {
     .top-sellers {
-    
-      margin-top: 120px; 
+
+        margin-top: 120px;
     }
-  }
-  .top-sellers-title {
-    margin-bottom: 32px; 
+}
+
+.top-sellers-title {
+    margin-bottom: 32px;
     text-align: center;
-  }
-  
-  /* Список карточек */
-  .card-list {
+}
+
+/* Список карточек */
+.card-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
-  }
-  
+}
 
-  
-  /* Карточка */
-  .card-setts {
+
+
+/* Карточка */
+.card-setts {
     position: relative;
     overflow: hidden;
     background-color: var(--cards);
     text-align: center;
     padding-bottom: 16px;
-  }
-  
-  /* Фото карточки */
-  .product-image-card {
+}
+
+/* Фото карточки */
+.product-image-card {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 15px 15px 0 0; /* Скругление только верхних углов */
-  }
-  
-  /* Заголовок карточки */
-  .card-title {
+    border-radius: 15px 15px 0 0;
+    /* Скругление только верхних углов */
+}
+
+/* Заголовок карточки */
+.card-title {
     margin: 0;
     padding: 16px;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
     display: flex;
-     align-items: center;
-     justify-content: center;
-     background: var(--cards);
-     width: 100%;
-    
-     border-radius: 0 0 15px 15px;
-     height: 72px; /* Скругление только нижних углов */
-  }
-  /* Скрыть карточки по умолчанию */
+    align-items: center;
+    justify-content: center;
+    background: var(--cards);
+    width: 100%;
+
+    border-radius: 0 0 15px 15px;
+    height: 72px;
+    /* Скругление только нижних углов */
+}
+
+/* Скрыть карточки по умолчанию */
 .card-item {
     display: none;
-  }
-  
-  /* На десктопах показываем все карточки */
-  @media (min-width: 1200px) {
-    .card-item {
-      display: block;
-    }
-  }
-  
-  /* На планшетах показываем только первые две карточки */
-  @media (min-width: 768px) and (max-width: 1199px) {
-    .card-item:nth-child(-n+2) {
-      display: block;
-    }
-  }
-  
-  /* На мобильных показываем только первую карточку */
-  @media (max-width: 767px) {
-    .card-item:nth-child(1) {
-      display: block;
-    }
-  }
-  
-  /* Контейнер карточки */
+}
 
-  
+/* На десктопах показываем все карточки */
+@media (min-width: 1200px) {
+    .card-item {
+        display: block;
+    }
+}
+
+/* На планшетах показываем только первые две карточки */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .card-item:nth-child(-n+2) {
+        display: block;
+    }
+}
+
+/* На мобильных показываем только первую карточку */
+@media (max-width: 767px) {
+    .card-item:nth-child(1) {
+        display: block;
+    }
+}
+
+/* Контейнер карточки */
+
+
 /* Оверлей */
 .card-description-overlay {
     position: absolute;
@@ -1885,12 +1907,17 @@ product-image {
     right: 0;
     width: 344px;
     height: 464px;
-    background: linear-gradient(161deg, rgba(253, 253, 255, 0.1) 0%, rgba(8, 2, 21, 0.1) 100%); /* Градиент */
-    backdrop-filter: blur(15px); /* Блюр фона */
-    opacity: 0; /* Скрыт по умолчанию */
-    transform: translateY(100%); /* Оверлей скрыт за пределами карточки */
-    transition: opacity 0.3s ease, transform 1.0s ease-in-out; /* Плавное появление и сдвиг */
-    color:var(--cards);
+    background: linear-gradient(161deg, rgba(253, 253, 255, 0.1) 0%, rgba(8, 2, 21, 0.1) 100%);
+    /* Градиент */
+    backdrop-filter: blur(15px);
+    /* Блюр фона */
+    opacity: 0;
+    /* Скрыт по умолчанию */
+    transform: translateY(100%);
+    /* Оверлей скрыт за пределами карточки */
+    transition: opacity 0.3s ease, transform 1.0s ease-in-out;
+    /* Плавное появление и сдвиг */
+    color: var(--cards);
     padding: 16px;
     font-family: var(--font-family);
     font-weight: 400;
@@ -1902,30 +1929,31 @@ product-image {
     padding-left: 40px;
     padding-right: 40px;
     text-align: left;
-    
-  }
-  
-  card-setts:hover .card-description-overlay {
-    opacity: 1; 
-    transform: translateY(0); 
-  }
-  
-.product-image-card:hover + .card-description-overlay {
-    opacity: 1; 
-    transform: translateY(0); 
-  }
-  
-  .card-setts:hover .product-image {
-    filter: blur(4px); 
-  }
-  .product-image-card {
-    position: relative; 
+
+}
+
+card-setts:hover .card-description-overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-image-card:hover+.card-description-overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-setts:hover .product-image {
+    filter: blur(4px);
+}
+
+.product-image-card {
+    position: relative;
     width: 100%;
     height: 100%;
-  } 
-  
-  /* Стили для карточки */
-  .card-item {
+}
+
+/* Стили для карточки */
+.card-item {
     border-bottom: 1px solid rgba(17, 17, 17, 0.1);
     border-left: 1px solid rgba(17, 17, 17, 0.1);
     border-right: 1px solid rgba(17, 17, 17, 0.1);
@@ -1935,4 +1963,4 @@ product-image {
     background: var(--cards);
     position: relative;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
-  }
+}
