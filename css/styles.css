@@ -1588,6 +1588,8 @@ screen and (min-resolution: 2dppx) {
 
 /*products-section*/
 
+
+
 .products-section {
     margin-top: 80px;
 }
@@ -1611,7 +1613,15 @@ screen and (min-resolution: 2dppx) {
     align-items: center;
     gap: 32px;
 }
-
+.product-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: var(--main);
+}
 @media screen and (min-width: 768px) {
     .products-list {
        
