@@ -2003,10 +2003,8 @@ card-setts:hover .card-description-overlay {
   color: var(--cards); /* Белый текст */
   outline: none; 
 }
-reviews-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.reviews-wrapper {
+ padding-top: 32px;
   }
  
   
@@ -2035,8 +2033,7 @@ reviews-wrapper {
   .reviews-text {
     padding: 16px;
     font-size: 14px;
-    color: var(--main);
-    padding: 104px 18px 42px 18px; 
+    color: var(--main); 
     align-items: center;
      text-align: center;
     font-weight: 400; 
@@ -2053,9 +2050,10 @@ reviews-wrapper {
     line-height: 133%;
     text-align: center;
     color: var(--main); 
-    display: inline-flex;
     justify-content: center;
     align-items: center;
+   
+ 
   }
   .reviews-item {
     border: 1px solid rgba(17, 17, 17, .1);
@@ -2068,10 +2066,12 @@ reviews-wrapper {
   .reviews-img {
     width: 80px; /* Установим размер фото */
     height: 80px;
-    margin-bottom: 18px;
      margin-left: auto;
      margin-right: auto;
      transform: translateY(-40px);
      border-radius: 100%;
-     margin-top: 32px;
+   
   }
+ .top-sellers-title{
+  margin-bottom: 72px;}
+  
