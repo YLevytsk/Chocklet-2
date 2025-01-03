@@ -2037,28 +2037,56 @@ card-setts:hover .card-description-overlay {
     font-size: 14px;
     line-height: 1.6;
     color: var(--main);
-    margin-bottom: 10px; /* Отступ снизу */
+    margin-bottom: 10px;
+    padding: 104px 18px 42px 18px; 
+    align-items: center;
+     text-align: center;
   }
-  .reviews-subtitle {
-    width: 200px;
-    height: 122px;
-    text-align: center;
-    font-size: 18px;
+  reviews-subtitle {
+    font-family: var(--font-family);
     font-weight: 600;
-    line-height: 122px;
-    margin: 20px 0; /* Отступ сверху и снизу */
-    color: var(--main); /* Цвет текста */
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: var(--main); 
+    display: inline-flex;
+    justify-content: center; /* Выравнивание по центру */
+    align-items: center; /* Вертикальное выравнивание по центру */
+     text-align: center; 
+    /* Цвет текста */
   }
   .reviews-list-item {
-    width: 335px;
-    height: 442px; /* Суммарная высота карточки с учетом фото и описания */
-    background-color: var(--cards);
-    border-radius: 15px;
-    box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
-    overflow: hidden; /* Чтобы контент не выходил за пределы карточки */
-    padding-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+        position: relative;
+        width: 335px; 
+        height: 200px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end; 
+        padding-top: 50px;
+        background: var(--cards);
+        border-radius: 15px;
+        box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
+  }
+  .reviews-subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 122px; /* Центрируем текст по вертикали */
+    color: var(--dark);
+    position: absolute;
+    top: 50px; /* Чтобы фамилия была сразу под фото */
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 18px; /* Добавляем отступ между фото и фамилией */
+    z-index: 1;
+  }
+  .reviews-img {
+    width: 80px; /* Установим размер фото */
+    height: 80px;
+    margin-bottom: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: -50px; /* Фото будет выступать за пределы карточки */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Чтобы фото было поверх остального контента */
   }
