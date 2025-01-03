@@ -2060,7 +2060,7 @@ card-setts:hover .card-description-overlay {
   .reviews-subtitle {
     top: 50px; 
     left: 50%;
-    margin-top: 18px; 
+    margin-bottom: 24px; 
   }
   .reviews-img {
     width: 80px; /* Установим размер фото */
