@@ -2014,7 +2014,7 @@ card-setts:hover .card-description-overlay {
   }
   
   /* Для планшета: показывать только 2 карточки */
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .reviews-list-item:nth-child(n + 3) {
       display: none; /* Скрыть карточки начиная с третьей */
     }
