@@ -2036,7 +2036,7 @@ card-setts:hover .card-description-overlay {
     box-sizing: border-box;
     font-size: 14px;
     line-height: 1.6;
-    color: var(--dark);
+    color: var(--main);
     margin-bottom: 10px; /* Отступ снизу */
   }
   .reviews-subtitle {
@@ -2047,12 +2047,12 @@ card-setts:hover .card-description-overlay {
     font-weight: 600;
     line-height: 122px;
     margin: 20px 0; /* Отступ сверху и снизу */
-    color: var(--dark); /* Цвет текста */
+    color: var(--main); /* Цвет текста */
   }
   .reviews-list-item {
     width: 335px;
     height: 442px; /* Суммарная высота карточки с учетом фото и описания */
-    background-color: var(--white);
+    background-color: var(--cards);
     border-radius: 15px;
     box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
     overflow: hidden; /* Чтобы контент не выходил за пределы карточки */
