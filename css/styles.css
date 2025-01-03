@@ -2058,7 +2058,6 @@ card-setts:hover .card-description-overlay {
         flex-direction: column;
         justify-content: flex-end; 
         padding-top: 50px;
-        
         border-radius: 15px;
         box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
   }
