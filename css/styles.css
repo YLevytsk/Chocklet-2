@@ -2002,3 +2002,28 @@ card-setts:hover .card-description-overlay {
   color: var(--cards); /* Белый текст */
   outline: none; 
 }
+.reviews-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+     /* Отступ между карточками */
+    justify-content: space-between;
+  }
+  /* Для всех устройств: по умолчанию видны все карточки */
+.reviews-list-item {
+    display: block;
+  }
+  
+  /* Для планшета: показывать только 2 карточки */
+  @media (max-width: 1024px) {
+    .reviews-list-item:nth-child(n + 3) {
+      display: none; /* Скрыть карточки начиная с третьей */
+    }
+  }
+  
+  /* Для мобильных устройств: показывать только 1 карточку */
+  @media (max-width: 768px) {
+    .reviews-list-item:nth-child(n + 2) {
+      display: none; /* Скрыть карточки начиная со второй */
+    }
+  }
+  
