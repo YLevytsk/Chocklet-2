@@ -1979,3 +1979,15 @@ card-setts:hover .card-description-overlay {
     align-items: center;
     
 }
+.leave-review-btn {
+    border: 1px solid var(--accent);
+    border-radius: 100px;
+    padding: 12px 28px;
+    width: 165px;
+    height: 41px;
+    margin-top: 32px;
+    cursor: pointer;
+    white-space: nowrap;
+    display: block; /* Чтобы кнопка стала блочным элементом */
+    margin: 0 auto;
+}
