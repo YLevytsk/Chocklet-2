@@ -2063,4 +2063,5 @@ card-setts:hover .card-description-overlay {
      margin-right: auto;
      transform: translateY(-40px);
      border-radius: 100%;
+     margin-top: 32px;
   }
