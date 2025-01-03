@@ -1985,9 +1985,13 @@ card-setts:hover .card-description-overlay {
     padding: 12px 28px;
     width: 165px;
     height: 41px;
-    margin-top: 32px;
+    font-family: var(--font-family);
     cursor: pointer;
     white-space: nowrap;
     display: block; /* Чтобы кнопка стала блочным элементом */
     margin: 0 auto;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: var(--main);
 }
