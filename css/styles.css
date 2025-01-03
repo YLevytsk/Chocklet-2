@@ -1974,6 +1974,10 @@ card-setts:hover .card-description-overlay {
 }
 .reviews-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
     
 }
 .leave-review-btn {
@@ -2019,13 +2023,13 @@ reviews-wrapper {
       display: none; /* Скрыть карточки начиная со второй */
     }
   }
-  reviews-list-item {
+  .reviews-list-item {
     border: 1px solid rgba(17, 17, 17, .1);
     border-radius: 15px;
     width: 100%;
     height: auto;
     box-shadow: 0 9px 100px #11111108;
-    background: var(--white);
+    background: var(--cards);
 
   }
   .reviews-text {
