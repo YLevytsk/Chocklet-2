@@ -1989,9 +1989,16 @@ card-setts:hover .card-description-overlay {
     cursor: pointer;
     white-space: nowrap;
     display: block; /* Чтобы кнопка стала блочным элементом */
-    margin: 0 auto;
+    margin: 32px auto 0;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     color: var(--main);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.leave-review-btn:hover,
+.leave-review-btn:focus {
+  background: var(--accent); /* Оранжевый фон при ховере или фокусе */
+  color: var(--cards); /* Белый текст */
+  outline: none; 
 }
