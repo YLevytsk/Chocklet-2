@@ -2037,7 +2037,7 @@ card-setts:hover .card-description-overlay {
     align-items: center;
      text-align: center;
   }
-  reviews-subtitle {
+  .reviews-subtitle {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 18px;
@@ -2047,8 +2047,7 @@ card-setts:hover .card-description-overlay {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 200px; 
-    height: 24px;
+  
      
     /* Цвет текста */
   }
@@ -2064,16 +2063,9 @@ card-setts:hover .card-description-overlay {
         box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
   }
   .reviews-subtitle {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 122px; /* Центрируем текст по вертикали */
-    color: var(--dark);
-    position: absolute;
-    top: 50px; /* Чтобы фамилия была сразу под фото */
+    top: 50px; 
     left: 50%;
-    transform: translateX(-50%);
-    margin-top: 18px; /* Добавляем отступ между фото и фамилией */
-    z-index: 1;
+    margin-top: 18px; 
   }
   .reviews-img {
     width: 80px; /* Установим размер фото */
