@@ -1976,7 +1976,7 @@ card-setts:hover .card-description-overlay {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    
     
     
 }
@@ -2010,8 +2010,10 @@ card-setts:hover .card-description-overlay {
   /* Для планшета: показывать только 2 карточки */
   @media (max-width: 1200px) {
     .reviews-list-item:nth-child(n + 3) {
-      display: none; /* Скрыть карточки начиная с третьей */
+      display: none;
     }
+}
+@media screen and (min-width: 1200px){
     .section-reviews {
         margin-top: 120px;
     }
@@ -2020,8 +2022,10 @@ card-setts:hover .card-description-overlay {
   /* Для мобильных устройств: показывать только 1 карточку */
   @media (max-width: 768px) {
     .reviews-list-item:nth-child(n + 2) {
-      display: none; /* Скрыть карточки начиная со второй */
+      display: none; 
     }
+  }
+    @media screen and (min-width: 1200px){
     .section-reviews {
         margin-top: 100px;
     }
@@ -2029,6 +2033,7 @@ card-setts:hover .card-description-overlay {
         flex-direction: row;
         display: flex;
         justify-content: space-between;
+       
     }
   }
   .reviews-list-item {
@@ -2041,7 +2046,7 @@ card-setts:hover .card-description-overlay {
 
   }
   .reviews-text {
-    padding: 16px;
+    padding: 18px;
     font-size: 14px;
     color: var(--main); 
     align-items: center;
@@ -2053,6 +2058,7 @@ card-setts:hover .card-description-overlay {
     font-family: var(--font-family);
     font-weight: 400;
     color: rgba(17, 17, 17, 0.7);
+    margin-bottom: 42px;
    
     }
   
