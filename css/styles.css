@@ -2160,8 +2160,6 @@ card-setts:hover .card-description-overlay {
     align-items: center;
     cursor: pointer;
     display: block;
-    flex-direction: row;
-    gap: 14px;
 }
 .footer-socials-icon {
     fill: var(--cards);
