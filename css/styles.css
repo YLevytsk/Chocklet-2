@@ -2012,7 +2012,7 @@ card-setts:hover .card-description-overlay {
       display: none; /* Скрыть карточки начиная с третьей */
     }
     .section-reviews {
-        margin-top: 100px;
+        margin-top: 120px;
     }
   }
   
@@ -2020,6 +2020,9 @@ card-setts:hover .card-description-overlay {
   @media (max-width: 768px) {
     .reviews-list-item:nth-child(n + 2) {
       display: none; /* Скрыть карточки начиная со второй */
+    }
+    .section-reviews {
+        margin-top: 100px;
     }
   }
   .reviews-list-item {
