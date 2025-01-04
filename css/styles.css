@@ -2157,4 +2157,24 @@ card-setts:hover .card-description-overlay {
     width: 40px;
     height: 40px;
     color: var(--cards);
+    align-items: center;
+    cursor: pointer;
+    display: block;
+    flex-direction: row;
+    gap: 14px;
+}
+.footer-socials-icon {
+    fill: var(--cards);
+    transition: fill 0.3s;
+}
+
+.footer-socials-link:hover .footer-socials-icon ,
+.footer-socials-link:focus .footer-socials-icon{
+    fill: var(--accent);
+
+}
+.footer-socials-list{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
 }
