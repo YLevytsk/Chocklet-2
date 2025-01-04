@@ -1998,6 +1998,7 @@ card-setts:hover .card-description-overlay {
     color: var(--main);
     transition: background 0.3s ease, color 0.3s ease;
 }
+
 .leave-review-btn:hover,
 .leave-review-btn:focus {
   background: var(--accent); /* Оранжевый фон при ховере или фокусе */
@@ -2023,6 +2024,9 @@ card-setts:hover .card-description-overlay {
     }
     .section-reviews {
         margin-top: 100px;
+    }
+    .reviews-list {
+        flex-direction: row;
     }
   }
   .reviews-list-item {
