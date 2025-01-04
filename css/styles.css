@@ -2037,7 +2037,7 @@ card-setts:hover .card-description-overlay {
       display: none; 
     }
   }
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 768px){
     .section-reviews {
         margin-top: 100px;
     }
@@ -2085,14 +2085,7 @@ card-setts:hover .card-description-overlay {
    
  
   }
-  .reviews-item {
-    border: 1px solid rgba(17, 17, 17, .1);
-    border-radius: 15px;
-    width: 100%;
-    height: auto;
-    box-shadow: 0 9px 100px #11111108;
-    background: var(--cards);
-}
+
   .reviews-img {
     width: 80px; /* Установим размер фото */
     height: 80px;
