@@ -1994,6 +1994,7 @@ card-setts:hover .card-description-overlay {
     font-weight: 600;
     font-size: 14px;
     text-align: center;
+    background: var(--cards)
     color: var(--main);
     transition: background 0.3s ease, color 0.3s ease;
 }
