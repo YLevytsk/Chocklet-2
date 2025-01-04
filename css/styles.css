@@ -2046,7 +2046,7 @@ card-setts:hover .card-description-overlay {
 
   }
   .reviews-text {
-    padding: 18px;
+   
     font-size: 14px;
     color: var(--main); 
     align-items: center;
@@ -2058,7 +2058,7 @@ card-setts:hover .card-description-overlay {
     font-family: var(--font-family);
     font-weight: 400;
     color: rgba(17, 17, 17, 0.7);
-    margin-bottom: 42px;
+    padding: 24px 18px 42px 18px;
    
     }
   
