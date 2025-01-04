@@ -1985,11 +1985,11 @@ card-setts:hover .card-description-overlay {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     text-align: center;
+    color: var(--main);
+} 
+.sellers-span-s {
     color: var(--accent);
-}  
-.sellers-span-s{
-    color:  var(--main);
-}
+} 
     
 
 .leave-review-btn {
