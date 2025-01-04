@@ -2107,7 +2107,28 @@ card-setts:hover .card-description-overlay {
      margin-bottom: -22px; 
 
    
-  }
- .sellers-title{
-  margin-bottom: 74px;
+}
+.sellers-title{
+    margin-bottom: 74px;
+}
+
+
+
+/* footer*/
+
+.footer {
+    margin-top: 80px;
+    background-color: #1E1823; 
+}
+
+.footer-title-span {
+    color: var(--accent);
+}
+.footer-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 117%;
+    letter-spacing: -0.02em;
+    color: var(--main);
 }
