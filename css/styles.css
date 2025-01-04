@@ -2011,6 +2011,9 @@ card-setts:hover .card-description-overlay {
     .reviews-list-item:nth-child(n + 3) {
       display: none; /* Скрыть карточки начиная с третьей */
     }
+    .section-reviews {
+        margin-top: 100px;
+    }
   }
   
   /* Для мобильных устройств: показывать только 1 карточку */
@@ -2038,6 +2041,9 @@ card-setts:hover .card-description-overlay {
     line-height: 129%;
     letter-spacing: -.02em;
     text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: rgba(17, 17, 17, 0.7);
    
     }
   
