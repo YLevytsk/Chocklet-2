@@ -2227,5 +2227,33 @@ font-family: var(--font-family);
 font-weight: 600;
 font-size: 14px;
 text-align: center;
+}
+
+    
+
+@media (max-width: 768px) {
+.footer-line{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 704px;
+    height: 0px;
+}
+.footer-title{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 28px;
+line-height: 121%;
+letter-spacing: -0.02em;
+margin-top: 50px;
+padding-left: 32px;
 
 }
+.footer-title-wrap {
+    width: 300px;
+ }
+ 
+ .footer-title {
+    display: flex;
+    flex-direction: column;
+ }
+}
+
