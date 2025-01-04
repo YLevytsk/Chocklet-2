@@ -2006,7 +2006,7 @@ card-setts:hover .card-description-overlay {
     font-weight: 600;
     font-size: 14px;
     text-align: center;
-    background: var(--cards)
+    background: var(--cards);
     color: var(--main);
     transition: background 0.3s ease, color 0.3s ease;
 }
@@ -2029,7 +2029,9 @@ card-setts:hover .card-description-overlay {
     .section-reviews {
         margin-top: 120px;
     }
-  }
+    .reviews-list {
+        gap: 24px;
+  }}
   
   /* Для мобильных устройств: показывать только 1 карточку */
   @media (max-width: 768px) {
@@ -2041,11 +2043,15 @@ card-setts:hover .card-description-overlay {
     .section-reviews {
         margin-top: 100px;
     }
+    .reviews-list-item {
+
+    } 
     .reviews-list {
         flex-direction: row;
         display: flex;
         justify-content: space-between;
         gap: 16px;
+       
        
     }
   }
@@ -2053,7 +2059,7 @@ card-setts:hover .card-description-overlay {
     border: 1px solid rgba(17, 17, 17, .1);
     border-radius: 15px;
     width: 100%;
-    height: auto;
+    height: 200px;
     box-shadow: 0 9px 100px #11111108;
     background: var(--cards);
 
@@ -2070,7 +2076,9 @@ card-setts:hover .card-description-overlay {
     font-family: var(--font-family);
     font-weight: 400;
     color: rgba(17, 17, 17, 0.7);
-    padding: 24px 18px 42px 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+   margin-bottom: 42px;
    
     }
   
@@ -2083,6 +2091,8 @@ card-setts:hover .card-description-overlay {
     color: var(--main); 
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px;
+    margin-top: 18px;
    
  
   }
@@ -2094,6 +2104,8 @@ card-setts:hover .card-description-overlay {
      margin-right: auto;
      transform: translateY(-40px);
      border-radius: 100%;
+     margin-bottom: -22px; 
+
    
   }
  .sellers-title{
