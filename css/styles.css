@@ -1975,11 +1975,23 @@ card-setts:hover .card-description-overlay {
 .reviews-list {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;}
     
-    
-    
+.sellers-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--accent);
+}  
+.sellers-span-s{
+    color:  var(--main);
 }
+    
+
 .leave-review-btn {
     border: 1px solid var(--accent);
     border-radius: 100px;
