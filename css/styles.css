@@ -2146,3 +2146,15 @@ card-setts:hover .card-description-overlay {
     padding-left: 20px;
     margin-bottom: 14px;
 }
+.footer-socials-title {
+    margin-top: 32px;
+    margin-bottom: 14px;
+}
+.footer-socials-link{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    color: var(--cards);
+}
