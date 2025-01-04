@@ -2238,7 +2238,7 @@ text-align: center;
     height: 0px;
 }
 .footer-title{
-    font-family: var(--font-family);
+font-family: var(--font-family);
 font-weight: 500;
 font-size: 28px;
 line-height: 121%;
@@ -2247,7 +2247,7 @@ margin-top: 50px;
 padding-left: 32px;
 
 }
-.footer-title-wrap {
+footer-title-wrap {
     width: 300px;
  }
  
@@ -2256,4 +2256,16 @@ padding-left: 32px;
     flex-direction: column;
  }
 }
+.footer-top {
+    display: flex;
+    align-items: flex-start;
+ }
+ 
+ .footer-contacts {
+    margin-left: 52px;
+ }
+ 
+ .footer-socials {
+    margin-left: 40px;
+ }
 
