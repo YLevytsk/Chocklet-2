@@ -2132,7 +2132,7 @@ card-setts:hover .card-description-overlay {
     letter-spacing: -0.02em;
     color:var(--cards);
     margin-top: 32px;
-    padding-left: 20px;
+   text-align: left;
     margin-bottom: 32px;
 }
 .footer-contacts-title,
@@ -2244,7 +2244,7 @@ font-size: 28px;
 line-height: 121%;
 letter-spacing: -0.02em;
 margin-top: 50px;
-padding-left: 32px;
+
 
 }
 footer-title-wrap {
