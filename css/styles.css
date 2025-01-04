@@ -2003,10 +2003,7 @@ card-setts:hover .card-description-overlay {
   color: var(--cards); /* Белый текст */
   outline: none; 
 }
-.reviews-wrapper {
- padding-top: 32px;
-  }
- 
+
   
   /* Для планшета: показывать только 2 карточки */
   @media (max-width: 1200px) {
@@ -2074,4 +2071,3 @@ card-setts:hover .card-description-overlay {
   }
  .top-sellers-title{
   margin-bottom: 72px;}
-  
