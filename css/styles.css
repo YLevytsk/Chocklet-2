@@ -2045,6 +2045,7 @@ card-setts:hover .card-description-overlay {
         flex-direction: row;
         display: flex;
         justify-content: space-between;
+        gap: 16px;
        
     }
   }
