@@ -2027,6 +2027,8 @@ card-setts:hover .card-description-overlay {
     }
     .reviews-list {
         flex-direction: row;
+        display: flex;
+        justify-content: space-between;
     }
   }
   .reviews-list-item {
