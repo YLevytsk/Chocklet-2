@@ -2046,11 +2046,10 @@ card-setts:hover .card-description-overlay {
 
   }
   .reviews-text {
-   
     font-size: 14px;
     color: var(--main); 
     align-items: center;
-     text-align: center;
+    text-align: center;
     font-weight: 400; 
     line-height: 129%;
     letter-spacing: -.02em;
@@ -2092,4 +2091,5 @@ card-setts:hover .card-description-overlay {
    
   }
  .top-sellers-title{
-  margin-bottom: 72px;}
+  margin-bottom: 74px;
+}
