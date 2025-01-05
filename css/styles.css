@@ -2122,7 +2122,7 @@ card-setts:hover .card-description-overlay {
 }
 
 .footer-title-span {
-    color: var(--accent);
+    color: var(--cards);
 }
 .footer-title {
     font-family: var(--font-family);
@@ -2130,7 +2130,7 @@ card-setts:hover .card-description-overlay {
     font-size: 24px;
     line-height: 117%;
     letter-spacing: -0.02em;
-    color:var(--cards);
+    color:var(--accent);
     margin-top: 32px;
    text-align: left;
     margin-bottom: 32px;
@@ -2254,7 +2254,10 @@ line-height: 121%;
 letter-spacing: -0.02em;
 
 }
-
+.footer-title-wrap{
+    display: flex; /* Выстраиваем элементы в одну линию */
+    align-items: flex-start;
+}
  .footer-title {
     display: flex;
     flex-direction: column;
@@ -2262,8 +2265,7 @@ letter-spacing: -0.02em;
 
 .footer-top {
     display: flex;
-    align-items: center;
-    justify-content: center;
+  
     flex-direction: row;
     gap: 40px;
     margin-top: 50px;
