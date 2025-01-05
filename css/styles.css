@@ -2350,18 +2350,24 @@ footer-contacts {
 
     .footer-title-wrap {
         display: flex;
-        justify-content: flex-end;
-        gap: 50px;
-        margin: 0;
+        justify-content: flex-start;
+
     }
 
     .footer-title {
         width: 300px;
     }
 
-    .footer-socials {
-        margin-left: 474px;
+    .footer-title {
+        margin-right: auto;
     }
+
+    .footer-socials {
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
+
 
     .footer-input {
         width: 313px;
