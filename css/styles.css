@@ -2158,6 +2158,8 @@ card-setts:hover .card-description-overlay {
     background-color: #FCF1E0;
     color: var(--main);
     border-color: var(--accent);
+    border: 1px solid var(--orange);
+    border-radius: 100px;
 }
 
 .footer-contacts-title,
