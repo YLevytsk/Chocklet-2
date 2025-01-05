@@ -2408,3 +2408,13 @@ html {
     width: 311px;
     height: 622px;
 }
+
+.modal-title{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--main);
+}
