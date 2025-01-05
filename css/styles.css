@@ -2361,3 +2361,7 @@ footer-contacts {
         width: 137px;
     }
 }
+
+html {
+    scroll-behavior: smooth;
+}
