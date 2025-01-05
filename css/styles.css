@@ -2228,7 +2228,15 @@ font-weight: 600;
 font-size: 14px;
 text-align: center;
 }
+.footer-socials-title{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 129%;
+text-align: left;
+color: var(--cards);
 
+}
     
 
 @media screen and (min-width: 768px) {
@@ -2244,13 +2252,8 @@ font-size: 28px;
 line-height: 121%;
 letter-spacing: -0.02em;
 margin-top: 50px;
-
-
 }
-footer-title-wrap {
-    width: 300px;
- }
- 
+
  .footer-title {
     display: flex;
     flex-direction: column;
@@ -2281,11 +2284,26 @@ footer-title-wrap {
     align-items: center;
   }
 
+.footer-form {
+    gap: 8px;
+}
 }
 @media screen and (min-width: 1200px){
     .footer-line {
         width: 1136px; 
     }
+    .footer-top {
+        display: flex; /* Выстраиваем блоки в одну линию */
+        justify-content: flex-end; /* Сдвигаем блоки вправо */
+        gap: 50px; /* Расстояние между блоками 50px */
+      }
+      .footer-title-wrap {
+        margin-right: auto; /* Оставляем первый блок слева */
+      }
+      .footer-socials{
+        margin-top: 50px;
+      }
+      
 }
 
 
