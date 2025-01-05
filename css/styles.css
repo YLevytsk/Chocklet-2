@@ -2144,7 +2144,7 @@ card-setts:hover .card-description-overlay {
     line-height: 129%;
     text-align: left;
     color: var(--cards);
-    padding-left: 20px;
+    
     margin-bottom: 14px;
 }
 .footer-socials-title {
@@ -2179,11 +2179,11 @@ card-setts:hover .card-description-overlay {
     margin-bottom: 32px;
 }
 .footer-line {
- border: 1px solid rgba(255, 255, 255, 0.1);
-width: 335px;
-height: 0px;
-transform: rotate(-180deg);
-margin-bottom: 32px;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   width: 335px;
+   height: 0px;
+   transform: rotate(-180deg);
+   margin-bottom: 32px;
 }
 .footer-nav-link {
     font-family: var(--font-family);
@@ -2203,39 +2203,38 @@ margin-bottom: 32px;
     margin-bottom: 32px;
 }
 .footer-input{
-width: 207px;
-height: 45px;
-border: 1.50px solid rgba(255, 255, 255, 0.15);
-border-radius: 30px;
-padding: 14px 18px;
-width: 207px;
-height: 45px;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-letter-spacing: -0.02em;
-color: rgba(255, 255, 255, 0.3);
-background-color: #1E1823;  
+    width: 207px;
+    height: auto;
+    border: 1.50px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    padding: 14px 18px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #1E1823;  
 }
 .footer-submit-btn {
-border-radius: 100px;
-padding: 14px 26px;
-width: 120px;
-height: 45px;
-background: var(--accent);
-color: var(--cards);
-font-family: var(--font-family);
-font-weight: 600;
-font-size: 14px;
-text-align: center;
+    border-radius: 100px;
+    padding: 14px 26px;
+    width: 120px;
+    height: auto;
+    background: var(--accent);
+    color: var(--cards);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    
 }
 .footer-socials-title{
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 14px;
-line-height: 129%;
-text-align: left;
-color: var(--cards);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: left;
+    color: var(--cards);
 
 }
     
@@ -2247,16 +2246,19 @@ color: var(--cards);
     height: 0px;
 }
 .footer-title{
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 28px;
-line-height: 121%;
-letter-spacing: -0.02em;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 121%;
+    letter-spacing: -0.02em;
 
 }
 .footer-title-wrap{
     display: flex; /* Выстраиваем элементы в одну линию */
-    align-items: flex-start;
+    flex-direction: row;
+    gap: 40px;
+
+
 }
  .footer-title {
     display: flex;
@@ -2265,10 +2267,9 @@ letter-spacing: -0.02em;
 
 .footer-top {
     display: flex;
-  
     flex-direction: row;
     gap: 40px;
-    margin-top: 50px;
+    margin-top: 100px;
     }
 
  footer-contacts {
