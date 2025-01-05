@@ -1141,6 +1141,15 @@ screen and (min-resolution: 2dppx) {
     text-align: left;
 }
 
+.overlay-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+
+}
+
 /* Вторая карточка - белый фон */
 .ingredients-list-item:nth-child(2),
 .ingredients-list-item:nth-child(4) {
