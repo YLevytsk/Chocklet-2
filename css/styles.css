@@ -2253,13 +2253,11 @@ footer-contacts {
     font-size: 28px;
     line-height: 121%;
     letter-spacing: -0.02em;
-
 }
 .footer-title-wrap{
     display: flex; 
     flex-direction: row;
     gap: 40px;
-
 }
 .footer-input {
     width: 232px;
@@ -2269,8 +2267,6 @@ footer-contacts {
     list-style: none; 
     margin-top: 32px;
 }
-
-
 .footer-nav-list{
     display: flex;
     flex-direction: row;
@@ -2281,25 +2277,26 @@ footer-contacts {
     justify-content: space-between;
     margin-top: 24px;
     align-items: center;
-  }
-  .footer-submit-btn{
+}
+.footer-submit-btn{
     width: 127px;
-  }
+}
 .footer-form {
     gap: 8px;
 }
+
 }
 @media screen and (min-width: 1200px){
     .footer-line {
         width: 1136px; 
     }
     .footer-title-wrap{
-        display: flex; /* Выстраиваем блоки в одну линию */
-        justify-content: flex-end; /* Сдвигаем блоки вправо */
-        gap: 50px; /* Расстояние между блоками 50px */
+        display: flex; 
+        justify-content: flex-end; 
+        gap: 50px;
     }
     .footer-title {
-        margin-right: auto; /* Оставляем первый блок слева */
+        margin-right: auto; 
     }
     .footer-socials {
         margin-left: 474px;
