@@ -2193,7 +2193,7 @@ card-setts:hover .card-description-overlay {
 
 .footer-socials-link:hover .footer-socials-icon,
 .footer-socials-link:focus .footer-socials-icon {
-    fill: var(--accent);
+    fill: #FCF1E0;
 
 }
 
