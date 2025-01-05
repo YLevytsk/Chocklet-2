@@ -2152,8 +2152,11 @@ card-setts:hover .card-description-overlay {
     max-width: 300px;
 }
 
+.footer-submit-btn:focus,
+.footer-submit-btn:hover,
 .footer-submit-btn.clicked {
     background-color: #FCF1E0;
+    color: var(--main);
 
 }
 
@@ -2193,7 +2196,7 @@ card-setts:hover .card-description-overlay {
 
 .footer-socials-link:hover .footer-socials-icon,
 .footer-socials-link:focus .footer-socials-icon {
-    fill: #FCF1E0;
+    fill: var(--accent);
 
 }
 
