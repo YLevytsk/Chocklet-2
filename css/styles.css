@@ -2388,3 +2388,23 @@ footer-contacts {
 html {
     scroll-behavior: smooth;
 }
+
+/*  MODAL-REVIEWS */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.3s;
+    border-radius: 15px;
+    width: 311px;
+    height: 622px;
+}
