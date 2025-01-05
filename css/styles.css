@@ -2257,27 +2257,15 @@ card-setts:hover .card-description-overlay {
     gap: 40px;
 
 }
- footer-title {
-    display: flex;
-    flex-direction: column;
- }
 
-footer-top {
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
-    margin-top: 100px;
-    }
+.footer-contacts{
+    margin-left: auto;
+    list-style: none; /* Убираем маркеры у списка */
+    margin: 0; /* Убираем возможные внешние отступы */
+    padding: 0;
+}
 
- footer-contacts {
-    
-    margin-left: 52px;
- }
- 
- footer-socials {
-    padding-left: 40px;
-  
- }
+
 .footer-nav-list{
     display: flex;
     flex-direction: row;
