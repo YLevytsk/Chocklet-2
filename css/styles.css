@@ -2134,6 +2134,7 @@ card-setts:hover .card-description-overlay {
     margin-top: 32px;
    text-align: left;
     margin-bottom: 32px;
+    max-width: 300px;
 }
 .footer-contacts-title,
 .footer-contacts-link {
@@ -2178,7 +2179,7 @@ card-setts:hover .card-description-overlay {
     margin-bottom: 32px;
 }
 .footer-line {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+ border: 1px solid rgba(255, 255, 255, 0.1);
 width: 335px;
 height: 0px;
 transform: rotate(-180deg);
@@ -2251,7 +2252,7 @@ font-weight: 500;
 font-size: 28px;
 line-height: 121%;
 letter-spacing: -0.02em;
-margin-top: 50px;
+
 }
 
  .footer-title {
@@ -2261,16 +2262,21 @@ margin-top: 50px;
 
 .footer-top {
     display: flex;
-    align-items: flex-start;
- }
- 
- .footer-contacts {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
     margin-top: 50px;
+    }
+
+ footer-contacts {
+    
     margin-left: 52px;
  }
  
- .footer-socials {
-    margin-left: 40px;
+ footer-socials {
+    padding-left: 40px;
+  
  }
 .footer-nav-list{
     display: flex;
@@ -2300,9 +2306,7 @@ margin-top: 50px;
       .footer-title-wrap {
         margin-right: auto; /* Оставляем первый блок слева */
       }
-      .footer-socials{
-        margin-top: 50px;
-      }
+     
       
 }
 
