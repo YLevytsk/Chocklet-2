@@ -2178,7 +2178,7 @@ card-setts:hover .card-description-overlay {
     gap: 14px;
     margin-bottom: 32px;
 }
-.footer-contacts {
+footer-contacts {
     margin-bottom: 32px;
 }
 .footer-line {
@@ -2263,9 +2263,8 @@ card-setts:hover .card-description-overlay {
 
 .footer-contacts{
     margin-left: auto;
-    list-style: none; /* Убираем маркеры у списка */
-    margin: 0; /* Убираем возможные внешние отступы */
-    padding: 0;
+    list-style: none; 
+    margin-top: 32px;
 }
 
 
@@ -2289,12 +2288,12 @@ card-setts:hover .card-description-overlay {
     .footer-line {
         width: 1136px; 
     }
-    .footer-top {
+    .footer-title-wrap{
         display: flex; /* Выстраиваем блоки в одну линию */
         justify-content: flex-end; /* Сдвигаем блоки вправо */
         gap: 50px; /* Расстояние между блоками 50px */
       }
-      .footer-title-wrap {
+      .footer-title {
         margin-right: auto; /* Оставляем первый блок слева */
       }
      
