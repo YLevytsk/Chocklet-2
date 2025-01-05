@@ -2178,6 +2178,9 @@ card-setts:hover .card-description-overlay {
     gap: 14px;
     margin-bottom: 32px;
 }
+.footer-contacts {
+    margin-bottom: 32px;
+}
 .footer-line {
    border: 1px solid rgba(255, 255, 255, 0.1);
    width: 335px;
