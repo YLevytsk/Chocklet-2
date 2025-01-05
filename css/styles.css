@@ -2352,10 +2352,11 @@ footer-contacts {
         display: flex;
         justify-content: flex-end;
         gap: 50px;
+        margin: 0;
     }
 
     .footer-title {
-        margin-right: auto;
+        width: 300px;
     }
 
     .footer-socials {
