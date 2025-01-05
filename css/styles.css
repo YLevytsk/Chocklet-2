@@ -2246,26 +2246,23 @@ card-setts:hover .card-description-overlay {
     height: 0px;
 }
 .footer-title{
-    font-family: var(--font-family);
-    font-weight: 500;
     font-size: 28px;
     line-height: 121%;
     letter-spacing: -0.02em;
 
 }
 .footer-title-wrap{
-    display: flex; /* Выстраиваем элементы в одну линию */
+    display: flex; 
     flex-direction: row;
     gap: 40px;
 
-
 }
- .footer-title {
+ footer-title {
     display: flex;
     flex-direction: column;
  }
 
-.footer-top {
+footer-top {
     display: flex;
     flex-direction: row;
     gap: 40px;
