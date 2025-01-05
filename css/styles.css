@@ -2187,6 +2187,7 @@ footer-contacts {
    height: 0px;
    transform: rotate(-180deg);
    margin-bottom: 32px;
+   margin-top: 32px;
 }
 .footer-nav-link {
     font-family: var(--font-family);
@@ -2292,10 +2293,13 @@ footer-contacts {
         display: flex; /* Выстраиваем блоки в одну линию */
         justify-content: flex-end; /* Сдвигаем блоки вправо */
         gap: 50px; /* Расстояние между блоками 50px */
-      }
-      .footer-title {
+    }
+    .footer-title {
         margin-right: auto; /* Оставляем первый блок слева */
-      }
+    }
+    .footer-socials {
+        margin-left: 474px;
+    }
      
       
 }
