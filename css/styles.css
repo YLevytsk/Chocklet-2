@@ -2409,7 +2409,7 @@ html {
     height: 622px;
 }
 
-.modal-title{
+.modal-title {
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 20px;
@@ -2417,4 +2417,8 @@ html {
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--main);
+}
+
+.modal-title-span {
+    color: var(--accent);
 }
