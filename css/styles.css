@@ -2157,7 +2157,7 @@ card-setts:hover .card-description-overlay {
 .footer-submit-btn.clicked {
     background-color: #FCF1E0;
     color: var(--main);
-
+    border-color: var(--accent)
 }
 
 .footer-contacts-title,
