@@ -2362,6 +2362,13 @@ footer-contacts {
     }
 }
 
+.footer-nav-link:hover,
+.footer-nav-link:focus,
+.footer-nav-link:active {
+    color: var(--accent);
+    /* Цвет текста при наведении, фокусе и клике */
+}
+
 html {
     scroll-behavior: smooth;
 }
