@@ -2461,5 +2461,7 @@ html {
     height: 24px;
     padding: 5px;
     background-color: transparent;
-    border: none; 
+    border: none;
+    stroke-width: 2px;
+    stroke: var(--main);
 }
