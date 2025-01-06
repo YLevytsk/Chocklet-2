@@ -2461,10 +2461,11 @@ html {
     height: 24px;
     padding: 5px;
     background-color: transparent;
-    border: none;}
+    border: none;
+}
 
 
 .batton-close-svg{
     stroke-width: 2px;
-    stroke: var(--main);
+    fill: var(--main);
 }
