@@ -2435,5 +2435,12 @@ html {
     background-color: transparent;
 }
 .modal-title {
-    margin: 32px 32px 32px 24px; /* сверху 32px, справа 32px, снизу 0px, слева 24px */
+    margin: 32px 32px 32px 24px; 
+    width: 255px;/* сверху 32px, справа 32px, снизу 0px, слева 24px */
+  }
+  .checkbox-group {
+    display: flex;
+   flex-direction: column;
+    gap: 14px;
+
   }
