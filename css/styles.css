@@ -2400,9 +2400,10 @@ html {
     justify-content: center;
     align-items: center;
     background-color: #FAFAFA;
+    background-color: transparent;
+    opacity: 0;
     z-index: 9999;
     visibility: hidden;
-    opacity: 0;
     transition: visibility 0.3s, opacity 0.3s;
     border-radius: 15px;
     width: 311px;
@@ -2422,3 +2423,17 @@ html {
 .modal-title-span {
     color: var(--accent);
 }
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 311px;
+    height: 622px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #FAFAFA;
+    background-color: transparent;
+}
+.modal-title {
+    margin: 32px 32px 32px 24px; /* сверху 32px, справа 32px, снизу 0px, слева 24px */
+  }
