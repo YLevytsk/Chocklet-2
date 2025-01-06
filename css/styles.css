@@ -2453,7 +2453,7 @@ html {
     letter-spacing: -0.02em;
     color: rgba(64, 64, 64, 0.3);
 }
-.batton-close-svg {
+.modal-close {
     position: absolute;
     top: 14px;
     right: 14px;
@@ -2461,7 +2461,10 @@ html {
     height: 24px;
     padding: 5px;
     background-color: transparent;
-    border: none;
+    border: none;}
+
+
+.batton-close-svg{
     stroke-width: 2px;
     stroke: var(--main);
 }
