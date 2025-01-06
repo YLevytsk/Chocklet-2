@@ -2453,4 +2453,13 @@ html {
     letter-spacing: -0.02em;
     color: rgba(64, 64, 64, 0.3);
 }
-
+.batton-close-svg {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    background-color: transparent;
+    border: none; 
+}
