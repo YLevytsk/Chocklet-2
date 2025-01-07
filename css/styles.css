@@ -2390,13 +2390,13 @@ html {
 }
 
 /*  MODAL-REVIEWS */
-.modal {
+.modal-is-open {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: #FAFAFA;
@@ -2408,6 +2408,7 @@ html {
     border-radius: 15px;
     width: 311px;
     height: 622px;
+    overflow: auto; 
 }
 
 .modal-title {
