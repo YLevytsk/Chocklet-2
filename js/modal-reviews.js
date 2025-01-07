@@ -1,13 +1,13 @@
 document.addEventListener('DOMContentLoaded', (event) => {
     const modal = document.getElementById("reviewModal");
     const btn = document.getElementById("leaveReviewBtn");
-    const span = document.getElementsByClassName("close")[0];
+    const closeBtn = document.querySelector("[data-modal-close]");
 
     btn.onclick = function() {
         modal.style.display = "block";
     }
 
-    span.onclick = function() {
+    closeBtn.onclick = function() {
         modal.style.display = "none";
     }
 
