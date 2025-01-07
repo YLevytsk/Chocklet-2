@@ -2249,6 +2249,7 @@ footer-contacts {
 
 .footer-form {
     margin-bottom: 32px;
+    width: 335px;
 }
 
 .footer-input {
@@ -2339,6 +2340,7 @@ footer-contacts {
 
     .footer-form {
         gap: 8px;
+        width: 368px;
     }
 
 }
@@ -2375,6 +2377,9 @@ footer-contacts {
 
     .footer-submit-btn {
         width: 137px;
+    }
+    .footer-form{
+        width: 458px;
     }
 }
 
