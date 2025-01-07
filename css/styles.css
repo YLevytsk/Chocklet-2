@@ -2416,9 +2416,16 @@ html {
     padding: 20px;
     width: 311px;
     height: 622px;
-    border-radius: 15px;
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1.50px solid rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 13px 18px 60px 18px;
+
+}
+/* Отступы между полями ввода */
+.form-group {
+    margin-bottom: 14px; /* Добавляем отступ между каждым полем ввода */
 }
 
 .modal-title {
@@ -2476,7 +2483,9 @@ html {
         transform: translateY(-50%); 
         pointer-events: none;
         stroke-width: 1px;
-        stroke: var(--accent); 
+        stroke: #404040;
+        stroke-width: 1.50px;
+        fill: none;
     }
     
     .input-name,
@@ -2508,4 +2517,74 @@ html {
         padding-top: 8px;
        
     }
+/* Активное (в фокусе) поле ввода */
+.input-wrapper input:focus,
+.input-wrapper textarea:focus {
+    border-color: var(--accent); /* Задаём оранжевый цвет рамки */
+    outline: none; /* Убираем стандартный outline */
+}
+
+/* Изменение цвета иконки при активном поле */
+.input-wrapper input:focus + .input-icon,
+.input-wrapper textarea:focus + .input-icon {
+    stroke: var(--accent); /* Меняем цвет обводки иконки */
+}
+
+/* Для textarea: добавляем плавный переход (если нужно) */
+textarea {
+    transition: border-color 0.3s ease;
+}
+/* Стилизация блока с чекбоксом и текстом */
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Центрируем текст и чекбокс по вертикали */
+    gap: 12px; /* Отступ между чекбоксом и текстом */
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 133%;
+    letter-spacing: -0.02em;
+    
+    
+}
+
+/* Для текста с ссылкой "Privacy Policy" */
+.checkbox-group label {
+   /* Цвет текста */
+    cursor: pointer; /* Чтобы текст выглядел кликабельным */
+    /* Плавное изменение цвета при ховере */
+}
+
+/* Стили для активного состояния, например, при ховере */
+checkbox-group label:hover {
+    color: var(--accent); /* Подсветка цвета при наведении */
+}
+
+/* Чекбокс */
+.checkbox-group input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    border-radius: 6px;
+    stroke: none;
+    border: 1px solid rgba(17, 17, 17, 0.14);}
+    
+    .send-btn {
+    
+            border-radius: 100px; /* Скругленные углы */
+            padding: 12px 28px; /* Отступы внутри кнопки */
+            width: 93px; /* Ширина */
+            height: 41px; /* Высота */
+            font-family: var(--font-family); /* Шрифт */
+            font-weight: 600; /* Жирность шрифта */
+            font-size: 14px; /* Размер шрифта */
+            color: var(--cards); /* Цвет текста */
+            position: absolute; /* Чтобы задавать положение */
+            left: 24px; /* Отступ от левого края */
+            bottom: 32px; /* Отступ снизу */
+            background-color: var(--accent);
+            outline: none;
+        }
+        
      
