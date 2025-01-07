@@ -2478,8 +2478,3 @@ html {
     stroke-width: 2px;
     stroke: var(--main);
 }
-.backdrop.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
