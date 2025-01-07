@@ -2390,7 +2390,7 @@ html {
 }
 
 /*  MODAL-REVIEWS */
-.modal{
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -2403,15 +2403,16 @@ html {
     background-color: transparent;
     opacity: 0;
     z-index: 9999;
-    visibility: hidden;
     transition: visibility 0.3s, opacity 0.3s;
     border-radius: 15px;
     width: 311px;
     height: 622px;
-    overflow: auto; 
+    
 }
 .modal.is-open {
     display: block;
+    visibility: visible;
+    pointer-events: auto;
   }
   
 
@@ -2475,4 +2476,9 @@ html {
     fill: transparent;
     stroke-width: 2px;
     stroke: var(--main);
+}
+.backdrop.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
