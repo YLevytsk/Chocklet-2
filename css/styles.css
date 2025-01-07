@@ -2568,23 +2568,26 @@ checkbox-group label:hover {
     margin: 0;
     border-radius: 6px;
     stroke: none;
-    border: 1px solid rgba(17, 17, 17, 0.14);}
+    outline: none;
+    border: none;
+    border: 1px solid rgba(64, 64, 64, 0.3);}
     
-    .send-btn {
+.send-btn {
     
-            border-radius: 100px; /* Скругленные углы */
-            padding: 12px 28px; /* Отступы внутри кнопки */
-            width: 93px; /* Ширина */
-            height: 41px; /* Высота */
-            font-family: var(--font-family); /* Шрифт */
-            font-weight: 600; /* Жирность шрифта */
-            font-size: 14px; /* Размер шрифта */
-            color: var(--cards); /* Цвет текста */
-            position: absolute; /* Чтобы задавать положение */
-            left: 24px; /* Отступ от левого края */
-            bottom: 32px; /* Отступ снизу */
-            background-color: var(--accent);
-            outline: none;
-        }
+     border-radius: 100px; /* Скругленные углы */
+    padding: 12px 28px; /* Отступы внутри кнопки */
+    width: 93px; /* Ширина */
+    height: 41px; /* Высота */
+    font-family: var(--font-family); /* Шрифт */
+    font-weight: 600; /* Жирность шрифта */
+    font-size: 14px; /* Размер шрифта */
+     color: var(--cards); /* Цвет текста */
+    position: absolute; /* Чтобы задавать положение */
+    left: 24px; /* Отступ от левого края */
+    bottom: 32px; /* Отступ снизу */
+    background-color: var(--accent);
+    outline: none;
+    border: none;
+}
         
      
