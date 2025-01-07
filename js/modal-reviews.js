@@ -4,16 +4,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const closeBtn = document.querySelector("[data-modal-close]");
 
     btn.onclick = function() {
-        modal.style.display = "block";
+        modal.classList.add("is-open");
     }
 
     closeBtn.onclick = function() {
-        modal.style.display = "none";
+        modal.classList.remove("is-open");
     }
 
     window.onclick = function(event) {
         if (event.target == modal) {
-            modal.style.display = "none";
+            modal.classList.remove("is-open");
         }
     }
 });
