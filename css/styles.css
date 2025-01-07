@@ -2399,67 +2399,50 @@ html {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: #FAFAFA;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5); /* Добавляем затемнённый фон */
     opacity: 0;
     z-index: 9999;
     transition: visibility 0.3s, opacity 0.3s;
-    border-radius: 15px;
-    width: 311px;
-    height: 622px;
-    
 }
+
 .backdrop.is-open {
+    display: flex; /* Показываем модалку */
     opacity: 1;
     visibility: visible;
-    pointer-events: auto;
-    
-  }
-  
-
-.modal-title {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: var(--main);
 }
 
-.modal-title-span {
-    color: var(--accent);
-}
 .modal-content {
-    background-color: #fff;
+    background-color: #FAFAFA; /* Убираем дублирование и задаём цвет */
     padding: 20px;
     width: 311px;
     height: 622px;
     border-radius: 15px;
     position: relative;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    background-color: #FAFAFA;
-    background-color: transparent;
 }
+
 .modal-title {
     margin: 32px 32px 32px 24px; 
-    width: 255px;/* сверху 32px, справа 32px, снизу 0px, слева 24px */
-  }
-  .checkbox-group {
+    width: 255px;
+}
+
+.checkbox-group {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     gap: 14px;
-  }
+}
+
 .name-label,
 .email-label,
 .phone-label,
-.comment-label{
+.comment-label {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 13px;
     letter-spacing: -0.02em;
     color: rgba(64, 64, 64, 0.3);
 }
+
 .modal-close {
     position: absolute;
     top: 14px;
@@ -2472,9 +2455,57 @@ html {
     cursor: pointer;
 }
 
-
-.batton-close-svg{
+.batton-close-svg {
     fill: transparent;
     stroke-width: 2px;
     stroke: var(--main);
 }
+.modal-title-span {
+    color: var(--accent);
+}
+
+    .input-wrapper {
+        position: relative; 
+        width: 100%; 
+    }
+    
+    .input-icon {
+        position: absolute;
+        top: 50%;
+        left: 18px;
+        transform: translateY(-50%); 
+        pointer-events: none;
+        stroke-width: 1px;
+        stroke: var(--accent); 
+    }
+    
+    .input-name,
+    .input-email,
+    .input-phone-number,
+    textarea {
+        width: 100%; 
+        padding-left: 43px; /* Увеличиваем отступ слева, чтобы текст не перекрывал иконку */
+        font-family: var(--font-family);
+        font-size: 14px;
+        font-weight: 400;
+        color: #404040;
+        border: 1px solid rgba(64, 64, 64, 0.2); /* Стили для рамки */
+        border-radius: 4px; /* Скругление углов */
+        outline: none; /* Убираем обводку */
+        height: 40px; /* Высота поля ввода */
+        box-sizing: border-box; /* Учитываем отступы в общей ширине */
+    }
+    
+    textarea {
+        height: 91px; 
+        resize: none;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: -0.02em;
+        color: rgba(64, 64, 64, 0.3);
+        text-indent: -36px;
+        padding-top: 8px;
+       
+    }
+     
