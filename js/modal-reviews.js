@@ -11,4 +11,10 @@
     function toggleModal() {
       refs.modal.classList.toggle('is-open');
     }
+  
+    window.onclick = function(event) {
+      if (event.target === refs.modal) {
+        refs.modal.classList.remove('is-open');
+      }
+    }
   })();
