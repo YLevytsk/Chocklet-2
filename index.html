@@ -959,7 +959,7 @@
     </section>
 
     <!--MODAL-Reviews-->
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal-content container">
         <button class="modal-close" type="button" data-modal-close>
           <svg class="batton-close-svg" width="24" height="24">
@@ -1016,9 +1016,10 @@
             <label for="comment" class="comment-label">Comment</label>
             <div class="input-wrapper">
             <textarea
+             class="input-comment"
               id="comment"
               name="comment"
-              placeholde="Enter text"
+              placeholder="Enter text"
             ></textarea>
           </div>
           </div>
@@ -1030,7 +1031,7 @@
           </div>
           <button type="submit" class="send-btn">Send</button>
         </form>
-      </div>
+      
     </div>
     </div>
 
@@ -1140,5 +1141,6 @@
     </footer>
     <script src="./js/modal.js"></script>
     <script src="./js/overlay.js"></script>
+    <script src="./js/modal-reviews.js"></script>
   </body>
 </html>
