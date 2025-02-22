@@ -2063,8 +2063,6 @@ card-setts:hover .card-description-overlay {
         margin-top: 100px;
     }
 
-    .reviews-list-item {}
-
     .reviews-list {
         flex-direction: row;
         display: flex;
@@ -2378,7 +2376,8 @@ footer-contacts {
     .footer-submit-btn {
         width: 137px;
     }
-    .footer-form{
+
+    .footer-form {
         width: 458px;
     }
 }
@@ -2404,20 +2403,23 @@ html {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Добавляем затемнённый фон */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Добавляем затемнённый фон */
     opacity: 0;
     z-index: 9999;
     transition: visibility 0.3s, opacity 0.3s;
 }
 
 .backdrop.is-open {
-    display: flex; /* Показываем модалку */
+    display: flex;
+    /* Показываем модалку */
     opacity: 1;
     visibility: visible;
 }
 
 .modal-content {
-    background-color: #FAFAFA; /* Убираем дублирование и задаём цвет */
+    background-color: #FAFAFA;
+    /* Убираем дублирование и задаём цвет */
     padding: 20px;
     width: 311px;
     height: 622px;
@@ -2428,13 +2430,15 @@ html {
     padding: 13px 18px 60px 18px;
 
 }
+
 /* Отступы между полями ввода */
 .form-group {
-    margin-bottom: 14px; /* Добавляем отступ между каждым полем ввода */
+    margin-bottom: 14px;
+    /* Добавляем отступ между каждым полем ввода */
 }
 
 .modal-title {
-    margin: 32px 32px 32px 24px; 
+    margin: 32px 32px 32px 24px;
     width: 255px;
 }
 
@@ -2472,98 +2476,114 @@ html {
     stroke-width: 2px;
     stroke: var(--main);
 }
+
 .modal-title-span {
     color: var(--accent);
 }
 
-    .input-wrapper {
-        position: relative; 
-        width: 100%; 
-    }
-    
-    .input-icon {
-        position: absolute;
-        top: 50%;
-        left: 18px;
-        transform: translateY(-50%); 
-        pointer-events: none;
-        stroke-width: 1px;
-        stroke: #404040;
-        stroke-width: 1.50px;
-        fill: none;
-    }
-    
-    .input-name,
-    .input-email,
-    .input-phone-number,
-    textarea {
-        width: 100%; 
-        padding-left: 43px; /* Увеличиваем отступ слева, чтобы текст не перекрывал иконку */
-        font-family: var(--font-family);
-        font-size: 14px;
-        font-weight: 400;
-        color: #404040;
-        border: 1px solid rgba(64, 64, 64, 0.2); /* Стили для рамки */
-        border-radius: 4px; /* Скругление углов */
-        outline: none; /* Убираем обводку */
-        height: 40px; /* Высота поля ввода */
-        box-sizing: border-box; /* Учитываем отступы в общей ширине */
-    }
-    
-    textarea {
-        height: 91px; 
-        resize: none;
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 13px;
-        letter-spacing: -0.02em;
-        color: rgba(64, 64, 64, 0.3);
-        text-indent: -36px;
-        padding-top: 8px;
-       
-    }
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    stroke-width: 1px;
+    stroke: #404040;
+    stroke-width: 1.50px;
+    fill: none;
+}
+
+.input-name,
+.input-email,
+.input-phone-number,
+textarea {
+    width: 100%;
+    padding-left: 43px;
+    /* Увеличиваем отступ слева, чтобы текст не перекрывал иконку */
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 400;
+    color: #404040;
+    border: 1px solid rgba(64, 64, 64, 0.2);
+    /* Стили для рамки */
+    border-radius: 4px;
+    /* Скругление углов */
+    outline: none;
+    /* Убираем обводку */
+    height: 40px;
+    /* Высота поля ввода */
+    box-sizing: border-box;
+    /* Учитываем отступы в общей ширине */
+}
+
+textarea {
+    height: 91px;
+    resize: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    color: rgba(64, 64, 64, 0.3);
+    text-indent: -36px;
+    padding-top: 8px;
+
+}
+
 /* Активное (в фокусе) поле ввода */
 .input-wrapper input:focus,
 .input-wrapper textarea:focus {
-    border-color: var(--accent); /* Задаём оранжевый цвет рамки */
-    outline: none; /* Убираем стандартный outline */
+    border-color: var(--accent);
+    /* Задаём оранжевый цвет рамки */
+    outline: none;
+    /* Убираем стандартный outline */
 }
 
 /* Изменение цвета иконки при активном поле */
-.input-wrapper input:focus + .input-icon,
-.input-wrapper textarea:focus + .input-icon {
-    stroke: var(--accent); /* Меняем цвет обводки иконки */
+.input-wrapper input:focus+.input-icon,
+.input-wrapper textarea:focus+.input-icon {
+    stroke: var(--accent);
+    /* Меняем цвет обводки иконки */
 }
 
 /* Для textarea: добавляем плавный переход (если нужно) */
 textarea {
     transition: border-color 0.3s ease;
 }
+
 /* Стилизация блока с чекбоксом и текстом */
 .checkbox-group {
     display: flex;
     flex-direction: row;
-    align-items: center; /* Центрируем текст и чекбокс по вертикали */
-    gap: 12px; /* Отступ между чекбоксом и текстом */
+    align-items: center;
+    /* Центрируем текст и чекбокс по вертикали */
+    gap: 12px;
+    /* Отступ между чекбоксом и текстом */
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 12px;
     line-height: 133%;
     letter-spacing: -0.02em;
-    
-    
+
+
 }
 
 /* Для текста с ссылкой "Privacy Policy" */
 .checkbox-group label {
-   /* Цвет текста */
-    cursor: pointer; /* Чтобы текст выглядел кликабельным */
+    /* Цвет текста */
+    cursor: pointer;
+    /* Чтобы текст выглядел кликабельным */
     /* Плавное изменение цвета при ховере */
 }
 
 /* Стили для активного состояния, например, при ховере */
 checkbox-group label:hover {
-    color: var(--accent); /* Подсветка цвета при наведении */
+    color: var(--accent);
+    /* Подсветка цвета при наведении */
 }
 
 /* Чекбокс */
@@ -2575,24 +2595,34 @@ checkbox-group label:hover {
     stroke: none;
     outline: none;
     border: none;
-    border: 1px solid rgba(64, 64, 64, 0.3);}
-    
+    border: 1px solid rgba(64, 64, 64, 0.3);
+}
+
 .send-btn {
-    
-     border-radius: 100px; /* Скругленные углы */
-    padding: 12px 28px; /* Отступы внутри кнопки */
-    width: 93px; /* Ширина */
-    height: 41px; /* Высота */
-    font-family: var(--font-family); /* Шрифт */
-    font-weight: 600; /* Жирность шрифта */
-    font-size: 14px; /* Размер шрифта */
-     color: var(--cards); /* Цвет текста */
-    position: absolute; /* Чтобы задавать положение */
-    left: 24px; /* Отступ от левого края */
-    bottom: 32px; /* Отступ снизу */
+
+    border-radius: 100px;
+    /* Скругленные углы */
+    padding: 12px 28px;
+    /* Отступы внутри кнопки */
+    width: 93px;
+    /* Ширина */
+    height: 41px;
+    /* Высота */
+    font-family: var(--font-family);
+    /* Шрифт */
+    font-weight: 600;
+    /* Жирность шрифта */
+    font-size: 14px;
+    /* Размер шрифта */
+    color: var(--cards);
+    /* Цвет текста */
+    position: absolute;
+    /* Чтобы задавать положение */
+    left: 24px;
+    /* Отступ от левого края */
+    bottom: 32px;
+    /* Отступ снизу */
     background-color: var(--accent);
     outline: none;
     border: none;
 }
-        
-     
